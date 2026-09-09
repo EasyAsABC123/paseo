@@ -72,6 +72,22 @@ async function setRecordingFontSize(page) {
   await page.getByTestId("settings-back-to-workspace").click();
 }
 
+async function setRecordingCursor(page) {
+  if (!recordVideo) return;
+  // Configure xterm's real cursor for capture; key handling and focus remain untouched.
+  const appearance = await page.evaluate(() => {
+    const terminal = window.__paseoTerminal;
+    terminal.options.cursorBlink = false;
+    terminal.options.cursorStyle = "block";
+    return {
+      fontSize: terminal.options.fontSize,
+      cursorBlink: terminal.options.cursorBlink,
+      cursorStyle: terminal.options.cursorStyle,
+    };
+  });
+  assert.deepEqual(appearance, { fontSize: 22, cursorBlink: false, cursorStyle: "block" });
+}
+
 async function waitForValue(read, expected, message) {
   const deadline = Date.now() + 10_000;
   let actual;
@@ -153,7 +169,7 @@ async function checkCommandEditing(page, addCleanup) {
   await page.keyboard.type("PS1='QA> ' exec /bin/bash --noprofile --norc");
   await page.keyboard.press("Enter");
   await waitForValue(async () => (await readTerminal(page))?.line, "QA> ", "Bash prompt");
-  await page.keyboard.type("set -o emacs; clear; printf '\\033[2 q\\033[?12lSETUP_%s\\n' complete");
+  await page.keyboard.type("set -o emacs; clear; printf 'SETUP_%s\\n' complete");
   await page.keyboard.press("Enter");
   await waitForValue(
     async () => (await readTerminal(page))?.lines.includes("SETUP_complete"),
@@ -162,9 +178,8 @@ async function checkCommandEditing(page, addCleanup) {
   );
   await waitForValue(async () => (await readTerminal(page))?.line, "QA> ", "Clean Bash prompt");
 
+  await setRecordingCursor(page);
   if (recordVideo) {
-    assert.equal(await page.evaluate(() => window.__paseoTerminal.options.fontSize), 22);
-    assert.equal(await page.evaluate(() => window.__paseoTerminal.options.cursorBlink), false);
     recording = await startTerminalKeyboardRecording({ page, artifactDir });
     addCleanup(() => recording.close());
   }
@@ -228,13 +243,14 @@ async function prepareShortcutTerminal(page, pane, label) {
   await pane.getByTestId("terminal-attach-loading").waitFor({ state: "hidden" });
   await surface.locator(".xterm-helper-textarea").waitFor({ state: "attached" });
   await surface.click();
-  await page.keyboard.type(`printf '\\033[2 q\\033[?12l\\033[2J\\033[H%s\\n' '${label}'`);
+  await page.keyboard.type(`printf '\\033[2J\\033[H%s\\n' '${label}'`);
   await page.keyboard.press("Enter");
   await waitForValue(
     async () => (await readTerminal(page))?.lines.includes(label),
     true,
     `${label} is ready`,
   );
+  await setRecordingCursor(page);
 }
 
 async function checkTabSwitching(page, pane) {
