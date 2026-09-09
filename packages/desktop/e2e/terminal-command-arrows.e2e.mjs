@@ -142,18 +142,19 @@ async function prepareTerminal(page, pane, cwd, label, tabName) {
   const cursorSequence = recordVideo ? "\\033[1 q" : "";
   fs.writeFileSync(
     path.join(cwd, setupFile),
-    `PS1='QA> '\nset -o emacs\nprintf '\\033[2J\\033[H${cursorSequence}\\033]0;%s\\007%s\\n' '${tabName}' '${label}'\nprintf 'ready\\n' > '${readyFile}'\n`,
+    `PS1='QA> '\nset -o emacs\nprintf '\\033[2J\\033[H${cursorSequence}\\033]0;%s\\007%s\\n' '${tabName}' '${label}'\nprintf 'ready:%s\\n' "$BASH_SILENCE_DEPRECATION_WARNING" > '${readyFile}'\n`,
   );
   // Bash owns setup so no keyboard input races its startup.
   await surface.click();
+  await expect(terminalInput(surface)).toBeFocused();
   await page.keyboard.type(
     `BASH_SILENCE_DEPRECATION_WARNING=1 exec /bin/bash --noprofile --rcfile './${setupFile}' -i`,
   );
   await page.keyboard.press("Enter");
   await waitForValue(
     () => readShellFile(path.join(cwd, readyFile)),
-    "ready\n",
-    `${label} shell setup completed`,
+    "ready:1\n",
+    `${label} shell setup received the complete environment assignment`,
   );
   await expect(terminalInput(surface)).toBeFocused();
   await expect(terminalTab(pane, tabName)).toHaveAttribute("aria-selected", "true");
@@ -245,6 +246,8 @@ async function checkWorkspaceShortcuts({ page, cwd }) {
   await expect(terminalTabs(rightPane)).toHaveCount(1);
   // Moving a pane's only tab collapses it. Keep a second tab for the return trip.
   await runAction(page, "New terminal");
+  // The command menu can close before the new tab replaces the old visible surface.
+  await expect(terminalTab(rightPane, "Terminal 2")).toHaveAttribute("aria-selected", "false");
   await prepareTerminal(page, rightPane, cwd, "TERMINAL THREE", "Terminal 3");
   await expect(terminalTabs(rightPane)).toHaveCount(2);
   await waitForValue(() => focusedPaneId(page), rightPaneId, "Right terminal focus");
