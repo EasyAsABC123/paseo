@@ -112,6 +112,9 @@ export async function startTerminalKeyboardRecording({ page, artifactDir }) {
       await writeQueue;
       if (captureError) throw captureError;
 
+      // CDP delivery can lag newer frames; play each frame at its capture timestamp.
+      // Numbered filenames retain the original delivery order for inspection.
+      frames.sort((a, b) => a.timestampSeconds - b.timestampSeconds);
       const concat = ["ffconcat version 1.0"];
       for (let index = 0; index < frames.length; index++) {
         const frame = frames[index];
@@ -174,6 +177,7 @@ export async function startTerminalKeyboardRecording({ page, artifactDir }) {
             notes: [
               "Frames contain the real renderer and a noninteractive keyboard label.",
               "CDP timestamps are preserved; gaps retain the preceding captured frame.",
+              "Frames are ordered by capture timestamp; numbered files preserve delivery order.",
               "The final screenshot uses its completion time; its capture bounds are recorded.",
               "Chromium captures the final screenshot at the screencast resolution; its scale and an unscaled comparison screenshot are retained.",
               "No cursor or success indicators are drawn by the recorder.",

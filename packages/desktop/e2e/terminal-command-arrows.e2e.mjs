@@ -153,7 +153,7 @@ async function checkCommandEditing(page, addCleanup) {
   await page.keyboard.type("PS1='QA> ' exec /bin/bash --noprofile --norc");
   await page.keyboard.press("Enter");
   await waitForValue(async () => (await readTerminal(page))?.line, "QA> ", "Bash prompt");
-  await page.keyboard.type("set -o emacs; clear; printf '\\033[2 qSETUP_%s\\n' complete");
+  await page.keyboard.type("set -o emacs; clear; printf '\\033[2 q\\033[?12lSETUP_%s\\n' complete");
   await page.keyboard.press("Enter");
   await waitForValue(
     async () => (await readTerminal(page))?.lines.includes("SETUP_complete"),
@@ -164,6 +164,7 @@ async function checkCommandEditing(page, addCleanup) {
 
   if (recordVideo) {
     assert.equal(await page.evaluate(() => window.__paseoTerminal.options.fontSize), 22);
+    assert.equal(await page.evaluate(() => window.__paseoTerminal.options.cursorBlink), false);
     recording = await startTerminalKeyboardRecording({ page, artifactDir });
     addCleanup(() => recording.close());
   }
@@ -227,7 +228,7 @@ async function prepareShortcutTerminal(page, pane, label) {
   await pane.getByTestId("terminal-attach-loading").waitFor({ state: "hidden" });
   await surface.locator(".xterm-helper-textarea").waitFor({ state: "attached" });
   await surface.click();
-  await page.keyboard.type(`printf '\\033[2 q\\033[2J\\033[H%s\\n' '${label}'`);
+  await page.keyboard.type(`printf '\\033[2 q\\033[?12l\\033[2J\\033[H%s\\n' '${label}'`);
   await page.keyboard.press("Enter");
   await waitForValue(
     async () => (await readTerminal(page))?.lines.includes(label),
