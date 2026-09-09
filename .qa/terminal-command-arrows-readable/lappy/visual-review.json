@@ -1,13 +1,156 @@
 {
-  "video": "interaction.mp4",
-  "sha256": "8631e482a9a7c1d4c84c7e7c907930024409ae80e337ed10e90cb8630591b781",
-  "method": "Visually inspected decoded MP4 frames extracted at one-second intervals; matched steady holds against original frame timestamps.",
-  "observations": [
-    "At approximately 5\u20137 and 11\u201313 seconds the solid block visibly covers the first e immediately after QA>; at 8\u201310 and 19\u201321 seconds it is after two. Each state holds steadily for about three seconds.",
-    "At 35\u201341 seconds Option+Shift+[ and ] visibly switch between TERMINAL TWO and TERMINAL THREE, with the selected tab highlight changing.",
-    "At 41\u201347 seconds Cmd+Shift+Left/Right visibly swaps the solid active cursor and hollow inactive cursor between panes.",
-    "At 47\u201354 seconds Cmd+Option+Shift+Left/Right visibly moves TERMINAL THREE and its selected tab to the left pane and back right.",
-    "After tab movement the remounted terminal returns to its thin blinking cursor; its heading and tab placement still clearly show the move."
+  "decision": "accept",
+  "verification": {
+    "result": "passed",
+    "commit": "f0b3a6efdf3b9b138b1c44e4128a273c94fcabab",
+    "videoSha256": "ae71fba33c99b40209c7025d58d0721e5425d595cfc787c358cdd21ab2010c39",
+    "frameCount": 424,
+    "width": 1800,
+    "height": 1200,
+    "durationSeconds": 56.503703,
+    "ffconcatTimestampMatch": true,
+    "maxDifferenceFromFfconcatMicroseconds": 0,
+    "maxDifferenceFromRawSourceMicroseconds": 0.2241973876953125,
+    "fullDecodeExitCode": 0,
+    "decodeLogBytes": 0
+  },
+  "method": "Independent visual inspection of unaltered full-resolution PNG frames decoded from the actual MP4 at 1fps; independent full video decode and every-frame PTS verification. Original MP4 not reencoded or modified. Frame filenames identify fps-filter samples, not exact key press times. Action times are source metadata offsets relative to the first captured frame.",
+  "cursor": "Actual blinking block; do not describe as steady. Visible filled blocks make both line boundaries and pane focus legible during the holds.",
+  "cleanShells": "No macOS Bash deprecation advisory or stray setup input appears in the inspected Terminal 1, Terminal 2, or Terminal 3 checkpoint frames. Terminal 2 and 3 show their complete fixture labels and clean QA> prompts.",
+  "actions": [
+    {
+      "label": "Type: echo one two",
+      "timeSeconds": -0.007297
+    },
+    {
+      "label": "Cmd + \u2190",
+      "timeSeconds": 4.291703
+    },
+    {
+      "label": "Cmd + \u2192",
+      "timeSeconds": 7.356703
+    },
+    {
+      "label": "Cmd + \u2190",
+      "timeSeconds": 10.423703
+    },
+    {
+      "label": "Type: PASEO_PREFIX=ok; ",
+      "timeSeconds": 13.500703
+    },
+    {
+      "label": "Cmd + \u2192",
+      "timeSeconds": 18.300703
+    },
+    {
+      "label": "Type:  \"$PASEO_PREFIX\" | tee command-result.txt",
+      "timeSeconds": 21.374703
+    },
+    {
+      "label": "Enter",
+      "timeSeconds": 28.634703
+    },
+    {
+      "label": "Command Center: Split pane right",
+      "timeSeconds": 31.744703
+    },
+    {
+      "label": "Command Center: New terminal",
+      "timeSeconds": 31.928703
+    },
+    {
+      "label": "Command Center: New terminal",
+      "timeSeconds": 33.374703
+    },
+    {
+      "label": "Two panes ready; Terminal 3 is active",
+      "timeSeconds": 34.792703
+    },
+    {
+      "label": "Option + Shift + [",
+      "timeSeconds": 37.851703
+    },
+    {
+      "label": "Option + Shift + ]",
+      "timeSeconds": 40.945703
+    },
+    {
+      "label": "Cmd + Shift + \u2190",
+      "timeSeconds": 44.035703
+    },
+    {
+      "label": "Cmd + Shift + \u2192",
+      "timeSeconds": 47.119703
+    },
+    {
+      "label": "Cmd + Option + Shift + \u2190",
+      "timeSeconds": 50.205703
+    },
+    {
+      "label": "Cmd + Option + Shift + \u2192",
+      "timeSeconds": 53.324703
+    }
   ],
-  "verification": "encoding-verification.json"
+  "observations": [
+    {
+      "seconds": [4.291703, 7.356703],
+      "frames": ["second-05.png", "second-06.png", "second-07.png"],
+      "observation": "CmdLeft visibly places the filled block over the first e of echo. Following sampled frames show the blink off phase while command text and key caption remain unchanged for the hold."
+    },
+    {
+      "seconds": [7.356703, 10.423703],
+      "frames": ["second-08.png", "second-09.png", "second-10.png"],
+      "observation": "CmdRight visibly places the filled block immediately after two. Following samples show the blink off phase, with no text change during the hold."
+    },
+    {
+      "seconds": [10.423703, 13.500703],
+      "frames": ["second-11.png"],
+      "observation": "The repeated CmdLeft again places the filled block on the first e before prefix typing starts."
+    },
+    {
+      "seconds": [18.300703, 21.374703],
+      "frames": ["second-19.png"],
+      "observation": "After the assignment prefix has been inserted before echo, CmdRight visibly places the block after two, at the end of the complete command."
+    },
+    {
+      "seconds": [28.634703, 31.744703],
+      "frames": ["second-30.png"],
+      "observation": "Enter executes the edited command and visibly prints one two ok, followed by a fresh QA> prompt."
+    },
+    {
+      "seconds": [34.792703, 37.851703],
+      "frames": ["second-36.png"],
+      "observation": "Terminal 1 remains left; Terminal 2 and Terminal 3 are distinct stable tabs on the right, with Terminal 3 selected and a clean TERMINAL THREE / QA> shell display."
+    },
+    {
+      "seconds": [37.851703, 40.945703],
+      "frames": ["second-39.png"],
+      "observation": "OptionShift[ selects Terminal 2 on the right and changes the terminal content to TERMINAL TWO with a clean QA> prompt."
+    },
+    {
+      "seconds": [40.945703, 44.035703],
+      "frames": ["second-42.png"],
+      "observation": "OptionShift] returns to Terminal 3, whose content is TERMINAL THREE and a clean QA> prompt."
+    },
+    {
+      "seconds": [44.035703, 47.119703],
+      "frames": ["second-45.png"],
+      "observation": "CmdShiftLeft visibly focuses Terminal 1: active tab emphasis and filled prompt cursor move left; Terminal 3 has an outline cursor."
+    },
+    {
+      "seconds": [47.119703, 50.205703],
+      "frames": ["second-48.png"],
+      "observation": "CmdShiftRight visibly returns focus to Terminal 3: filled cursor is on the right, outline cursor remains left."
+    },
+    {
+      "seconds": [50.205703, 53.324703],
+      "frames": ["second-52.png"],
+      "observation": "CmdOptionShiftLeft moves the actual Terminal 3 tab and TERMINAL THREE content into the left pane. Terminal 2 and TERMINAL TWO remain on the right."
+    },
+    {
+      "seconds": [53.324703, 56.503703],
+      "frames": ["second-55.png"],
+      "observation": "CmdOptionShiftRight moves Terminal 3 and its content back right, restoring Terminal 1 output on the left. The final capture preserves the three-second ending hold."
+    }
+  ]
 }

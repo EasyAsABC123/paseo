@@ -1,0 +1,8 @@
+{
+  "exitCode": 1,
+  "result": "failed",
+  "setupCheckpointPresent": true,
+  "expectedBoundaryError": true,
+  "secondaryErrors": [],
+  "commandResultPresent": true
+}

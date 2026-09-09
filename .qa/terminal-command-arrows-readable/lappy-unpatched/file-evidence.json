@@ -1,0 +1,28 @@
+{
+  "hostname": "Justins-MacBook-Pro.local",
+  "macOS": "ProductName:\t\tmacOS\nProductVersion:\t\t26.6.2\nBuildVersion:\t\t25G83",
+  "electron": "44.2.0",
+  "commit": "f0b3a6efdf3b9b138b1c44e4128a273c94fcabab",
+  "runtimeBlob": "56350ef9b7ca4b634959a282c4e9cbeca3fa7225",
+  "outcome": {
+    "exitCode": 1,
+    "result": "failed",
+    "setupCheckpointPresent": true,
+    "expectedBoundaryError": true,
+    "secondaryErrors": [],
+    "commandResultPresent": true
+  },
+  "checkpointCount": 7,
+  "commandOutputHex": "",
+  "commandOutputBytes": 0,
+  "commandOutputSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "videoSHA256": "b5081e4e03c8f3d4eaaad872fbfa0045cc9684110f624091480e8f674da56667",
+  "capturedFrames": 212,
+  "decodedFrames": 212,
+  "width": 1800,
+  "height": 1200,
+  "durationSeconds": 38.710938930511475,
+  "maxTimestampErrorMicroseconds": 0,
+  "encodingExitCode": 0,
+  "fullDecodeExitCode": 0
+}

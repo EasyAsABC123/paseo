@@ -1,0 +1,9 @@
+{
+  "sourceCommit": "f0b3a6efdf3b9b138b1c44e4128a273c94fcabab",
+  "sha256": "51bcefe261b496c754d3cdf2f3bcd5a933e52574af03c29152f767838aa9bf08",
+  "bytes": 77157014,
+  "copiedToJustindesktop": true,
+  "allThreeSourceBlobsMatchPR": true,
+  "qaCommit": "943714e691d2f40000b847664a0cd1d38d4a68bd",
+  "qaSourceMatchesPR": true
+}

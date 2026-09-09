@@ -65,11 +65,7 @@
     ],
     "overrides": [],
     "cwd": "/tmp/paseo-terminal-arrows-readable-run3/unpatched/recording",
-    "extraProcessFlags": [
-      "-hide_banner",
-      "-nostdin",
-      "-y"
-    ]
+    "extraProcessFlags": ["-hide_banner", "-nostdin", "-y"]
   },
   "checks": {
     "encode": {
@@ -342,7 +338,7 @@
       "passed": true,
       "streamDurationSeconds": 14.532784,
       "lastFramePresentationSeconds": 14.532783,
-      "lastFrameDisplayDurationSeconds": 1e-06
+      "lastFrameDisplayDurationSeconds": 1e-6
     },
     "mp4Portability": {
       "passed": true,
@@ -371,7 +367,7 @@
   ],
   "durationSeconds": 14.532784,
   "recordedSpanSeconds": 14.532783,
-  "lastFrameDisplayDurationSeconds": 1e-06,
+  "lastFrameDisplayDurationSeconds": 1e-6,
   "keys": [
     {
       "label": "Type: echo one two",

@@ -1,15 +1,11 @@
-Record the macOS Command-arrow terminal fix from https://github.com/getpaseo/paseo/pull/4543 on this lappy host, using its current head (at least commit 287cc390b).
+# Record the terminal shortcut regression on lappy
 
-Use a clean isolated worktree for the PR. Preserve any existing changes and running agents. Read the repository instructions and docs/development.md, docs/testing.md, and docs/qa.md. Do not restart the main Paseo daemon on port 6767; the regression starts and cleans up its own daemon, app profile, and Electron window.
+Use PR commit `f0b3a6efdf3b9b138b1c44e4128a273c94fcabab` in an isolated worktree on the real Mac. Preserve other workspaces and the main Paseo daemon. Follow the repository development and testing instructions and build the server stack and `@getpaseo/expo-two-way-audio` before running the scenario.
 
-Install dependencies for that checkout, then run:
+Run `npm run test:e2e:terminal-command-arrows --workspace=@getpaseo/desktop -- --record`, with `PASEO_TERMINAL_ARROW_ARTIFACT_DIR` set to a fresh evidence directory. Require all 15 checkpoints, complete Bash readiness, and actual output `one two ok` followed by a newline.
 
-npm run build:server
-npm run build --workspace=@getpaseo/expo-two-way-audio
-PASEO_TERMINAL_ARROW_ARTIFACT_DIR=/tmp/paseo-lappy-terminal-arrows npm run test:e2e:terminal-command-arrows --workspace=@getpaseo/desktop -- --record
+For a negative control, replace only `packages/app/src/terminal/runtime/terminal-emulator-runtime.ts` with the version from `93404a38e^`, then record into a separate directory. Require successful setup followed by `LINE_BOUNDARY_EDIT` or `LINE_BOUNDARY_FOCUS`; unrelated failures do not validate the regression. Restore the patched runtime and verify the worktree is clean.
 
-This must run in actual macOS Electron. The script makes terminal text 22px, uses a real steady block cursor, displays key labels, and holds every checkpoint for three seconds. It shows Cmd+Left to the start, Cmd+Right to the end, and Cmd+Left back to the start before inserting a prefix. It then appends at the end and executes the command. It also demonstrates Option+Shift+[/] tab switching, Cmd+Shift+Left/Right pane focus, and Cmd+Option+Shift+Left/Right tab movement.
+Encode both recordings using the arguments in `recording.json`. Preserve all captured frames and timestamps. Verify full decoding, frame count, dimensions, and every frame timestamp. Inspect the actual MP4 for visible beginning/end cursor positions through the three-second holds, clean Terminal 2/3 prompts, and the tab-switching, pane-focus, and tab-moving shortcuts. The real block cursor blinks; do not describe it as steady or draw a cursor into the video.
 
-Encode the recording by reading recording/recording.json and invoking its encoding.command with encoding.args as an argument array from /tmp/paseo-lappy-terminal-arrows/recording. These are portable FFmpeg arguments, so the captured directory can also be encoded on another machine if ffmpeg is unavailable here. Do not speed up or redraw the cursor. Preserve original frames, timestamps, screenshots, result.json, trace, and logs.
-
-Watch the resulting interaction.mp4. Confirm the cursor at the start and end is obvious, each shortcut result stays visible long enough, and the terminal labels make tab changes unmistakable. Return the full artifact location and video, the host name, macOS and Electron versions, source commit, runtime blob hash, and all checks' actual outcomes. If GUI access or a recording permission blocks this, report the precise failure without claiming success. Do not modify production code or publish unrelated changes.
+Preserve source hashes, actual output files, results, screenshots, frames, logs, traces, MP4s, and audit reports. Return the bundle path and SHA256, video hashes and dimensions/durations, host and Electron versions, outcomes, and unchanged main daemon PID. Report visual failures even when assertions pass.

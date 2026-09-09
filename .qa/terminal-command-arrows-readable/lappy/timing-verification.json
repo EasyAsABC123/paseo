@@ -1,0 +1,14 @@
+{
+  "result": "passed",
+  "commit": "f0b3a6efdf3b9b138b1c44e4128a273c94fcabab",
+  "videoSha256": "ae71fba33c99b40209c7025d58d0721e5425d595cfc787c358cdd21ab2010c39",
+  "frameCount": 424,
+  "width": 1800,
+  "height": 1200,
+  "durationSeconds": 56.503703,
+  "ffconcatTimestampMatch": true,
+  "maxDifferenceFromFfconcatMicroseconds": 0,
+  "maxDifferenceFromRawSourceMicroseconds": 0.2241973876953125,
+  "fullDecodeExitCode": 0,
+  "decodeLogBytes": 0
+}

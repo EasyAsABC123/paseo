@@ -1,0 +1,100 @@
+{
+  "encodingCommand": "ffmpeg",
+  "encodingArgs": [
+    "-safe",
+    "0",
+    "-f",
+    "concat",
+    "-i",
+    "frames.ffconcat",
+    "-fps_mode",
+    "vfr",
+    "-c:v",
+    "libx264",
+    "-bf",
+    "0",
+    "-crf",
+    "18",
+    "-pix_fmt",
+    "yuv420p",
+    "-vf",
+    "pad=ceil(iw/2)*2:ceil(ih/2)*2",
+    "-enc_time_base:v",
+    "1:1000000",
+    "-video_track_timescale",
+    "1000000",
+    "-x264-params",
+    "fps=60/1",
+    "-movflags",
+    "+faststart",
+    "interaction.mp4"
+  ],
+  "encodingCwd": "/tmp/paseo-lappy-terminal-arrows/focus-ready/unpatched/recording",
+  "ffmpegSHA256": "6d175a4743ca50256e89a8cdd731100f9cee33bd79aeea46894d209410dc6617",
+  "encodingExitCode": 0,
+  "fullDecodeExitCode": 0,
+  "capturedFrames": 212,
+  "decodedFrames": 212,
+  "maxTimestampErrorMicroseconds": 0,
+  "durationSeconds": 38.710938930511475,
+  "width": 1800,
+  "height": 1200,
+  "checkpoints": [
+    {
+      "name": "01-command-before-arrows",
+      "reviewSeconds": 2.7699389457702637,
+      "frameIndex": 28,
+      "framePTS": 2336422,
+      "keyLabel": "Type: echo one two",
+      "labelToCheckpointSeconds": 4.2769999504089355
+    },
+    {
+      "name": "02-command-left",
+      "reviewSeconds": 5.835938930511475,
+      "frameIndex": 35,
+      "framePTS": 5336178,
+      "keyLabel": "Cmd + \u2190",
+      "labelToCheckpointSeconds": 3.062999963760376
+    },
+    {
+      "name": "02b-command-right-unchanged",
+      "reviewSeconds": 8.902939081192017,
+      "frameIndex": 42,
+      "framePTS": 8335751,
+      "keyLabel": "Cmd + \u2192",
+      "labelToCheckpointSeconds": 3.064000129699707
+    },
+    {
+      "name": "02c-command-left-again",
+      "reviewSeconds": 11.96993899345398,
+      "frameIndex": 50,
+      "framePTS": 11936061,
+      "keyLabel": "Cmd + \u2190",
+      "labelToCheckpointSeconds": 3.063999891281128
+    },
+    {
+      "name": "02d-prefix-inserted",
+      "reviewSeconds": 16.76193904876709,
+      "frameIndex": 90,
+      "framePTS": 16327281,
+      "keyLabel": "Type: PASEO_PREFIX=ok; ",
+      "labelToCheckpointSeconds": 4.791000127792358
+    },
+    {
+      "name": "03-command-right",
+      "reviewSeconds": 19.836939096450806,
+      "frameIndex": 97,
+      "framePTS": 19319429,
+      "keyLabel": "Cmd + \u2192",
+      "labelToCheckpointSeconds": 3.070000171661377
+    },
+    {
+      "name": "03b-suffix-inserted",
+      "reviewSeconds": 27.07193899154663,
+      "frameIndex": 186,
+      "framePTS": 26635494,
+      "keyLabel": "Type:  \"$PASEO_PREFIX\" | tee command-result.txt",
+      "labelToCheckpointSeconds": 7.233000040054321
+    }
+  ]
+}

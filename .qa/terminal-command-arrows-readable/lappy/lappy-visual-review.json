@@ -1,0 +1,10 @@
+{
+  "acceptedPatched": true,
+  "method": "Inspected actual decoded MP4 checkpoint frames and nine samples across each three-second arrow hold; not continuous player playback. Derived unscaled crop sheets aid inspection; original frames and MP4 are unchanged.",
+  "cursor": "Real blinking block is visible at both line boundaries, including left/right/left and right after prefix; alternating visible/hidden phases across holds.",
+  "holds": "All 15 patched checkpoint label intervals exceed three seconds; timing audit checks every encoded frame.",
+  "setup": "Terminal 2 and Terminal 3 show clean empty QA> prompts under TERMINAL TWO/THREE. No Bash advisory or split setup prefix remains in reviewed checkpoints.",
+  "shortcuts": "Option+Shift brackets switch labeled tabs; Cmd+Shift arrows move active pane; Cmd+Option+Shift arrows move Terminal 3 left then right. Labels and key overlays are clear.",
+  "negative": "Initial setup checkpoint exists; final decoded video shows prefix appended after echo one two, then Bash command-not-found. Actual command-result.txt empty; expected LINE_BOUNDARY_EDIT and no secondary errors.",
+  "priorDb123644": "Preserved as visual acceptance failure; all prior bundle hashes unchanged."
+}

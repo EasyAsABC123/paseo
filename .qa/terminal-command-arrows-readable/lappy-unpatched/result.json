@@ -1,0 +1,59 @@
+{
+  "commit": "f0b3a6efdf3b9b138b1c44e4128a273c94fcabab",
+  "runtimeBlob": "56350ef9b7ca4b634959a282c4e9cbeca3fa7225",
+  "macOS": "ProductName:\t\tmacOS\nProductVersion:\t\t26.6.2\nBuildVersion:\t\t25G83",
+  "arch": "arm64",
+  "hostname": "Justins-MacBook-Pro.local",
+  "kernel": "25.6.0",
+  "recording": true,
+  "input": "Playwright keyboard events sent through CDP to the real Electron renderer",
+  "steps": [
+    {
+      "name": "01-command-before-arrows",
+      "recordedAt": "2026-09-09T07:25:37.330Z",
+      "typed": "echo one two"
+    },
+    {
+      "name": "02-command-left",
+      "recordedAt": "2026-09-09T07:25:40.396Z",
+      "key": "Meta+ArrowLeft",
+      "terminalFocused": true
+    },
+    {
+      "name": "02b-command-right-unchanged",
+      "recordedAt": "2026-09-09T07:25:43.463Z",
+      "key": "Meta+ArrowRight",
+      "terminalFocused": true
+    },
+    {
+      "name": "02c-command-left-again",
+      "recordedAt": "2026-09-09T07:25:46.530Z",
+      "key": "Meta+ArrowLeft",
+      "terminalFocused": true
+    },
+    {
+      "name": "02d-prefix-inserted",
+      "recordedAt": "2026-09-09T07:25:51.322Z",
+      "typed": "PASEO_PREFIX=ok; "
+    },
+    {
+      "name": "03-command-right",
+      "recordedAt": "2026-09-09T07:25:54.397Z",
+      "key": "Meta+ArrowRight",
+      "terminalFocused": true
+    },
+    {
+      "name": "03b-suffix-inserted",
+      "recordedAt": "2026-09-09T07:26:01.632Z",
+      "typed": " \"$PASEO_PREFIX\" | tee command-result.txt"
+    }
+  ],
+  "runtime": {
+    "platform": "darwin",
+    "navigatorPlatform": "MacIntel",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Paseo/0.8.0-beta.1 Chrome/152.0.7977.76 Electron/44.2.0 Safari/537.36",
+    "maxTouchPoints": 0
+  },
+  "error": "AssertionError [ERR_ASSERTION]: LINE_BOUNDARY_EDIT: the shell must execute the command with both inserted edits\n\n'' !== 'one two ok\\n'\n\n    at waitForValue (file:///private/tmp/paseo-pr4543-lappy-worktree/packages/desktop/e2e/terminal-command-arrows.e2e.mjs:84:10)\n    at async checkCommandEditing (file:///private/tmp/paseo-pr4543-lappy-worktree/packages/desktop/e2e/terminal-command-arrows.e2e.mjs:201:3)\n    at async file:///private/tmp/paseo-pr4543-lappy-worktree/packages/desktop/e2e/terminal-command-arrows.e2e.mjs:295:3\n    at async runElectronScenario (file:///private/tmp/paseo-pr4543-lappy-worktree/packages/desktop/e2e/support/electron-session.mjs:288:5)\n    at async file:///private/tmp/paseo-pr4543-lappy-worktree/packages/desktop/e2e/terminal-command-arrows.e2e.mjs:293:1",
+  "result": "failed"
+}

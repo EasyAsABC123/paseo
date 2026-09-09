@@ -1,12 +1,164 @@
 {
-  "result": "passed",
-  "frameCount": 289,
+  "encodingCommand": "ffmpeg",
+  "encodingArgs": [
+    "-safe",
+    "0",
+    "-f",
+    "concat",
+    "-i",
+    "frames.ffconcat",
+    "-fps_mode",
+    "vfr",
+    "-c:v",
+    "libx264",
+    "-bf",
+    "0",
+    "-crf",
+    "18",
+    "-pix_fmt",
+    "yuv420p",
+    "-vf",
+    "pad=ceil(iw/2)*2:ceil(ih/2)*2",
+    "-enc_time_base:v",
+    "1:1000000",
+    "-video_track_timescale",
+    "1000000",
+    "-x264-params",
+    "fps=60/1",
+    "-movflags",
+    "+faststart",
+    "interaction.mp4"
+  ],
+  "encodingCwd": "/tmp/paseo-lappy-terminal-arrows/focus-ready/patched/recording",
+  "ffmpegSHA256": "6d175a4743ca50256e89a8cdd731100f9cee33bd79aeea46894d209410dc6617",
+  "encodingExitCode": 0,
+  "fullDecodeExitCode": 0,
+  "capturedFrames": 424,
+  "decodedFrames": 424,
+  "maxTimestampErrorMicroseconds": 0,
+  "durationSeconds": 56.503703117370605,
   "width": 1800,
   "height": 1200,
-  "durationSeconds": 53.756731,
-  "ffconcatTimestampMatch": true,
-  "maxDifferenceFromFfconcatMicroseconds": 0,
-  "maxDifferenceFromRawSourceMicroseconds": 0.2152252197265625,
-  "fullDecodeExitCode": 0,
-  "decodeLogBytes": 0
+  "checkpoints": [
+    {
+      "name": "01-command-before-arrows",
+      "reviewSeconds": 2.789703130722046,
+      "frameIndex": 29,
+      "framePTS": 2342235,
+      "keyLabel": "Type: echo one two",
+      "labelToCheckpointSeconds": 4.296999931335449
+    },
+    {
+      "name": "02-command-left",
+      "reviewSeconds": 5.854703187942505,
+      "frameIndex": 38,
+      "framePTS": 5504525,
+      "keyLabel": "Cmd + \u2190",
+      "labelToCheckpointSeconds": 3.062999963760376
+    },
+    {
+      "name": "02b-command-right-unchanged",
+      "reviewSeconds": 8.921703100204468,
+      "frameIndex": 47,
+      "framePTS": 8579569,
+      "keyLabel": "Cmd + \u2192",
+      "labelToCheckpointSeconds": 3.065000057220459
+    },
+    {
+      "name": "02c-command-left-again",
+      "reviewSeconds": 11.997703075408936,
+      "frameIndex": 56,
+      "framePTS": 11646285,
+      "keyLabel": "Cmd + \u2190",
+      "labelToCheckpointSeconds": 3.0739998817443848
+    },
+    {
+      "name": "02d-prefix-inserted",
+      "reviewSeconds": 16.79770302772522,
+      "frameIndex": 97,
+      "framePTS": 16370502,
+      "keyLabel": "Type: PASEO_PREFIX=ok; ",
+      "labelToCheckpointSeconds": 4.796999931335449
+    },
+    {
+      "name": "03-command-right",
+      "reviewSeconds": 19.872703075408936,
+      "frameIndex": 106,
+      "framePTS": 19521121,
+      "keyLabel": "Cmd + \u2192",
+      "labelToCheckpointSeconds": 3.072000026702881
+    },
+    {
+      "name": "03b-suffix-inserted",
+      "reviewSeconds": 27.132703065872192,
+      "frameIndex": 195,
+      "framePTS": 26679422,
+      "keyLabel": "Type:  \"$PASEO_PREFIX\" | tee command-result.txt",
+      "labelToCheckpointSeconds": 7.257999897003174
+    },
+    {
+      "name": "04-command-executed",
+      "reviewSeconds": 30.23970317840576,
+      "frameIndex": 204,
+      "framePTS": 29862576,
+      "keyLabel": "Enter",
+      "labelToCheckpointSeconds": 3.1050000190734863
+    },
+    {
+      "name": "04b-shortcuts-ready",
+      "reviewSeconds": 36.34370303153992,
+      "frameIndex": 330,
+      "framePTS": 35970864,
+      "keyLabel": "Two panes ready; Terminal 3 is active",
+      "labelToCheckpointSeconds": 3.050999879837036
+    },
+    {
+      "name": "04c-switch-tab-previous",
+      "reviewSeconds": 39.44270300865173,
+      "frameIndex": 340,
+      "framePTS": 39087642,
+      "keyLabel": "Option + Shift + [",
+      "labelToCheckpointSeconds": 3.0909998416900635
+    },
+    {
+      "name": "04d-switch-tab-next",
+      "reviewSeconds": 42.532703161239624,
+      "frameIndex": 349,
+      "framePTS": 42170786,
+      "keyLabel": "Option + Shift + ]",
+      "labelToCheckpointSeconds": 3.0870001316070557
+    },
+    {
+      "name": "05-focus-left",
+      "reviewSeconds": 45.616703033447266,
+      "frameIndex": 357,
+      "framePTS": 45270782,
+      "keyLabel": "Cmd + Shift + \u2190",
+      "labelToCheckpointSeconds": 3.0809998512268066
+    },
+    {
+      "name": "06-focus-right",
+      "reviewSeconds": 48.699703216552734,
+      "frameIndex": 365,
+      "framePTS": 48353767,
+      "keyLabel": "Cmd + Shift + \u2192",
+      "labelToCheckpointSeconds": 3.080000162124634
+    },
+    {
+      "name": "07-move-tab-left",
+      "reviewSeconds": 51.82270312309265,
+      "frameIndex": 389,
+      "framePTS": 51479811,
+      "keyLabel": "Cmd + Option + Shift + \u2190",
+      "labelToCheckpointSeconds": 3.117000102996826
+    },
+    {
+      "name": "08-move-tab-right",
+      "reviewSeconds": 54.94070315361023,
+      "frameIndex": 416,
+      "framePTS": 54587336,
+      "keyLabel": "Cmd + Option + Shift + \u2192",
+      "labelToCheckpointSeconds": 3.115999937057495
+    }
+  ]
 }

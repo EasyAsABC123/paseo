@@ -1,0 +1,11 @@
+{
+  "commit": "f0b3a6efdf3b9b138b1c44e4128a273c94fcabab",
+  "trackedStatus": "",
+  "blobs": {
+    "packages/desktop/e2e/terminal-command-arrows.e2e.mjs": "a6e8ac8b3249ceb86156de151017ea58b5bd86fb",
+    "packages/desktop/e2e/support/terminal-keyboard-recording.mjs": "a2bb34c1bc039f29eda88bba3537259bf1ce552c",
+    "packages/app/src/terminal/runtime/terminal-emulator-runtime.ts": "641e1add60dd3581c62df70dd591ad6c940330da"
+  },
+  "reusedBuilds": true,
+  "changedSincePriorRun": ["packages/desktop/e2e/terminal-command-arrows.e2e.mjs"]
+}
