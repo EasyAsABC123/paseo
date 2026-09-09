@@ -160,7 +160,7 @@ Assert editing through the command the real shell executes and its output file.
 Use the accessible terminal input and tab controls to check focus and selection;
 do not inspect xterm buffers or install browser probes for assertions.
 
-For a review video, add `-- --record`. Recording uses 22px terminal text, a steady
+For a review video, add `-- --record`. Recording uses 22px terminal text, a
 block cursor, visible key labels, and three-second pauses at each checkpoint. The
 demonstration shows both line boundaries before editing, then tab switching, pane
 focus, and moving a tab between panes. Its isolated app settings leave your normal

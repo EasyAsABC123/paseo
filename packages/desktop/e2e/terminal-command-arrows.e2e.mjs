@@ -137,14 +137,16 @@ async function prepareTerminal(page, pane, cwd, label) {
   const setupFile = `${fixtureName}.bashrc`;
   // DECSCUSR configures the cursor through ordinary terminal output. Bash keeps
   // user prompt plugins from replacing it before the recording checkpoint.
-  const cursorSequence = recordVideo ? "\\033[2 q" : "";
+  const cursorSequence = recordVideo ? "\\033[1 q" : "";
   fs.writeFileSync(
     path.join(cwd, setupFile),
     `PS1='QA> '\nset -o emacs\nprintf '\\033[2J\\033[H${cursorSequence}%s\\n' '${label}'\nprintf 'ready\\n' > '${readyFile}'\n`,
   );
   // Bash owns setup so no keyboard input races its startup.
   await surface.click();
-  await page.keyboard.type(`exec /bin/bash --noprofile --rcfile './${setupFile}' -i`);
+  await page.keyboard.type(
+    `BASH_SILENCE_DEPRECATION_WARNING=1 exec /bin/bash --noprofile --rcfile './${setupFile}' -i`,
+  );
   await page.keyboard.press("Enter");
   await waitForValue(
     () => readShellFile(path.join(cwd, readyFile)),
