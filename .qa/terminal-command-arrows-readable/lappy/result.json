@@ -1,0 +1,260 @@
+{
+  "commit": "68575a5bb070fca229c5bd3cfc2bfac3bc282f6e",
+  "runtimeBlob": "641e1add60dd3581c62df70dd591ad6c940330da",
+  "macOS": "ProductName:\t\tmacOS\nProductVersion:\t\t26.6.2\nBuildVersion:\t\t25G83",
+  "arch": "arm64",
+  "hostname": "Justins-MacBook-Pro.local",
+  "kernel": "25.6.0",
+  "recording": true,
+  "input": "Playwright keyboard events sent through CDP to the real Electron renderer",
+  "steps": [
+    {
+      "name": "01-command-before-arrows",
+      "recordedAt": "2026-09-09T06:33:36.293Z",
+      "cursorX": 16,
+      "line": "QA> echo one two",
+      "lines": [
+        "SETUP_complete",
+        "QA> echo one two",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "name": "02-command-left",
+      "recordedAt": "2026-09-09T06:33:39.386Z",
+      "key": "Meta+ArrowLeft",
+      "cursorX": 4,
+      "focus": {
+        "sameTextarea": true,
+        "blurCount": 0,
+        "documentFocused": true,
+        "sameUrl": true,
+        "samePane": true,
+        "sameTabs": true
+      }
+    },
+    {
+      "name": "02b-command-right-unchanged",
+      "recordedAt": "2026-09-09T06:33:42.464Z",
+      "key": "Meta+ArrowRight",
+      "cursorX": 16,
+      "focus": {
+        "sameTextarea": true,
+        "blurCount": 0,
+        "documentFocused": true,
+        "sameUrl": true,
+        "samePane": true,
+        "sameTabs": true
+      }
+    },
+    {
+      "name": "02c-command-left-again",
+      "recordedAt": "2026-09-09T06:33:45.597Z",
+      "key": "Meta+ArrowLeft",
+      "cursorX": 4,
+      "focus": {
+        "sameTextarea": true,
+        "blurCount": 0,
+        "documentFocused": true,
+        "sameUrl": true,
+        "samePane": true,
+        "sameTabs": true
+      }
+    },
+    {
+      "name": "02d-prefix-inserted",
+      "recordedAt": "2026-09-09T06:33:50.421Z",
+      "cursorX": 21,
+      "line": "QA> PASEO_PREFIX=ok; echo one two",
+      "lines": [
+        "SETUP_complete",
+        "QA> PASEO_PREFIX=ok; echo one two",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "name": "03-command-right",
+      "recordedAt": "2026-09-09T06:33:53.512Z",
+      "key": "Meta+ArrowRight",
+      "cursorX": 33,
+      "focus": {
+        "sameTextarea": true,
+        "blurCount": 0,
+        "documentFocused": true,
+        "sameUrl": true,
+        "samePane": true,
+        "sameTabs": true
+      }
+    },
+    {
+      "name": "03b-suffix-inserted",
+      "recordedAt": "2026-09-09T06:33:58.248Z",
+      "cursorX": 49,
+      "line": "QA> PASEO_PREFIX=ok; echo one two \"$PASEO_PREFIX\"",
+      "lines": [
+        "SETUP_complete",
+        "QA> PASEO_PREFIX=ok; echo one two \"$PASEO_PREFIX\"",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "name": "04-command-executed",
+      "recordedAt": "2026-09-09T06:34:01.388Z",
+      "cursorX": 4,
+      "line": "QA> ",
+      "lines": [
+        "SETUP_complete",
+        "QA> PASEO_PREFIX=ok; echo one two \"$PASEO_PREFIX\"",
+        "one two ok",
+        "QA> ",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "name": "04b-shortcuts-ready",
+      "recordedAt": "2026-09-09T06:34:06.967Z",
+      "focusedPaneId": "workspace-pane-pane_a55aed67-2060-43ff-909a-11475c89ca8a"
+    },
+    {
+      "name": "04c-switch-tab-previous",
+      "recordedAt": "2026-09-09T06:34:10.070Z",
+      "selectedTabId": "workspace-tab-terminal_594584b1-dab7-4928-a71b-2ee574829910"
+    },
+    {
+      "name": "04d-switch-tab-next",
+      "recordedAt": "2026-09-09T06:34:13.183Z",
+      "selectedTabId": "workspace-tab-terminal_041a43a3-0094-4afd-b2af-0b92287d1211"
+    },
+    {
+      "name": "05-focus-left",
+      "recordedAt": "2026-09-09T06:34:16.284Z",
+      "focusedPaneId": "workspace-pane-main"
+    },
+    {
+      "name": "06-focus-right",
+      "recordedAt": "2026-09-09T06:34:19.390Z",
+      "focusedPaneId": "workspace-pane-pane_a55aed67-2060-43ff-909a-11475c89ca8a"
+    },
+    {
+      "name": "07-move-tab-left",
+      "recordedAt": "2026-09-09T06:34:22.532Z",
+      "tabId": "workspace-tab-terminal_041a43a3-0094-4afd-b2af-0b92287d1211",
+      "paneId": "workspace-pane-main"
+    },
+    {
+      "name": "08-move-tab-right",
+      "recordedAt": "2026-09-09T06:34:25.678Z",
+      "tabId": "workspace-tab-terminal_041a43a3-0094-4afd-b2af-0b92287d1211",
+      "paneId": "workspace-pane-pane_a55aed67-2060-43ff-909a-11475c89ca8a"
+    }
+  ],
+  "runtime": {
+    "platform": "darwin",
+    "navigatorPlatform": "MacIntel",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Paseo/0.8.0-beta.1 Chrome/152.0.7977.76 Electron/44.2.0 Safari/537.36",
+    "maxTouchPoints": 0
+  },
+  "result": "passed"
+}

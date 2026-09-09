@@ -1,0 +1,18 @@
+{
+  "testedHEAD": "68575a5bb070fca229c5bd3cfc2bfac3bc282f6e",
+  "integratedPRCommit": "287cc390b7e3a61ffc7b2ca80181e83c6309de2a",
+  "integratedParent": "68575a5bb070fca229c5bd3cfc2bfac3bc282f6e",
+  "blobs": {
+    "packages/desktop/e2e/support/terminal-keyboard-recording.mjs": {
+      "tested": "a2bb34c1bc039f29eda88bba3537259bf1ce552c",
+      "integrated": "a2bb34c1bc039f29eda88bba3537259bf1ce552c"
+    },
+    "packages/app/src/terminal/runtime/terminal-emulator-runtime.ts": {
+      "tested": "641e1add60dd3581c62df70dd591ad6c940330da",
+      "integrated": "641e1add60dd3581c62df70dd591ad6c940330da"
+    }
+  },
+  "gitDiffAgainstIntegratedCommit": "",
+  "allTrackedWorkingFilesMatchIntegratedCommit": true,
+  "localChanges": "Only recorder CSS viewport fix; preserved in tested-source.diff. HEAD unchanged."
+}

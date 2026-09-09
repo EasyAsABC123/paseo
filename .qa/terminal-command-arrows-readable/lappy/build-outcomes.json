@@ -1,0 +1,12 @@
+{
+  "worktree": "/private/tmp/paseo-pr4543-lappy-worktree",
+  "source": "68575a5bb070fca229c5bd3cfc2bfac3bc282f6e",
+  "checks": {
+    "npm ci": 0,
+    "npm run build:server": 0,
+    "npm run build --workspace=@getpaseo/expo-two-way-audio": 0,
+    "Electron installer": 0,
+    "node-pty module load": 0
+  },
+  "note": "npm 12 reported 14 unapproved dependency install scripts; Electron runtime installed explicitly with approval review; existing node-pty prebuild loads. No production source changes."
+}

@@ -1,4 +1,4 @@
-Record the macOS Command-arrow terminal fix from https://github.com/getpaseo/paseo/pull/4543 on this lappy host, using its current head (at least commit 68575a5bb).
+Record the macOS Command-arrow terminal fix from https://github.com/getpaseo/paseo/pull/4543 on this lappy host, using its current head (at least commit 287cc390b).
 
 Use a clean isolated worktree for the PR. Preserve any existing changes and running agents. Read the repository instructions and docs/development.md, docs/testing.md, and docs/qa.md. Do not restart the main Paseo daemon on port 6767; the regression starts and cleans up its own daemon, app profile, and Electron window.
 

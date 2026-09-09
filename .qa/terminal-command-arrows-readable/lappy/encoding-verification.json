@@ -1,0 +1,12 @@
+{
+  "result": "passed",
+  "frameCount": 289,
+  "width": 1800,
+  "height": 1200,
+  "durationSeconds": 53.756731,
+  "ffconcatTimestampMatch": true,
+  "maxDifferenceFromFfconcatMicroseconds": 0,
+  "maxDifferenceFromRawSourceMicroseconds": 0.2152252197265625,
+  "fullDecodeExitCode": 0,
+  "decodeLogBytes": 0
+}

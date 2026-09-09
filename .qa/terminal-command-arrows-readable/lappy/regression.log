@@ -1,0 +1,22 @@
+npm notice run @getpaseo/desktop@0.8.0-beta.1 test:e2e:terminal-command-arrows
+npm notice run npm run build:main && node ./e2e/terminal-command-arrows.e2e.mjs --record
+npm notice run @getpaseo/desktop@0.8.0-beta.1 build:main
+npm notice run tsc -p tsconfig.json
+PASS 01-command-before-arrows: {"cursorX":16,"line":"QA> echo one two","lines":["SETUP_complete","QA> echo one two","","","","","","","","","","","","","","","","","","","","","","","","","","",""]}
+PASS 02-command-left: {"key":"Meta+ArrowLeft","cursorX":4,"focus":{"sameTextarea":true,"blurCount":0,"documentFocused":true,"sameUrl":true,"samePane":true,"sameTabs":true}}
+PASS 02b-command-right-unchanged: {"key":"Meta+ArrowRight","cursorX":16,"focus":{"sameTextarea":true,"blurCount":0,"documentFocused":true,"sameUrl":true,"samePane":true,"sameTabs":true}}
+PASS 02c-command-left-again: {"key":"Meta+ArrowLeft","cursorX":4,"focus":{"sameTextarea":true,"blurCount":0,"documentFocused":true,"sameUrl":true,"samePane":true,"sameTabs":true}}
+PASS 02d-prefix-inserted: {"cursorX":21,"line":"QA> PASEO_PREFIX=ok; echo one two","lines":["SETUP_complete","QA> PASEO_PREFIX=ok; echo one two","","","","","","","","","","","","","","","","","","","","","","","","","","",""]}
+PASS 03-command-right: {"key":"Meta+ArrowRight","cursorX":33,"focus":{"sameTextarea":true,"blurCount":0,"documentFocused":true,"sameUrl":true,"samePane":true,"sameTabs":true}}
+PASS 03b-suffix-inserted: {"cursorX":49,"line":"QA> PASEO_PREFIX=ok; echo one two \"$PASEO_PREFIX\"","lines":["SETUP_complete","QA> PASEO_PREFIX=ok; echo one two \"$PASEO_PREFIX\"","","","","","","","","","","","","","","","","","","","","","","","","","","",""]}
+PASS 04-command-executed: {"cursorX":4,"line":"QA> ","lines":["SETUP_complete","QA> PASEO_PREFIX=ok; echo one two \"$PASEO_PREFIX\"","one two ok","QA> ","","","","","","","","","","","","","","","","","","","","","","","","",""]}
+PASS 04b-shortcuts-ready: {"focusedPaneId":"workspace-pane-pane_a55aed67-2060-43ff-909a-11475c89ca8a"}
+PASS 04c-switch-tab-previous: {"selectedTabId":"workspace-tab-terminal_594584b1-dab7-4928-a71b-2ee574829910"}
+PASS 04d-switch-tab-next: {"selectedTabId":"workspace-tab-terminal_041a43a3-0094-4afd-b2af-0b92287d1211"}
+PASS 05-focus-left: {"focusedPaneId":"workspace-pane-main"}
+PASS 06-focus-right: {"focusedPaneId":"workspace-pane-pane_a55aed67-2060-43ff-909a-11475c89ca8a"}
+PASS 07-move-tab-left: {"tabId":"workspace-tab-terminal_041a43a3-0094-4afd-b2af-0b92287d1211","paneId":"workspace-pane-main"}
+PASS 08-move-tab-right: {"tabId":"workspace-tab-terminal_041a43a3-0094-4afd-b2af-0b92287d1211","paneId":"workspace-pane-pane_a55aed67-2060-43ff-909a-11475c89ca8a"}
+Recording frames: /tmp/paseo-lappy-terminal-arrows/recording
+Run from the recording directory with ffmpeg arguments (JSON array): ["-safe","0","-f","concat","-i","frames.ffconcat","-fps_mode","vfr","-c:v","libx264","-bf","0","-crf","18","-pix_fmt","yuv420p","-vf","pad=ceil(iw/2)*2:ceil(ih/2)*2","-enc_time_base:v","1:1000000","-video_track_timescale","1000000","-x264-params","fps=60/1","-movflags","+faststart","interaction.mp4"]
+Evidence: /tmp/paseo-lappy-terminal-arrows

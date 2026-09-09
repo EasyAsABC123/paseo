@@ -1,0 +1,13 @@
+{
+  "video": "interaction.mp4",
+  "sha256": "8631e482a9a7c1d4c84c7e7c907930024409ae80e337ed10e90cb8630591b781",
+  "method": "Visually inspected decoded MP4 frames extracted at one-second intervals; matched steady holds against original frame timestamps.",
+  "observations": [
+    "At approximately 5\u20137 and 11\u201313 seconds the solid block visibly covers the first e immediately after QA>; at 8\u201310 and 19\u201321 seconds it is after two. Each state holds steadily for about three seconds.",
+    "At 35\u201341 seconds Option+Shift+[ and ] visibly switch between TERMINAL TWO and TERMINAL THREE, with the selected tab highlight changing.",
+    "At 41\u201347 seconds Cmd+Shift+Left/Right visibly swaps the solid active cursor and hollow inactive cursor between panes.",
+    "At 47\u201354 seconds Cmd+Option+Shift+Left/Right visibly moves TERMINAL THREE and its selected tab to the left pane and back right.",
+    "After tab movement the remounted terminal returns to its thin blinking cursor; its heading and tab placement still clearly show the move."
+  ],
+  "verification": "encoding-verification.json"
+}
