@@ -255,3 +255,48 @@ export async function startElectronSession({ artifactDir }) {
     throw error;
   }
 }
+
+export async function runElectronScenario({ artifactDir, report, recordVideo }, scenario) {
+  let session;
+  let tracing;
+  const cleanups = [];
+
+  async function recordFailure(failure) {
+    const details = failure?.stack ?? String(failure);
+    const alreadyFailed = report.result === "failed";
+    if (alreadyFailed) {
+      report.secondaryErrors ??= [];
+      report.secondaryErrors.push(details);
+    } else {
+      report.error = details;
+    }
+    report.result = "failed";
+    process.exitCode = 1;
+    console.error(failure);
+    if (!alreadyFailed) {
+      await session?.page
+        .screenshot({ path: path.join(artifactDir, "failure.png") })
+        .catch(() => undefined);
+    }
+  }
+
+  try {
+    session = await startElectronSession({ artifactDir });
+    const contextTracing = session.browser.contexts()[0].tracing;
+    await contextTracing.start({ screenshots: !recordVideo, snapshots: true, sources: true });
+    tracing = contextTracing;
+    await scenario({ ...session, addCleanup: (cleanup) => cleanups.push(cleanup) });
+    report.result = "passed";
+  } catch (error) {
+    await recordFailure(error);
+  } finally {
+    for (const cleanup of cleanups.toReversed()) {
+      await Promise.resolve().then(cleanup).catch(recordFailure);
+    }
+    await tracing?.stop({ path: path.join(artifactDir, "trace.zip") }).catch(recordFailure);
+    await session?.close().catch(recordFailure);
+    writeJson(path.join(artifactDir, "result.json"), report);
+    console.log(`Evidence: ${artifactDir}`);
+  }
+  return report;
+}

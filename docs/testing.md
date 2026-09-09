@@ -152,9 +152,21 @@ isolated daemon and the checkout's real Electron app. A browser with a macOS use
 agent cannot verify native Command-arrow behavior.
 
 Set `PASEO_TERMINAL_ARROW_ARTIFACT_DIR` to keep the screenshots, Playwright trace,
-process logs, and results together. The result records the commit and macOS/Electron
-versions. Keep an unpatched run's failure with the patched run's evidence so you can
-tell whether the check catches the original bug.
+process logs, and results together. The result records the commit, host, and
+macOS/Electron versions. Keep an unpatched run's failure with the patched run's
+evidence so you can tell whether the check catches the original bug.
+
+For a review video, add `-- --record`. Recording uses 22px terminal text, a steady
+block cursor, visible key labels, and three-second pauses at each checkpoint. The
+demonstration shows both line boundaries before editing, then tab switching, pane
+focus, and moving a tab between panes. Its isolated app settings leave your normal
+desktop settings alone.
+
+The `recording/` directory contains full-resolution Electron frames, their capture
+timestamps, and an FFmpeg concat manifest. Run the FFmpeg arguments listed in
+`recording/recording.json` from that directory to encode the video, including on a
+different host. Keep the original timing; a trace's reduced screenshots make the
+terminal cursor too small to review.
 
 ## Test organization
 
