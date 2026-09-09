@@ -1,0 +1,5452 @@
+{
+  "source": "Electron renderer captured with a dedicated CDP screencast session",
+  "width": 1200,
+  "height": 800,
+  "startedAtSeconds": 1788933795.265151,
+  "endedAtSeconds": 1788933851.249,
+  "frameCount": 332,
+  "frames": [
+    {
+      "file": "frames/frame-000001.jpeg",
+      "timestampSeconds": 1788933795.256661,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933795.256661
+      }
+    },
+    {
+      "file": "frames/frame-000002.jpeg",
+      "timestampSeconds": 1788933795.263213,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933795.263213
+      }
+    },
+    {
+      "file": "frames/frame-000000.jpeg",
+      "timestampSeconds": 1788933795.265151,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933795.265151
+      }
+    },
+    {
+      "file": "frames/frame-000003.jpeg",
+      "timestampSeconds": 1788933795.280669,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933795.280669
+      }
+    },
+    {
+      "file": "frames/frame-000004.jpeg",
+      "timestampSeconds": 1788933795.304142,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933795.304142
+      }
+    },
+    {
+      "file": "frames/frame-000005.jpeg",
+      "timestampSeconds": 1788933795.316321,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933795.316321
+      }
+    },
+    {
+      "file": "frames/frame-000006.jpeg",
+      "timestampSeconds": 1788933795.356072,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933795.356072
+      }
+    },
+    {
+      "file": "frames/frame-000007.jpeg",
+      "timestampSeconds": 1788933795.404997,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933795.404997
+      }
+    },
+    {
+      "file": "frames/frame-000008.jpeg",
+      "timestampSeconds": 1788933795.413746,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933795.413746
+      }
+    },
+    {
+      "file": "frames/frame-000009.jpeg",
+      "timestampSeconds": 1788933795.500584,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933795.500584
+      }
+    },
+    {
+      "file": "frames/frame-000010.jpeg",
+      "timestampSeconds": 1788933795.520674,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933795.520674
+      }
+    },
+    {
+      "file": "frames/frame-000011.jpeg",
+      "timestampSeconds": 1788933795.604459,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933795.604459
+      }
+    },
+    {
+      "file": "frames/frame-000012.jpeg",
+      "timestampSeconds": 1788933795.620837,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933795.620837
+      }
+    },
+    {
+      "file": "frames/frame-000013.jpeg",
+      "timestampSeconds": 1788933795.712478,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933795.712478
+      }
+    },
+    {
+      "file": "frames/frame-000014.jpeg",
+      "timestampSeconds": 1788933795.73754,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933795.73754
+      }
+    },
+    {
+      "file": "frames/frame-000015.jpeg",
+      "timestampSeconds": 1788933795.813048,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933795.813048
+      }
+    },
+    {
+      "file": "frames/frame-000016.jpeg",
+      "timestampSeconds": 1788933795.82907,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933795.82907
+      }
+    },
+    {
+      "file": "frames/frame-000017.jpeg",
+      "timestampSeconds": 1788933795.854004,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933795.854004
+      }
+    },
+    {
+      "file": "frames/frame-000018.jpeg",
+      "timestampSeconds": 1788933795.920977,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933795.920977
+      }
+    },
+    {
+      "file": "frames/frame-000019.jpeg",
+      "timestampSeconds": 1788933795.937326,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933795.937326
+      }
+    },
+    {
+      "file": "frames/frame-000020.jpeg",
+      "timestampSeconds": 1788933796.020615,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933796.020615
+      }
+    },
+    {
+      "file": "frames/frame-000021.jpeg",
+      "timestampSeconds": 1788933796.037619,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933796.037619
+      }
+    },
+    {
+      "file": "frames/frame-000022.jpeg",
+      "timestampSeconds": 1788933799.180819,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933799.180819
+      }
+    },
+    {
+      "file": "frames/frame-000023.jpeg",
+      "timestampSeconds": 1788933799.254515,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933799.254515
+      }
+    },
+    {
+      "file": "frames/frame-000024.jpeg",
+      "timestampSeconds": 1788933799.277763,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933799.277763
+      }
+    },
+    {
+      "file": "frames/frame-000025.jpeg",
+      "timestampSeconds": 1788933799.289077,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933799.289077
+      }
+    },
+    {
+      "file": "frames/frame-000026.jpeg",
+      "timestampSeconds": 1788933802.33786,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933802.33786
+      }
+    },
+    {
+      "file": "frames/frame-000027.jpeg",
+      "timestampSeconds": 1788933802.404368,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933802.404368
+      }
+    },
+    {
+      "file": "frames/frame-000028.jpeg",
+      "timestampSeconds": 1788933802.420636,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933802.420636
+      }
+    },
+    {
+      "file": "frames/frame-000029.jpeg",
+      "timestampSeconds": 1788933802.438117,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933802.438117
+      }
+    },
+    {
+      "file": "frames/frame-000030.jpeg",
+      "timestampSeconds": 1788933805.43907,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933805.43907
+      }
+    },
+    {
+      "file": "frames/frame-000031.jpeg",
+      "timestampSeconds": 1788933805.51888,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933805.51888
+      }
+    },
+    {
+      "file": "frames/frame-000032.jpeg",
+      "timestampSeconds": 1788933805.52592,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933805.52592
+      }
+    },
+    {
+      "file": "frames/frame-000033.jpeg",
+      "timestampSeconds": 1788933805.553861,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933805.553861
+      }
+    },
+    {
+      "file": "frames/frame-000034.jpeg",
+      "timestampSeconds": 1788933808.557725,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933808.557725
+      }
+    },
+    {
+      "file": "frames/frame-000035.jpeg",
+      "timestampSeconds": 1788933808.808615,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933808.808615
+      }
+    },
+    {
+      "file": "frames/frame-000036.jpeg",
+      "timestampSeconds": 1788933808.812054,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933808.812054
+      }
+    },
+    {
+      "file": "frames/frame-000037.jpeg",
+      "timestampSeconds": 1788933808.83034,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933808.83034
+      }
+    },
+    {
+      "file": "frames/frame-000038.jpeg",
+      "timestampSeconds": 1788933808.83971,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933808.83971
+      }
+    },
+    {
+      "file": "frames/frame-000039.jpeg",
+      "timestampSeconds": 1788933808.879741,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933808.879741
+      }
+    },
+    {
+      "file": "frames/frame-000040.jpeg",
+      "timestampSeconds": 1788933808.89619,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933808.89619
+      }
+    },
+    {
+      "file": "frames/frame-000041.jpeg",
+      "timestampSeconds": 1788933808.988687,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933808.988687
+      }
+    },
+    {
+      "file": "frames/frame-000042.jpeg",
+      "timestampSeconds": 1788933809.00403,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933809.00403
+      }
+    },
+    {
+      "file": "frames/frame-000043.jpeg",
+      "timestampSeconds": 1788933809.095667,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933809.095667
+      }
+    },
+    {
+      "file": "frames/frame-000044.jpeg",
+      "timestampSeconds": 1788933809.120705,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933809.120705
+      }
+    },
+    {
+      "file": "frames/frame-000045.jpeg",
+      "timestampSeconds": 1788933809.194105,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933809.194105
+      }
+    },
+    {
+      "file": "frames/frame-000046.jpeg",
+      "timestampSeconds": 1788933809.220523,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933809.220523
+      }
+    },
+    {
+      "file": "frames/frame-000047.jpeg",
+      "timestampSeconds": 1788933809.321162,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933809.321162
+      }
+    },
+    {
+      "file": "frames/frame-000048.jpeg",
+      "timestampSeconds": 1788933809.330127,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933809.330127
+      }
+    },
+    {
+      "file": "frames/frame-000049.jpeg",
+      "timestampSeconds": 1788933809.412996,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933809.412996
+      }
+    },
+    {
+      "file": "frames/frame-000050.jpeg",
+      "timestampSeconds": 1788933809.430328,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933809.430328
+      }
+    },
+    {
+      "file": "frames/frame-000051.jpeg",
+      "timestampSeconds": 1788933809.512681,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933809.512681
+      }
+    },
+    {
+      "file": "frames/frame-000052.jpeg",
+      "timestampSeconds": 1788933809.537239,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933809.537239
+      }
+    },
+    {
+      "file": "frames/frame-000053.jpeg",
+      "timestampSeconds": 1788933809.637452,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933809.637452
+      }
+    },
+    {
+      "file": "frames/frame-000054.jpeg",
+      "timestampSeconds": 1788933809.649989,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933809.649989
+      }
+    },
+    {
+      "file": "frames/frame-000055.jpeg",
+      "timestampSeconds": 1788933809.753914,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933809.753914
+      }
+    },
+    {
+      "file": "frames/frame-000056.jpeg",
+      "timestampSeconds": 1788933809.774986,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933809.774986
+      }
+    },
+    {
+      "file": "frames/frame-000057.jpeg",
+      "timestampSeconds": 1788933809.833504,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933809.833504
+      }
+    },
+    {
+      "file": "frames/frame-000058.jpeg",
+      "timestampSeconds": 1788933809.854601,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933809.854601
+      }
+    },
+    {
+      "file": "frames/frame-000059.jpeg",
+      "timestampSeconds": 1788933809.930277,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933809.930277
+      }
+    },
+    {
+      "file": "frames/frame-000060.jpeg",
+      "timestampSeconds": 1788933809.953924,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933809.953924
+      }
+    },
+    {
+      "file": "frames/frame-000061.jpeg",
+      "timestampSeconds": 1788933810.037328,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933810.037328
+      }
+    },
+    {
+      "file": "frames/frame-000062.jpeg",
+      "timestampSeconds": 1788933810.046188,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933810.046188
+      }
+    },
+    {
+      "file": "frames/frame-000063.jpeg",
+      "timestampSeconds": 1788933810.138894,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933810.138894
+      }
+    },
+    {
+      "file": "frames/frame-000064.jpeg",
+      "timestampSeconds": 1788933810.15414,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933810.15414
+      }
+    },
+    {
+      "file": "frames/frame-000065.jpeg",
+      "timestampSeconds": 1788933810.254454,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933810.254454
+      }
+    },
+    {
+      "file": "frames/frame-000066.jpeg",
+      "timestampSeconds": 1788933810.270629,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933810.270629
+      }
+    },
+    {
+      "file": "frames/frame-000067.jpeg",
+      "timestampSeconds": 1788933810.362228,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933810.362228
+      }
+    },
+    {
+      "file": "frames/frame-000068.jpeg",
+      "timestampSeconds": 1788933810.387169,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933810.387169
+      }
+    },
+    {
+      "file": "frames/frame-000069.jpeg",
+      "timestampSeconds": 1788933813.505676,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933813.505676
+      }
+    },
+    {
+      "file": "frames/frame-000070.jpeg",
+      "timestampSeconds": 1788933813.571773,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933813.571773
+      }
+    },
+    {
+      "file": "frames/frame-000071.jpeg",
+      "timestampSeconds": 1788933813.587395,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933813.587395
+      }
+    },
+    {
+      "file": "frames/frame-000072.jpeg",
+      "timestampSeconds": 1788933813.601801,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933813.601801
+      }
+    },
+    {
+      "file": "frames/frame-000073.jpeg",
+      "timestampSeconds": 1788933816.656067,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933816.656067
+      }
+    },
+    {
+      "file": "frames/frame-000074.jpeg",
+      "timestampSeconds": 1788933816.796133,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933816.796133
+      }
+    },
+    {
+      "file": "frames/frame-000075.jpeg",
+      "timestampSeconds": 1788933816.82068,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933816.82068
+      }
+    },
+    {
+      "file": "frames/frame-000076.jpeg",
+      "timestampSeconds": 1788933816.837288,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933816.837288
+      }
+    },
+    {
+      "file": "frames/frame-000077.jpeg",
+      "timestampSeconds": 1788933816.913807,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933816.913807
+      }
+    },
+    {
+      "file": "frames/frame-000078.jpeg",
+      "timestampSeconds": 1788933816.91881,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933816.91881
+      }
+    },
+    {
+      "file": "frames/frame-000079.jpeg",
+      "timestampSeconds": 1788933817.038815,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933817.038815
+      }
+    },
+    {
+      "file": "frames/frame-000080.jpeg",
+      "timestampSeconds": 1788933817.06419,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933817.06419
+      }
+    },
+    {
+      "file": "frames/frame-000081.jpeg",
+      "timestampSeconds": 1788933817.121297,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933817.121297
+      }
+    },
+    {
+      "file": "frames/frame-000082.jpeg",
+      "timestampSeconds": 1788933817.130341,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933817.130341
+      }
+    },
+    {
+      "file": "frames/frame-000083.jpeg",
+      "timestampSeconds": 1788933817.228273,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933817.228273
+      }
+    },
+    {
+      "file": "frames/frame-000084.jpeg",
+      "timestampSeconds": 1788933817.254107,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933817.254107
+      }
+    },
+    {
+      "file": "frames/frame-000085.jpeg",
+      "timestampSeconds": 1788933817.329498,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933817.329498
+      }
+    },
+    {
+      "file": "frames/frame-000086.jpeg",
+      "timestampSeconds": 1788933817.354078,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933817.354078
+      }
+    },
+    {
+      "file": "frames/frame-000087.jpeg",
+      "timestampSeconds": 1788933817.429572,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933817.429572
+      }
+    },
+    {
+      "file": "frames/frame-000088.jpeg",
+      "timestampSeconds": 1788933817.453922,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933817.453922
+      }
+    },
+    {
+      "file": "frames/frame-000089.jpeg",
+      "timestampSeconds": 1788933817.55433,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933817.55433
+      }
+    },
+    {
+      "file": "frames/frame-000090.jpeg",
+      "timestampSeconds": 1788933817.570654,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933817.570654
+      }
+    },
+    {
+      "file": "frames/frame-000091.jpeg",
+      "timestampSeconds": 1788933817.640269,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933817.640269
+      }
+    },
+    {
+      "file": "frames/frame-000092.jpeg",
+      "timestampSeconds": 1788933817.6467,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933817.6467
+      }
+    },
+    {
+      "file": "frames/frame-000093.jpeg",
+      "timestampSeconds": 1788933817.755903,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933817.755903
+      }
+    },
+    {
+      "file": "frames/frame-000094.jpeg",
+      "timestampSeconds": 1788933817.770669,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933817.770669
+      }
+    },
+    {
+      "file": "frames/frame-000095.jpeg",
+      "timestampSeconds": 1788933817.862354,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933817.862354
+      }
+    },
+    {
+      "file": "frames/frame-000096.jpeg",
+      "timestampSeconds": 1788933817.887332,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933817.887332
+      }
+    },
+    {
+      "file": "frames/frame-000097.jpeg",
+      "timestampSeconds": 1788933817.962728,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933817.962728
+      }
+    },
+    {
+      "file": "frames/frame-000098.jpeg",
+      "timestampSeconds": 1788933817.987273,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933817.987273
+      }
+    },
+    {
+      "file": "frames/frame-000099.jpeg",
+      "timestampSeconds": 1788933818.063433,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933818.063433
+      }
+    },
+    {
+      "file": "frames/frame-000100.jpeg",
+      "timestampSeconds": 1788933818.087274,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933818.087274
+      }
+    },
+    {
+      "file": "frames/frame-000101.jpeg",
+      "timestampSeconds": 1788933818.16271,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933818.16271
+      }
+    },
+    {
+      "file": "frames/frame-000102.jpeg",
+      "timestampSeconds": 1788933818.187275,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933818.187275
+      }
+    },
+    {
+      "file": "frames/frame-000103.jpeg",
+      "timestampSeconds": 1788933818.279513,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933818.279513
+      }
+    },
+    {
+      "file": "frames/frame-000104.jpeg",
+      "timestampSeconds": 1788933818.304062,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933818.304062
+      }
+    },
+    {
+      "file": "frames/frame-000105.jpeg",
+      "timestampSeconds": 1788933818.374171,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933818.374171
+      }
+    },
+    {
+      "file": "frames/frame-000106.jpeg",
+      "timestampSeconds": 1788933818.383943,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933818.383943
+      }
+    },
+    {
+      "file": "frames/frame-000107.jpeg",
+      "timestampSeconds": 1788933821.506106,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933821.506106
+      }
+    },
+    {
+      "file": "frames/frame-000108.jpeg",
+      "timestampSeconds": 1788933821.58769,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933821.58769
+      }
+    },
+    {
+      "file": "frames/frame-000109.jpeg",
+      "timestampSeconds": 1788933821.622644,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933821.622644
+      }
+    },
+    {
+      "file": "frames/frame-000110.jpeg",
+      "timestampSeconds": 1788933821.639442,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933821.639442
+      }
+    },
+    {
+      "file": "frames/frame-000111.jpeg",
+      "timestampSeconds": 1788933824.630137,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933824.630137
+      }
+    },
+    {
+      "file": "frames/frame-000112.jpeg",
+      "timestampSeconds": 1788933824.721017,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933824.721017
+      }
+    },
+    {
+      "file": "frames/frame-000113.jpeg",
+      "timestampSeconds": 1788933824.810261,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933824.810261
+      }
+    },
+    {
+      "file": "frames/frame-000114.jpeg",
+      "timestampSeconds": 1788933824.823278,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933824.823278
+      }
+    },
+    {
+      "file": "frames/frame-000115.jpeg",
+      "timestampSeconds": 1788933824.831925,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933824.831925
+      }
+    },
+    {
+      "file": "frames/frame-000116.jpeg",
+      "timestampSeconds": 1788933824.854083,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933824.854083
+      }
+    },
+    {
+      "file": "frames/frame-000117.jpeg",
+      "timestampSeconds": 1788933824.865665,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933824.865665
+      }
+    },
+    {
+      "file": "frames/frame-000118.jpeg",
+      "timestampSeconds": 1788933824.891465,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933824.891465
+      }
+    },
+    {
+      "file": "frames/frame-000119.jpeg",
+      "timestampSeconds": 1788933824.897779,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933824.897779
+      }
+    },
+    {
+      "file": "frames/frame-000120.jpeg",
+      "timestampSeconds": 1788933824.920936,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933824.920936
+      }
+    },
+    {
+      "file": "frames/frame-000121.jpeg",
+      "timestampSeconds": 1788933824.940695,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933824.940695
+      }
+    },
+    {
+      "file": "frames/frame-000122.jpeg",
+      "timestampSeconds": 1788933824.956089,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933824.956089
+      }
+    },
+    {
+      "file": "frames/frame-000123.jpeg",
+      "timestampSeconds": 1788933824.980269,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933824.980269
+      }
+    },
+    {
+      "file": "frames/frame-000124.jpeg",
+      "timestampSeconds": 1788933825.004077,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.004077
+      }
+    },
+    {
+      "file": "frames/frame-000125.jpeg",
+      "timestampSeconds": 1788933825.020716,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.020716
+      }
+    },
+    {
+      "file": "frames/frame-000126.jpeg",
+      "timestampSeconds": 1788933825.037796,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.037796
+      }
+    },
+    {
+      "file": "frames/frame-000127.jpeg",
+      "timestampSeconds": 1788933825.072271,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.072271
+      }
+    },
+    {
+      "file": "frames/frame-000128.jpeg",
+      "timestampSeconds": 1788933825.088528,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.088528
+      }
+    },
+    {
+      "file": "frames/frame-000129.jpeg",
+      "timestampSeconds": 1788933825.102151,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.102151
+      }
+    },
+    {
+      "file": "frames/frame-000130.jpeg",
+      "timestampSeconds": 1788933825.130547,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.130547
+      }
+    },
+    {
+      "file": "frames/frame-000131.jpeg",
+      "timestampSeconds": 1788933825.197725,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.197725
+      }
+    },
+    {
+      "file": "frames/frame-000132.jpeg",
+      "timestampSeconds": 1788933825.200756,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.200756
+      }
+    },
+    {
+      "file": "frames/frame-000133.jpeg",
+      "timestampSeconds": 1788933825.207142,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.207142
+      }
+    },
+    {
+      "file": "frames/frame-000134.jpeg",
+      "timestampSeconds": 1788933825.268214,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.268214
+      }
+    },
+    {
+      "file": "frames/frame-000135.jpeg",
+      "timestampSeconds": 1788933825.289104,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.289104
+      }
+    },
+    {
+      "file": "frames/frame-000136.jpeg",
+      "timestampSeconds": 1788933825.339553,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.339553
+      }
+    },
+    {
+      "file": "frames/frame-000137.jpeg",
+      "timestampSeconds": 1788933825.488132,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.488132
+      }
+    },
+    {
+      "file": "frames/frame-000138.jpeg",
+      "timestampSeconds": 1788933825.496131,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.496131
+      }
+    },
+    {
+      "file": "frames/frame-000139.jpeg",
+      "timestampSeconds": 1788933825.512916,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.512916
+      }
+    },
+    {
+      "file": "frames/frame-000140.jpeg",
+      "timestampSeconds": 1788933825.538236,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.538236
+      }
+    },
+    {
+      "file": "frames/frame-000141.jpeg",
+      "timestampSeconds": 1788933825.563638,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.563638
+      }
+    },
+    {
+      "file": "frames/frame-000142.jpeg",
+      "timestampSeconds": 1788933825.571662,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.571662
+      }
+    },
+    {
+      "file": "frames/frame-000143.jpeg",
+      "timestampSeconds": 1788933825.586292,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.586292
+      }
+    },
+    {
+      "file": "frames/frame-000144.jpeg",
+      "timestampSeconds": 1788933825.604387,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.604387
+      }
+    },
+    {
+      "file": "frames/frame-000145.jpeg",
+      "timestampSeconds": 1788933825.619135,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.619135
+      }
+    },
+    {
+      "file": "frames/frame-000146.jpeg",
+      "timestampSeconds": 1788933825.638012,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.638012
+      }
+    },
+    {
+      "file": "frames/frame-000147.jpeg",
+      "timestampSeconds": 1788933825.646158,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.646158
+      }
+    },
+    {
+      "file": "frames/frame-000148.jpeg",
+      "timestampSeconds": 1788933825.671133,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.671133
+      }
+    },
+    {
+      "file": "frames/frame-000149.jpeg",
+      "timestampSeconds": 1788933825.706774,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.706774
+      }
+    },
+    {
+      "file": "frames/frame-000150.jpeg",
+      "timestampSeconds": 1788933825.72502,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.72502
+      }
+    },
+    {
+      "file": "frames/frame-000151.jpeg",
+      "timestampSeconds": 1788933825.990425,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.990425
+      }
+    },
+    {
+      "file": "frames/frame-000152.jpeg",
+      "timestampSeconds": 1788933825.996492,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.996492
+      }
+    },
+    {
+      "file": "frames/frame-000153.jpeg",
+      "timestampSeconds": 1788933825.999206,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933825.999206
+      }
+    },
+    {
+      "file": "frames/frame-000154.jpeg",
+      "timestampSeconds": 1788933826.054608,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.054608
+      }
+    },
+    {
+      "file": "frames/frame-000155.jpeg",
+      "timestampSeconds": 1788933826.06931,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.06931
+      }
+    },
+    {
+      "file": "frames/frame-000156.jpeg",
+      "timestampSeconds": 1788933826.077254,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.077254
+      }
+    },
+    {
+      "file": "frames/frame-000157.jpeg",
+      "timestampSeconds": 1788933826.113533,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.113533
+      }
+    },
+    {
+      "file": "frames/frame-000159.jpeg",
+      "timestampSeconds": 1788933826.121387,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.121387
+      }
+    },
+    {
+      "file": "frames/frame-000158.jpeg",
+      "timestampSeconds": 1788933826.14146,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.14146
+      }
+    },
+    {
+      "file": "frames/frame-000160.jpeg",
+      "timestampSeconds": 1788933826.22375,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.22375
+      }
+    },
+    {
+      "file": "frames/frame-000161.jpeg",
+      "timestampSeconds": 1788933826.230428,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.230428
+      }
+    },
+    {
+      "file": "frames/frame-000162.jpeg",
+      "timestampSeconds": 1788933826.287582,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.287582
+      }
+    },
+    {
+      "file": "frames/frame-000163.jpeg",
+      "timestampSeconds": 1788933826.300787,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.300787
+      }
+    },
+    {
+      "file": "frames/frame-000164.jpeg",
+      "timestampSeconds": 1788933826.316563,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.316563
+      }
+    },
+    {
+      "file": "frames/frame-000165.jpeg",
+      "timestampSeconds": 1788933826.337312,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.337312
+      }
+    },
+    {
+      "file": "frames/frame-000168.jpeg",
+      "timestampSeconds": 1788933826.404423,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.404423
+      }
+    },
+    {
+      "file": "frames/frame-000166.jpeg",
+      "timestampSeconds": 1788933826.409436,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.409436
+      }
+    },
+    {
+      "file": "frames/frame-000167.jpeg",
+      "timestampSeconds": 1788933826.414662,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.414662
+      }
+    },
+    {
+      "file": "frames/frame-000169.jpeg",
+      "timestampSeconds": 1788933826.455706,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.455706
+      }
+    },
+    {
+      "file": "frames/frame-000170.jpeg",
+      "timestampSeconds": 1788933826.46755,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.46755
+      }
+    },
+    {
+      "file": "frames/frame-000171.jpeg",
+      "timestampSeconds": 1788933826.480324,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.480324
+      }
+    },
+    {
+      "file": "frames/frame-000172.jpeg",
+      "timestampSeconds": 1788933826.50759,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.50759
+      }
+    },
+    {
+      "file": "frames/frame-000173.jpeg",
+      "timestampSeconds": 1788933826.513589,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.513589
+      }
+    },
+    {
+      "file": "frames/frame-000174.jpeg",
+      "timestampSeconds": 1788933826.538159,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.538159
+      }
+    },
+    {
+      "file": "frames/frame-000175.jpeg",
+      "timestampSeconds": 1788933826.554442,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.554442
+      }
+    },
+    {
+      "file": "frames/frame-000176.jpeg",
+      "timestampSeconds": 1788933826.567029,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.567029
+      }
+    },
+    {
+      "file": "frames/frame-000177.jpeg",
+      "timestampSeconds": 1788933826.588006,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.588006
+      }
+    },
+    {
+      "file": "frames/frame-000178.jpeg",
+      "timestampSeconds": 1788933826.604025,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.604025
+      }
+    },
+    {
+      "file": "frames/frame-000179.jpeg",
+      "timestampSeconds": 1788933826.612746,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.612746
+      }
+    },
+    {
+      "file": "frames/frame-000180.jpeg",
+      "timestampSeconds": 1788933826.629727,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.629727
+      }
+    },
+    {
+      "file": "frames/frame-000181.jpeg",
+      "timestampSeconds": 1788933826.660073,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.660073
+      }
+    },
+    {
+      "file": "frames/frame-000182.jpeg",
+      "timestampSeconds": 1788933826.673054,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.673054
+      }
+    },
+    {
+      "file": "frames/frame-000183.jpeg",
+      "timestampSeconds": 1788933826.687279,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.687279
+      }
+    },
+    {
+      "file": "frames/frame-000184.jpeg",
+      "timestampSeconds": 1788933826.704345,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.704345
+      }
+    },
+    {
+      "file": "frames/frame-000185.jpeg",
+      "timestampSeconds": 1788933826.723415,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.723415
+      }
+    },
+    {
+      "file": "frames/frame-000186.jpeg",
+      "timestampSeconds": 1788933826.737985,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.737985
+      }
+    },
+    {
+      "file": "frames/frame-000187.jpeg",
+      "timestampSeconds": 1788933826.752331,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.752331
+      }
+    },
+    {
+      "file": "frames/frame-000188.jpeg",
+      "timestampSeconds": 1788933826.772327,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.772327
+      }
+    },
+    {
+      "file": "frames/frame-000189.jpeg",
+      "timestampSeconds": 1788933826.805672,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.805672
+      }
+    },
+    {
+      "file": "frames/frame-000190.jpeg",
+      "timestampSeconds": 1788933826.820884,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.820884
+      }
+    },
+    {
+      "file": "frames/frame-000191.jpeg",
+      "timestampSeconds": 1788933826.854817,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.854817
+      }
+    },
+    {
+      "file": "frames/frame-000193.jpeg",
+      "timestampSeconds": 1788933826.870734,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.870734
+      }
+    },
+    {
+      "file": "frames/frame-000192.jpeg",
+      "timestampSeconds": 1788933826.881834,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.881834
+      }
+    },
+    {
+      "file": "frames/frame-000194.jpeg",
+      "timestampSeconds": 1788933826.896083,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.896083
+      }
+    },
+    {
+      "file": "frames/frame-000195.jpeg",
+      "timestampSeconds": 1788933826.914219,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.914219
+      }
+    },
+    {
+      "file": "frames/frame-000196.jpeg",
+      "timestampSeconds": 1788933826.930105,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.930105
+      }
+    },
+    {
+      "file": "frames/frame-000197.jpeg",
+      "timestampSeconds": 1788933826.946889,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.946889
+      }
+    },
+    {
+      "file": "frames/frame-000198.jpeg",
+      "timestampSeconds": 1788933826.97893,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.97893
+      }
+    },
+    {
+      "file": "frames/frame-000199.jpeg",
+      "timestampSeconds": 1788933826.988196,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933826.988196
+      }
+    },
+    {
+      "file": "frames/frame-000200.jpeg",
+      "timestampSeconds": 1788933827.004109,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.004109
+      }
+    },
+    {
+      "file": "frames/frame-000201.jpeg",
+      "timestampSeconds": 1788933827.046799,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.046799
+      }
+    },
+    {
+      "file": "frames/frame-000202.jpeg",
+      "timestampSeconds": 1788933827.067209,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.067209
+      }
+    },
+    {
+      "file": "frames/frame-000203.jpeg",
+      "timestampSeconds": 1788933827.082017,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.082017
+      }
+    },
+    {
+      "file": "frames/frame-000204.jpeg",
+      "timestampSeconds": 1788933827.194097,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.194097
+      }
+    },
+    {
+      "file": "frames/frame-000205.jpeg",
+      "timestampSeconds": 1788933827.20521,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.20521
+      }
+    },
+    {
+      "file": "frames/frame-000206.jpeg",
+      "timestampSeconds": 1788933827.22275,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.22275
+      }
+    },
+    {
+      "file": "frames/frame-000207.jpeg",
+      "timestampSeconds": 1788933827.230043,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.230043
+      }
+    },
+    {
+      "file": "frames/frame-000208.jpeg",
+      "timestampSeconds": 1788933827.261999,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.261999
+      }
+    },
+    {
+      "file": "frames/frame-000209.jpeg",
+      "timestampSeconds": 1788933827.262742,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.262742
+      }
+    },
+    {
+      "file": "frames/frame-000210.jpeg",
+      "timestampSeconds": 1788933827.288315,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.288315
+      }
+    },
+    {
+      "file": "frames/frame-000213.jpeg",
+      "timestampSeconds": 1788933827.321178,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.321178
+      }
+    },
+    {
+      "file": "frames/frame-000211.jpeg",
+      "timestampSeconds": 1788933827.324111,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.324111
+      }
+    },
+    {
+      "file": "frames/frame-000212.jpeg",
+      "timestampSeconds": 1788933827.332002,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.332002
+      }
+    },
+    {
+      "file": "frames/frame-000214.jpeg",
+      "timestampSeconds": 1788933827.351705,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.351705
+      }
+    },
+    {
+      "file": "frames/frame-000215.jpeg",
+      "timestampSeconds": 1788933827.396155,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.396155
+      }
+    },
+    {
+      "file": "frames/frame-000216.jpeg",
+      "timestampSeconds": 1788933827.433352,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.433352
+      }
+    },
+    {
+      "file": "frames/frame-000217.jpeg",
+      "timestampSeconds": 1788933827.43404,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.43404
+      }
+    },
+    {
+      "file": "frames/frame-000218.jpeg",
+      "timestampSeconds": 1788933827.442632,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.442632
+      }
+    },
+    {
+      "file": "frames/frame-000219.jpeg",
+      "timestampSeconds": 1788933827.455032,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.455032
+      }
+    },
+    {
+      "file": "frames/frame-000220.jpeg",
+      "timestampSeconds": 1788933827.463109,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.463109
+      }
+    },
+    {
+      "file": "frames/frame-000221.jpeg",
+      "timestampSeconds": 1788933827.48501,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.48501
+      }
+    },
+    {
+      "file": "frames/frame-000222.jpeg",
+      "timestampSeconds": 1788933827.507587,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.507587
+      }
+    },
+    {
+      "file": "frames/frame-000223.jpeg",
+      "timestampSeconds": 1788933827.520529,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.520529
+      }
+    },
+    {
+      "file": "frames/frame-000224.jpeg",
+      "timestampSeconds": 1788933827.719946,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.719946
+      }
+    },
+    {
+      "file": "frames/frame-000225.jpeg",
+      "timestampSeconds": 1788933827.738305,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.738305
+      }
+    },
+    {
+      "file": "frames/frame-000226.jpeg",
+      "timestampSeconds": 1788933827.743641,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.743641
+      }
+    },
+    {
+      "file": "frames/frame-000228.jpeg",
+      "timestampSeconds": 1788933827.76235,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.76235
+      }
+    },
+    {
+      "file": "frames/frame-000227.jpeg",
+      "timestampSeconds": 1788933827.7789,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.7789
+      }
+    },
+    {
+      "file": "frames/frame-000229.jpeg",
+      "timestampSeconds": 1788933827.84214,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.84214
+      }
+    },
+    {
+      "file": "frames/frame-000230.jpeg",
+      "timestampSeconds": 1788933827.856645,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.856645
+      }
+    },
+    {
+      "file": "frames/frame-000231.jpeg",
+      "timestampSeconds": 1788933827.888111,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.888111
+      }
+    },
+    {
+      "file": "frames/frame-000232.jpeg",
+      "timestampSeconds": 1788933827.918041,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.918041
+      }
+    },
+    {
+      "file": "frames/frame-000233.jpeg",
+      "timestampSeconds": 1788933827.963007,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933827.963007
+      }
+    },
+    {
+      "file": "frames/frame-000234.jpeg",
+      "timestampSeconds": 1788933828.020742,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933828.020742
+      }
+    },
+    {
+      "file": "frames/frame-000235.jpeg",
+      "timestampSeconds": 1788933828.029096,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933828.029096
+      }
+    },
+    {
+      "file": "frames/frame-000236.jpeg",
+      "timestampSeconds": 1788933828.047979,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933828.047979
+      }
+    },
+    {
+      "file": "frames/frame-000237.jpeg",
+      "timestampSeconds": 1788933828.071496,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933828.071496
+      }
+    },
+    {
+      "file": "frames/frame-000238.jpeg",
+      "timestampSeconds": 1788933828.088811,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933828.088811
+      }
+    },
+    {
+      "file": "frames/frame-000239.jpeg",
+      "timestampSeconds": 1788933828.132078,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933828.132078
+      }
+    },
+    {
+      "file": "frames/frame-000240.jpeg",
+      "timestampSeconds": 1788933828.154129,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933828.154129
+      }
+    },
+    {
+      "file": "frames/frame-000241.jpeg",
+      "timestampSeconds": 1788933828.17109,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933828.17109
+      }
+    },
+    {
+      "file": "frames/frame-000242.jpeg",
+      "timestampSeconds": 1788933828.187495,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933828.187495
+      }
+    },
+    {
+      "file": "frames/frame-000243.jpeg",
+      "timestampSeconds": 1788933828.204404,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933828.204404
+      }
+    },
+    {
+      "file": "frames/frame-000244.jpeg",
+      "timestampSeconds": 1788933828.221078,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933828.221078
+      }
+    },
+    {
+      "file": "frames/frame-000245.jpeg",
+      "timestampSeconds": 1788933828.237268,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933828.237268
+      }
+    },
+    {
+      "file": "frames/frame-000246.jpeg",
+      "timestampSeconds": 1788933828.254403,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933828.254403
+      }
+    },
+    {
+      "file": "frames/frame-000247.jpeg",
+      "timestampSeconds": 1788933828.270877,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933828.270877
+      }
+    },
+    {
+      "file": "frames/frame-000248.jpeg",
+      "timestampSeconds": 1788933828.287321,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933828.287321
+      }
+    },
+    {
+      "file": "frames/frame-000249.jpeg",
+      "timestampSeconds": 1788933828.304384,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933828.304384
+      }
+    },
+    {
+      "file": "frames/frame-000250.jpeg",
+      "timestampSeconds": 1788933828.321855,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933828.321855
+      }
+    },
+    {
+      "file": "frames/frame-000251.jpeg",
+      "timestampSeconds": 1788933828.343868,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933828.343868
+      }
+    },
+    {
+      "file": "frames/frame-000252.jpeg",
+      "timestampSeconds": 1788933828.354463,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933828.354463
+      }
+    },
+    {
+      "file": "frames/frame-000253.jpeg",
+      "timestampSeconds": 1788933828.365254,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933828.365254
+      }
+    },
+    {
+      "file": "frames/frame-000254.jpeg",
+      "timestampSeconds": 1788933828.407877,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933828.407877
+      }
+    },
+    {
+      "file": "frames/frame-000255.jpeg",
+      "timestampSeconds": 1788933828.434087,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933828.434087
+      }
+    },
+    {
+      "file": "frames/frame-000256.jpeg",
+      "timestampSeconds": 1788933828.442571,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933828.442571
+      }
+    },
+    {
+      "file": "frames/frame-000257.jpeg",
+      "timestampSeconds": 1788933828.447845,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933828.447845
+      }
+    },
+    {
+      "file": "frames/frame-000258.jpeg",
+      "timestampSeconds": 1788933828.471809,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933828.471809
+      }
+    },
+    {
+      "file": "frames/frame-000259.jpeg",
+      "timestampSeconds": 1788933828.489864,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933828.489864
+      }
+    },
+    {
+      "file": "frames/frame-000260.jpeg",
+      "timestampSeconds": 1788933828.670558,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933828.670558
+      }
+    },
+    {
+      "file": "frames/frame-000261.jpeg",
+      "timestampSeconds": 1788933828.687375,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933828.687375
+      }
+    },
+    {
+      "file": "frames/frame-000262.jpeg",
+      "timestampSeconds": 1788933829.794699,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933829.794699
+      }
+    },
+    {
+      "file": "frames/frame-000263.jpeg",
+      "timestampSeconds": 1788933829.804772,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933829.804772
+      }
+    },
+    {
+      "file": "frames/frame-000264.jpeg",
+      "timestampSeconds": 1788933831.520912,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933831.520912
+      }
+    },
+    {
+      "file": "frames/frame-000265.jpeg",
+      "timestampSeconds": 1788933831.58734,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933831.58734
+      }
+    },
+    {
+      "file": "frames/frame-000266.jpeg",
+      "timestampSeconds": 1788933831.642966,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933831.642966
+      }
+    },
+    {
+      "file": "frames/frame-000267.jpeg",
+      "timestampSeconds": 1788933831.655465,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933831.655465
+      }
+    },
+    {
+      "file": "frames/frame-000268.jpeg",
+      "timestampSeconds": 1788933831.671033,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933831.671033
+      }
+    },
+    {
+      "file": "frames/frame-000269.jpeg",
+      "timestampSeconds": 1788933834.738433,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933834.738433
+      }
+    },
+    {
+      "file": "frames/frame-000270.jpeg",
+      "timestampSeconds": 1788933834.821094,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933834.821094
+      }
+    },
+    {
+      "file": "frames/frame-000271.jpeg",
+      "timestampSeconds": 1788933834.864999,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933834.864999
+      }
+    },
+    {
+      "file": "frames/frame-000272.jpeg",
+      "timestampSeconds": 1788933834.876441,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933834.876441
+      }
+    },
+    {
+      "file": "frames/frame-000273.jpeg",
+      "timestampSeconds": 1788933834.889711,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933834.889711
+      }
+    },
+    {
+      "file": "frames/frame-000274.jpeg",
+      "timestampSeconds": 1788933837.938429,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933837.938429
+      }
+    },
+    {
+      "file": "frames/frame-000275.jpeg",
+      "timestampSeconds": 1788933838.004868,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933838.004868
+      }
+    },
+    {
+      "file": "frames/frame-000276.jpeg",
+      "timestampSeconds": 1788933838.090898,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933838.090898
+      }
+    },
+    {
+      "file": "frames/frame-000277.jpeg",
+      "timestampSeconds": 1788933838.105274,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933838.105274
+      }
+    },
+    {
+      "file": "frames/frame-000278.jpeg",
+      "timestampSeconds": 1788933841.155071,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933841.155071
+      }
+    },
+    {
+      "file": "frames/frame-000279.jpeg",
+      "timestampSeconds": 1788933841.221463,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933841.221463
+      }
+    },
+    {
+      "file": "frames/frame-000280.jpeg",
+      "timestampSeconds": 1788933841.272026,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933841.272026
+      }
+    },
+    {
+      "file": "frames/frame-000281.jpeg",
+      "timestampSeconds": 1788933841.27674,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933841.27674
+      }
+    },
+    {
+      "file": "frames/frame-000282.jpeg",
+      "timestampSeconds": 1788933844.338841,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933844.338841
+      }
+    },
+    {
+      "file": "frames/frame-000283.jpeg",
+      "timestampSeconds": 1788933844.421322,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933844.421322
+      }
+    },
+    {
+      "file": "frames/frame-000284.jpeg",
+      "timestampSeconds": 1788933844.594705,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933844.594705
+      }
+    },
+    {
+      "file": "frames/frame-000285.jpeg",
+      "timestampSeconds": 1788933844.602948,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933844.602948
+      }
+    },
+    {
+      "file": "frames/frame-000286.jpeg",
+      "timestampSeconds": 1788933844.613494,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933844.613494
+      }
+    },
+    {
+      "file": "frames/frame-000287.jpeg",
+      "timestampSeconds": 1788933844.658881,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933844.658881
+      }
+    },
+    {
+      "file": "frames/frame-000288.jpeg",
+      "timestampSeconds": 1788933844.666303,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933844.666303
+      }
+    },
+    {
+      "file": "frames/frame-000289.jpeg",
+      "timestampSeconds": 1788933844.669354,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933844.669354
+      }
+    },
+    {
+      "file": "frames/frame-000290.jpeg",
+      "timestampSeconds": 1788933844.687495,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933844.687495
+      }
+    },
+    {
+      "file": "frames/frame-000291.jpeg",
+      "timestampSeconds": 1788933844.812644,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933844.812644
+      }
+    },
+    {
+      "file": "frames/frame-000292.jpeg",
+      "timestampSeconds": 1788933844.829527,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933844.829527
+      }
+    },
+    {
+      "file": "frames/frame-000293.jpeg",
+      "timestampSeconds": 1788933844.87064,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933844.87064
+      }
+    },
+    {
+      "file": "frames/frame-000295.jpeg",
+      "timestampSeconds": 1788933844.922083,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933844.922083
+      }
+    },
+    {
+      "file": "frames/frame-000294.jpeg",
+      "timestampSeconds": 1788933844.922828,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933844.922828
+      }
+    },
+    {
+      "file": "frames/frame-000296.jpeg",
+      "timestampSeconds": 1788933845.013272,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933845.013272
+      }
+    },
+    {
+      "file": "frames/frame-000297.jpeg",
+      "timestampSeconds": 1788933845.037338,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933845.037338
+      }
+    },
+    {
+      "file": "frames/frame-000298.jpeg",
+      "timestampSeconds": 1788933845.366026,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933845.366026
+      }
+    },
+    {
+      "file": "frames/frame-000299.jpeg",
+      "timestampSeconds": 1788933845.553892,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933845.553892
+      }
+    },
+    {
+      "file": "frames/frame-000300.jpeg",
+      "timestampSeconds": 1788933845.57122,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933845.57122
+      }
+    },
+    {
+      "file": "frames/frame-000301.jpeg",
+      "timestampSeconds": 1788933846.037269,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933846.037269
+      }
+    },
+    {
+      "file": "frames/frame-000302.jpeg",
+      "timestampSeconds": 1788933846.612513,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933846.612513
+      }
+    },
+    {
+      "file": "frames/frame-000303.jpeg",
+      "timestampSeconds": 1788933846.629778,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933846.629778
+      }
+    },
+    {
+      "file": "frames/frame-000304.jpeg",
+      "timestampSeconds": 1788933847.270553,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933847.270553
+      }
+    },
+    {
+      "file": "frames/frame-000305.jpeg",
+      "timestampSeconds": 1788933847.687255,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933847.687255
+      }
+    },
+    {
+      "file": "frames/frame-000306.jpeg",
+      "timestampSeconds": 1788933847.75395,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933847.75395
+      }
+    },
+    {
+      "file": "frames/frame-000307.jpeg",
+      "timestampSeconds": 1788933847.84669,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933847.84669
+      }
+    },
+    {
+      "file": "frames/frame-000308.jpeg",
+      "timestampSeconds": 1788933847.855002,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933847.855002
+      }
+    },
+    {
+      "file": "frames/frame-000309.jpeg",
+      "timestampSeconds": 1788933847.862943,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933847.862943
+      }
+    },
+    {
+      "file": "frames/frame-000310.jpeg",
+      "timestampSeconds": 1788933847.90143,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933847.90143
+      }
+    },
+    {
+      "file": "frames/frame-000311.jpeg",
+      "timestampSeconds": 1788933847.94494,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933847.94494
+      }
+    },
+    {
+      "file": "frames/frame-000312.jpeg",
+      "timestampSeconds": 1788933847.947373,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933847.947373
+      }
+    },
+    {
+      "file": "frames/frame-000313.jpeg",
+      "timestampSeconds": 1788933847.960199,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933847.960199
+      }
+    },
+    {
+      "file": "frames/frame-000314.jpeg",
+      "timestampSeconds": 1788933848.037819,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933848.037819
+      }
+    },
+    {
+      "file": "frames/frame-000315.jpeg",
+      "timestampSeconds": 1788933848.055218,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933848.055218
+      }
+    },
+    {
+      "file": "frames/frame-000316.jpeg",
+      "timestampSeconds": 1788933848.062916,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933848.062916
+      }
+    },
+    {
+      "file": "frames/frame-000317.jpeg",
+      "timestampSeconds": 1788933848.087326,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933848.087326
+      }
+    },
+    {
+      "file": "frames/frame-000318.jpeg",
+      "timestampSeconds": 1788933848.168791,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933848.168791
+      }
+    },
+    {
+      "file": "frames/frame-000319.jpeg",
+      "timestampSeconds": 1788933848.187247,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933848.187247
+      }
+    },
+    {
+      "file": "frames/frame-000320.jpeg",
+      "timestampSeconds": 1788933848.341076,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933848.341076
+      }
+    },
+    {
+      "file": "frames/frame-000321.jpeg",
+      "timestampSeconds": 1788933848.355883,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933848.355883
+      }
+    },
+    {
+      "file": "frames/frame-000322.jpeg",
+      "timestampSeconds": 1788933848.537368,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933848.537368
+      }
+    },
+    {
+      "file": "frames/frame-000323.jpeg",
+      "timestampSeconds": 1788933848.870398,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933848.870398
+      }
+    },
+    {
+      "file": "frames/frame-000324.jpeg",
+      "timestampSeconds": 1788933848.879598,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933848.879598
+      }
+    },
+    {
+      "file": "frames/frame-000325.jpeg",
+      "timestampSeconds": 1788933849.155952,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933849.155952
+      }
+    },
+    {
+      "file": "frames/frame-000326.jpeg",
+      "timestampSeconds": 1788933849.812641,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933849.812641
+      }
+    },
+    {
+      "file": "frames/frame-000327.jpeg",
+      "timestampSeconds": 1788933849.837379,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933849.837379
+      }
+    },
+    {
+      "file": "frames/frame-000328.jpeg",
+      "timestampSeconds": 1788933850.348968,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933850.348968
+      }
+    },
+    {
+      "file": "frames/frame-000329.jpeg",
+      "timestampSeconds": 1788933850.979268,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933850.979268
+      }
+    },
+    {
+      "file": "frames/frame-000330.jpeg",
+      "timestampSeconds": 1788933851.025241,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.screencastFrame",
+      "metadata": {
+        "offsetTop": 0,
+        "pageScaleFactor": 1,
+        "deviceWidth": 1200,
+        "deviceHeight": 800,
+        "scrollOffsetX": 0,
+        "scrollOffsetY": 0,
+        "timestamp": 1788933851.025241
+      }
+    },
+    {
+      "file": "frames/frame-000331.jpeg",
+      "timestampSeconds": 1788933851.249,
+      "width": 1200,
+      "height": 800,
+      "source": "Page.captureScreenshot",
+      "requestedAtSeconds": 1788933851.209,
+      "completedAtSeconds": 1788933851.249,
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 1200,
+        "height": 800,
+        "scale": 1
+      },
+      "viewport": {
+        "offsetX": 0,
+        "offsetY": 0,
+        "pageX": 0,
+        "pageY": 0,
+        "clientWidth": 1200,
+        "clientHeight": 800,
+        "scale": 1,
+        "zoom": 1
+      },
+      "nativeSnapshot": {
+        "file": "final-viewport-native.jpeg",
+        "width": 1200,
+        "height": 800
+      }
+    }
+  ],
+  "keys": [
+    {
+      "label": "Type: echo one two",
+      "timestampSeconds": 1788933794.837
+    },
+    {
+      "label": "Cmd + ←",
+      "timestampSeconds": 1788933799.241
+    },
+    {
+      "label": "Cmd + →",
+      "timestampSeconds": 1788933802.383
+    },
+    {
+      "label": "Cmd + ←",
+      "timestampSeconds": 1788933805.499
+    },
+    {
+      "label": "Type: PASEO_PREFIX=ok; ",
+      "timestampSeconds": 1788933808.609
+    },
+    {
+      "label": "Cmd + →",
+      "timestampSeconds": 1788933813.56
+    },
+    {
+      "label": "Type:  \"$PASEO_PREFIX\"",
+      "timestampSeconds": 1788933816.783
+    },
+    {
+      "label": "Enter",
+      "timestampSeconds": 1788933821.558
+    },
+    {
+      "label": "Command Center: Split pane right",
+      "timestampSeconds": 1788933824.696
+    },
+    {
+      "label": "Command Center: New terminal",
+      "timestampSeconds": 1788933825.324
+    },
+    {
+      "label": "Command Center: New terminal",
+      "timestampSeconds": 1788933827.065
+    },
+    {
+      "label": "Two panes ready; Terminal 3 is active",
+      "timestampSeconds": 1788933828.486
+    },
+    {
+      "label": "Option + Shift + [",
+      "timestampSeconds": 1788933831.576
+    },
+    {
+      "label": "Option + Shift + ]",
+      "timestampSeconds": 1788933834.795
+    },
+    {
+      "label": "Cmd + Shift + ←",
+      "timestampSeconds": 1788933838.002
+    },
+    {
+      "label": "Cmd + Shift + →",
+      "timestampSeconds": 1788933841.201
+    },
+    {
+      "label": "Cmd + Option + Shift + ←",
+      "timestampSeconds": 1788933844.399
+    },
+    {
+      "label": "Cmd + Option + Shift + →",
+      "timestampSeconds": 1788933847.727
+    }
+  ],
+  "encoding": {
+    "cwd": ".",
+    "command": "ffmpeg",
+    "args": [
+      "-safe",
+      "0",
+      "-f",
+      "concat",
+      "-i",
+      "frames.ffconcat",
+      "-fps_mode",
+      "vfr",
+      "-c:v",
+      "libx264",
+      "-bf",
+      "0",
+      "-crf",
+      "18",
+      "-pix_fmt",
+      "yuv420p",
+      "-vf",
+      "pad=ceil(iw/2)*2:ceil(ih/2)*2",
+      "-enc_time_base:v",
+      "1:1000000",
+      "-video_track_timescale",
+      "1000000",
+      "-x264-params",
+      "fps=60/1",
+      "-movflags",
+      "+faststart",
+      "interaction.mp4"
+    ]
+  },
+  "notes": [
+    "Frames contain the real renderer and a noninteractive keyboard label.",
+    "CDP timestamps are preserved; gaps retain the preceding captured frame.",
+    "Frames are ordered by capture timestamp; numbered files preserve delivery order.",
+    "The final screenshot uses its completion time; its capture bounds are recorded.",
+    "Chromium captures the final screenshot at the screencast resolution; its scale and an unscaled comparison screenshot are retained.",
+    "No cursor or success indicators are drawn by the recorder."
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "commit": "7e4e239efb4fcd0e46eba72c532d4a03724c62da",
+  "runtimeBlob": "56350ef9b7ca4b634959a282c4e9cbeca3fa7225",
+  "macOS": "ProductName:\t\tmacOS\nProductVersion:\t\t14.8.9\nBuildVersion:\t\t23J631",
+  "arch": "arm64",
+  "hostname": "sat12-bq160-16917d34-6a07-4b1f-9767-efa9aaf32ed0-062A19D9D98C.local",
+  "kernel": "23.6.0",
+  "recording": true,
+  "input": "Playwright keyboard events sent through CDP to the real Electron renderer",
+  "steps": [
+    {
+      "name": "01-command-before-arrows",
+      "recordedAt": "2026-09-09T06:05:12.816Z",
+      "cursorX": 16,
+      "line": "QA> echo one two",
+      "lines": [
+        "SETUP_complete",
+        "QA> echo one two",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "runtime": {
+    "platform": "darwin",
+    "navigatorPlatform": "MacIntel",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Paseo/0.8.0-beta.1 Chrome/152.0.7977.76 Electron/44.2.0 Safari/537.36",
+    "maxTouchPoints": 0
+  },
+  "error": "AssertionError [ERR_ASSERTION]: LINE_BOUNDARY_CURSOR: Meta+ArrowLeft did not move the shell cursor\n\n16 !== 4\n\n    at waitForValue (file:///Users/runner/work/paseo/paseo/packages/desktop/e2e/terminal-command-arrows.e2e.mjs:99:10)\n    at async checkLineBoundary (file:///Users/runner/work/paseo/paseo/packages/desktop/e2e/terminal-command-arrows.e2e.mjs:129:3)\n    at async checkCommandEditing (file:///Users/runner/work/paseo/paseo/packages/desktop/e2e/terminal-command-arrows.e2e.mjs:213:3)\n    at async file:///Users/runner/work/paseo/paseo/packages/desktop/e2e/terminal-command-arrows.e2e.mjs:348:3\n    at async runElectronScenario (file:///Users/runner/work/paseo/paseo/packages/desktop/e2e/support/electron-session.mjs:288:5)\n    at async file:///Users/runner/work/paseo/paseo/packages/desktop/e2e/terminal-command-arrows.e2e.mjs:346:1",
+  "result": "failed"
+}

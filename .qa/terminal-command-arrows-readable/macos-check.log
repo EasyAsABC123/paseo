@@ -1,0 +1,426 @@
+terminal-keyboard	Set up job	﻿2026-09-09T05:58:50.4700550Z Current runner version: '2.337.0'
+terminal-keyboard	Set up job	2026-09-09T05:58:50.4715720Z ##[group]Runner Image Provisioner
+terminal-keyboard	Set up job	2026-09-09T05:58:50.4716250Z Hosted Compute Agent
+terminal-keyboard	Set up job	2026-09-09T05:58:50.4716610Z Version: 20260828.587
+terminal-keyboard	Set up job	2026-09-09T05:58:50.4717040Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+terminal-keyboard	Set up job	2026-09-09T05:58:50.4717520Z Build Date: 2026-08-28T16:44:25Z
+terminal-keyboard	Set up job	2026-09-09T05:58:50.4717940Z Worker ID: {460d67e4-b078-456e-839f-9ba30e2e9b87}
+terminal-keyboard	Set up job	2026-09-09T05:58:50.4718390Z Azure Region: westus
+terminal-keyboard	Set up job	2026-09-09T05:58:50.4718750Z ##[endgroup]
+terminal-keyboard	Set up job	2026-09-09T05:58:50.4719640Z ##[group]Operating System
+terminal-keyboard	Set up job	2026-09-09T05:58:50.4720020Z macOS
+terminal-keyboard	Set up job	2026-09-09T05:58:50.4720330Z 14.8.9
+terminal-keyboard	Set up job	2026-09-09T05:58:50.4720640Z 23J631
+terminal-keyboard	Set up job	2026-09-09T05:58:50.4720970Z ##[endgroup]
+terminal-keyboard	Set up job	2026-09-09T05:58:50.4721320Z ##[group]Runner Image
+terminal-keyboard	Set up job	2026-09-09T05:58:50.4721690Z Image: macos-14-arm64
+terminal-keyboard	Set up job	2026-09-09T05:58:50.4722040Z Version: 20260831.0302.1
+terminal-keyboard	Set up job	2026-09-09T05:58:50.4722780Z Included Software: https://github.com/actions/runner-images/blob/macos-14-arm64/20260831.0302/images/macos/macos-14-arm64-Readme.md
+terminal-keyboard	Set up job	2026-09-09T05:58:50.4723900Z Image Release: https://github.com/actions/runner-images/releases/tag/macos-14-arm64%2F20260831.0302
+terminal-keyboard	Set up job	2026-09-09T05:58:50.4724560Z ##[endgroup]
+terminal-keyboard	Set up job	2026-09-09T05:58:50.4725280Z ##[group]GITHUB_TOKEN Permissions
+terminal-keyboard	Set up job	2026-09-09T05:58:50.4726350Z Contents: read
+terminal-keyboard	Set up job	2026-09-09T05:58:50.4726700Z Metadata: read
+terminal-keyboard	Set up job	2026-09-09T05:58:50.4727050Z ##[endgroup]
+terminal-keyboard	Set up job	2026-09-09T05:58:50.4728420Z Secret source: Actions
+terminal-keyboard	Set up job	2026-09-09T05:58:50.4729100Z Prepare workflow directory
+terminal-keyboard	Set up job	2026-09-09T05:58:50.4968890Z Prepare all required actions
+terminal-keyboard	Set up job	2026-09-09T05:58:50.5003170Z Getting action download info
+terminal-keyboard	Set up job	2026-09-09T05:58:50.7926970Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+terminal-keyboard	Set up job	2026-09-09T05:58:51.0730940Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+terminal-keyboard	Set up job	2026-09-09T05:58:51.1652840Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+terminal-keyboard	Set up job	2026-09-09T05:58:51.3766120Z Complete job name: terminal-keyboard
+terminal-keyboard	Run actions/checkout@v4	﻿2026-09-09T05:58:51.4216960Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.4223900Z ##[group]Run actions/checkout@v4
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.4224440Z with:
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.4224790Z   fetch-depth: 0
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.4225180Z   repository: EasyAsABC123/paseo
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.4228020Z   token: ***
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.4228390Z   ssh-strict: true
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.4228720Z   ssh-user: git
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.4229070Z   persist-credentials: true
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.4229450Z   clean: true
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.4229800Z   sparse-checkout-cone-mode: true
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.4230290Z   fetch-tags: false
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.4230680Z   show-progress: true
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.4231050Z   lfs: false
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.4231400Z   submodules: false
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.4247430Z   set-safe-directory: true
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.4247940Z   allow-unsafe-pr-checkout: false
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.4249320Z ##[endgroup]
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.8487920Z Syncing repository: EasyAsABC123/paseo
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.8489370Z ##[group]Getting Git version info
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.8489910Z Working directory is '/Users/runner/work/paseo/paseo'
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.8490630Z [command]/opt/homebrew/bin/git version
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.8689860Z git version 2.55.0
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.8702620Z ##[endgroup]
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.8708040Z Copying '/Users/runner/.gitconfig' to '/Users/runner/work/_temp/4896e82c-3990-4383-bd72-39c9faf2d18a/.gitconfig'
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.8714770Z Temporarily overriding HOME='/Users/runner/work/_temp/4896e82c-3990-4383-bd72-39c9faf2d18a' before making global git config changes
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.8715760Z Adding repository directory to the temporary git global config as a safe directory
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.8718480Z [command]/opt/homebrew/bin/git config --global --add safe.directory /Users/runner/work/paseo/paseo
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.8803470Z Deleting the contents of '/Users/runner/work/paseo/paseo'
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.8805810Z ##[group]Initializing the repository
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.8811530Z [command]/opt/homebrew/bin/git init /Users/runner/work/paseo/paseo
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.8992300Z hint: Using 'master' as the name for the initial branch. This default branch name
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.8993270Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.8994130Z hint: to use in all of your new repositories, which will suppress this warning,
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.8994700Z hint: call:
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.8995050Z hint:
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.8995510Z hint: 	git config --global init.defaultBranch <name>
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.8996000Z hint:
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.8996500Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.8997170Z hint: 'development'. The just-created branch can be renamed via this command:
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.8997790Z hint:
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.8998190Z hint: 	git branch -m <name>
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.8998540Z hint:
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.8999010Z hint: Disable this message with "git config set advice.defaultBranchName false"
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.8999690Z Initialized empty Git repository in /Users/runner/work/paseo/paseo/.git/
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.9001380Z [command]/opt/homebrew/bin/git remote add origin https://github.com/EasyAsABC123/paseo
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.9063230Z ##[endgroup]
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.9064150Z ##[group]Disabling automatic garbage collection
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.9065690Z [command]/opt/homebrew/bin/git config --local gc.auto 0
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.9109150Z ##[endgroup]
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.9109950Z ##[group]Setting up auth
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.9113370Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp core\.sshCommand
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.9159420Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.9715920Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:51.9750380Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:52.0220150Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:52.0258860Z [command]/opt/homebrew/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:52.0726970Z [command]/opt/homebrew/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:52.0768660Z ##[endgroup]
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:52.0769370Z ##[group]Fetching the repository
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:52.0773960Z [command]/opt/homebrew/bin/git -c protocol.version=2 fetch --prune --no-recurse-submodules origin +refs/heads/*:refs/remotes/origin/* +refs/tags/*:refs/tags/*
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:57.0130950Z From https://github.com/EasyAsABC123/paseo
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:57.0256200Z  * [new branch]          fix/macos-terminal-command-arrows -> origin/fix/macos-terminal-command-arrows
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:57.0273660Z  * [new branch]          main       -> origin/main
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:57.0274790Z  * [new branch]          qa/macos-terminal-command-arrows -> origin/qa/macos-terminal-command-arrows
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:57.0275970Z  * [new branch]          qa/macos-terminal-command-arrows-readable -> origin/qa/macos-terminal-command-arrows-readable
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:57.0314420Z [command]/opt/homebrew/bin/git branch --list --remote origin/qa/macos-terminal-command-arrows-readable
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:57.0317520Z   origin/qa/macos-terminal-command-arrows-readable
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:57.0327970Z [command]/opt/homebrew/bin/git rev-parse refs/remotes/origin/qa/macos-terminal-command-arrows-readable
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:57.0407310Z 7e4e239efb4fcd0e46eba72c532d4a03724c62da
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:57.0411740Z ##[endgroup]
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:57.0413190Z ##[group]Determining the checkout info
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:57.0414430Z ##[endgroup]
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:57.0419300Z [command]/opt/homebrew/bin/git sparse-checkout disable
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:57.0496340Z [command]/opt/homebrew/bin/git config --local --unset-all extensions.worktreeConfig
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:57.0567580Z ##[group]Checking out the ref
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:57.0572580Z [command]/opt/homebrew/bin/git checkout --progress --force -B qa/macos-terminal-command-arrows-readable refs/remotes/origin/qa/macos-terminal-command-arrows-readable
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:57.7514320Z Switched to a new branch 'qa/macos-terminal-command-arrows-readable'
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:57.7530930Z branch 'qa/macos-terminal-command-arrows-readable' set up to track 'origin/qa/macos-terminal-command-arrows-readable'.
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:57.7573010Z ##[endgroup]
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:57.7733460Z [command]/opt/homebrew/bin/git log -1 --format=%H
+terminal-keyboard	Run actions/checkout@v4	2026-09-09T05:58:57.7807540Z 7e4e239efb4fcd0e46eba72c532d4a03724c62da
+terminal-keyboard	Run actions/setup-node@v4	﻿2026-09-09T05:58:57.8154270Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+terminal-keyboard	Run actions/setup-node@v4	2026-09-09T05:58:57.8155880Z ##[group]Run actions/setup-node@v4
+terminal-keyboard	Run actions/setup-node@v4	2026-09-09T05:58:57.8156740Z with:
+terminal-keyboard	Run actions/setup-node@v4	2026-09-09T05:58:57.8157060Z   node-version: 22
+terminal-keyboard	Run actions/setup-node@v4	2026-09-09T05:58:57.8157280Z   cache: npm
+terminal-keyboard	Run actions/setup-node@v4	2026-09-09T05:58:57.8157500Z   always-auth: false
+terminal-keyboard	Run actions/setup-node@v4	2026-09-09T05:58:57.8157700Z   check-latest: false
+terminal-keyboard	Run actions/setup-node@v4	2026-09-09T05:58:57.8159960Z   token: ***
+terminal-keyboard	Run actions/setup-node@v4	2026-09-09T05:58:57.8160200Z ##[endgroup]
+terminal-keyboard	Run actions/setup-node@v4	2026-09-09T05:58:57.9541220Z Found in cache @ /Users/runner/hostedtoolcache/node/22.23.2/arm64
+terminal-keyboard	Run actions/setup-node@v4	2026-09-09T05:58:57.9542570Z (node:32830) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+terminal-keyboard	Run actions/setup-node@v4	2026-09-09T05:58:57.9543350Z (Use `node --trace-deprecation ...` to show where the warning was created)
+terminal-keyboard	Run actions/setup-node@v4	2026-09-09T05:58:57.9544250Z ##[group]Environment details
+terminal-keyboard	Run actions/setup-node@v4	2026-09-09T05:58:58.5460550Z node: v22.23.2
+terminal-keyboard	Run actions/setup-node@v4	2026-09-09T05:58:58.5461060Z npm: 10.9.8
+terminal-keyboard	Run actions/setup-node@v4	2026-09-09T05:58:58.5461240Z yarn: 1.22.22
+terminal-keyboard	Run actions/setup-node@v4	2026-09-09T05:58:58.5462320Z ##[endgroup]
+terminal-keyboard	Run actions/setup-node@v4	2026-09-09T05:58:58.5623430Z [command]/Users/runner/hostedtoolcache/node/22.23.2/arm64/bin/npm config get cache
+terminal-keyboard	Run actions/setup-node@v4	2026-09-09T05:58:58.7121200Z /Users/runner/.npm
+terminal-keyboard	Run actions/setup-node@v4	2026-09-09T05:58:58.9213620Z npm cache is not found
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	﻿2026-09-09T05:58:58.9310180Z ##[group]Run node scripts/npm-retry.mjs ci
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T05:58:58.9310590Z ^[[36;1mnode scripts/npm-retry.mjs ci^[[0m
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T05:58:58.9400260Z shell: /bin/bash -e {0}
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T05:58:58.9400500Z ##[endgroup]
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T05:59:03.0653030Z npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T05:59:04.6187010Z npm warn deprecated tar@6.2.1: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T05:59:04.7583790Z npm warn deprecated lodash.isequal@4.5.0: This package is deprecated. Use require('node:util').isDeepStrictEqual instead.
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T05:59:04.7851200Z npm warn deprecated lodash.get@4.4.2: This package is deprecated. Use the optional chaining (?.) operator instead.
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T05:59:05.3379380Z npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T05:59:06.9947480Z npm warn deprecated domexception@4.0.0: Use your platform's native DOMException instead
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T05:59:07.9040730Z npm warn deprecated abab@2.0.6: Use your platform's native atob() and btoa() methods instead
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T05:59:08.1468710Z npm warn deprecated boolean@3.2.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T05:59:08.4856840Z npm warn deprecated @xmldom/xmldom@0.7.13: this version is no longer supported, please update to at least 0.8.*
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T05:59:10.0868070Z npm warn deprecated @oclif/screen@3.0.8: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T05:59:16.4139180Z npm warn deprecated glob@10.5.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T05:59:16.8305630Z npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T05:59:16.9284880Z npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T05:59:17.0267780Z npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T05:59:17.2871340Z npm warn deprecated glob@6.0.4: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T05:59:17.4257140Z npm warn deprecated rimraf@2.4.5: Rimraf versions prior to v4 are no longer supported
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T05:59:17.7286920Z npm warn deprecated whatwg-encoding@2.0.0: Use @exodus/bytes instead for a more spec-conformant and faster implementation
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T05:59:17.8391560Z npm warn deprecated whatwg-encoding@2.0.0: Use @exodus/bytes instead for a more spec-conformant and faster implementation
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T05:59:18.9952990Z npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T05:59:20.3358420Z npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T05:59:20.3740920Z npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:19.3593030Z 
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:19.3642770Z > paseo@0.8.0-beta.1 postinstall
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:19.3654790Z > node scripts/postinstall-patches.mjs
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:19.3656440Z 
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:19.6270410Z patch-package 8.0.1
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:19.6271200Z Applying patches...
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:19.6426460Z @mattermost/react-native-paste-input@2.0.1 ✔
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:19.6444070Z react-native@0.81.5 ✔
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:19.6549420Z react-native-draggable-flatlist@4.0.3 ✔
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:19.6617830Z react-native-gesture-handler@2.28.0 ✔
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:19.6652990Z react-native-markdown-display@7.0.2 ✔
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:19.6693960Z react-native-svg@15.15.3 ✔
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:19.6763520Z react-native-unistyles@3.2.4 ✔
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:19.7622770Z patch-package 8.0.1
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:19.7623130Z Applying patches...
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:19.7686830Z @opencode-ai/sdk@1.14.46 ✔
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:19.7725190Z 
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:19.7725760Z > paseo@0.8.0-beta.1 prepare
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:19.7726250Z > lefthook install --force
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:19.7726610Z 
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:19.9154790Z sync hooks: ✔️ (pre-commit)
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:19.9405210Z 
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:19.9407150Z added 2689 packages, and audited 2701 packages in 1m
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:19.9408330Z 
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:19.9409170Z 499 packages are looking for funding
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:19.9409870Z   run `npm fund` for details
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:20.2392770Z 
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:20.2494010Z 101 vulnerabilities (8 low, 47 moderate, 40 high, 6 critical)
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:20.2593880Z 
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:20.2604700Z To address issues that do not require attention, run:
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:20.2605230Z   npm audit fix
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:20.2605530Z 
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:20.2605950Z To address all issues possible (including breaking changes), run:
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:20.2606560Z   npm audit fix --force
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:20.2606760Z 
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:20.2607140Z Some issues need review, and may require choosing
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:20.2607690Z a different dependency.
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:20.2607980Z 
+terminal-keyboard	Run node scripts/npm-retry.mjs ci	2026-09-09T06:00:20.2608160Z Run `npm audit` for details.
+terminal-keyboard	Run npm run build:server	﻿2026-09-09T06:00:20.3834030Z ##[group]Run npm run build:server
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:20.3834370Z ^[[36;1mnpm run build:server^[[0m
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:20.5624720Z shell: /bin/bash -e {0}
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:20.5625000Z ##[endgroup]
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:20.8479120Z 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:20.8480700Z > paseo@0.8.0-beta.1 build:server
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:20.8482720Z > npm run build:server-deps && npm run build --workspace=@getpaseo/server && npm run build --workspace=@getpaseo/cli
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:20.8483780Z 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:20.9488010Z 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:20.9589170Z > paseo@0.8.0-beta.1 build:server-deps
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:20.9690630Z > npm run build:client && concurrently --kill-others-on-fail --names highlight,plugin,relay --prefix-colors yellow,green,blue "npm run build:highlight" "npm run build:plugin" "npm run build:relay"
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:20.9789630Z 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:21.1272570Z 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:21.1373450Z > paseo@0.8.0-beta.1 build:client
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:21.1474470Z > npm run build --workspace=@getpaseo/client
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:21.1575330Z 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:21.3326850Z 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:21.3327500Z > @getpaseo/client@0.8.0-beta.1 build
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:21.3328180Z > npm run build --workspace=@getpaseo/protocol && tsc -p tsconfig.json --incremental false
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:21.3328560Z 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:21.5036870Z 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:21.5045830Z > @getpaseo/protocol@0.8.0-beta.1 prebuild
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:21.5055110Z > npm run generate:validators
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:21.5055980Z 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:21.6730020Z 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:21.6831540Z > @getpaseo/protocol@0.8.0-beta.1 generate:validators
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:21.6932820Z > node scripts/generate-validation-aot.mjs
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:21.7033700Z 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:23.0504510Z generated src/generated/validation/ws-outbound.aot.ts from codegen/ws-outbound.compile.ts (WSOutboundMessageSchema)
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:23.0639610Z 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:23.0651620Z > @getpaseo/protocol@0.8.0-beta.1 build
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:23.0654300Z > tsc -p tsconfig.json --incremental false
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:23.0666020Z 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:35.2133860Z [plugin] 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:35.2235370Z [plugin] > paseo@0.8.0-beta.1 build:plugin
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:35.2274160Z [plugin] > npm run build --workspace=@getpaseo/plugin
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:35.2277520Z [plugin] 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:35.2279100Z [highlight] 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:35.2281550Z [highlight] > paseo@0.8.0-beta.1 build:highlight
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:35.2283020Z [highlight] > npm run build --workspace=@getpaseo/highlight
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:35.2284230Z [highlight] 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:35.2284810Z [relay] 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:35.2286320Z [relay] > paseo@0.8.0-beta.1 build:relay
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:35.2288770Z [relay] > npm run build --workspace=@getpaseo/relay
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:35.2291010Z [relay] 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:35.4572800Z [relay] 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:35.4672070Z [relay] > @getpaseo/relay@0.8.0-beta.1 build
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:35.4688580Z [relay] > tsc -p tsconfig.json --incremental false
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:35.4690170Z [relay] 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:35.4691770Z [plugin] 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:35.4692210Z [plugin] > @getpaseo/plugin@0.8.0-beta.1 build
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:35.4692640Z [plugin] > tsc -p tsconfig.json --incremental false
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:35.4693090Z [plugin] 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:35.4693310Z [highlight] 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:35.4693810Z [highlight] > @getpaseo/highlight@0.8.0-beta.1 build
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:35.4694460Z [highlight] > tsc -p tsconfig.json --incremental false
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:35.4694760Z [highlight] 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:37.6780810Z [relay] npm run build:relay exited with code 0
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:37.7018990Z [highlight] npm run build:highlight exited with code 0
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:38.4424150Z [plugin] npm run build:plugin exited with code 0
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:38.6025060Z 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:38.6126330Z > @getpaseo/server@0.8.0-beta.1 build
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:38.6226520Z > npm run build:lib && npm run build:scripts
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:38.6327290Z 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:38.7945830Z 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:38.8047030Z > @getpaseo/server@0.8.0-beta.1 build:lib
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:38.8125360Z > tsc -p tsconfig.server.json --incremental false && node scripts/build-opencode-bridge-plugin.mjs && node -e "const fs=require('node:fs'); fs.mkdirSync('dist/server/server/speech/providers/local/sherpa/assets',{recursive:true}); fs.copyFileSync('src/server/speech/providers/local/sherpa/assets/silero_vad.onnx','dist/server/server/speech/providers/local/sherpa/assets/silero_vad.onnx'); fs.cpSync('src/terminal/shell-integration','dist/server/terminal/shell-integration',{recursive:true}); fs.cpSync('src/terminal/shell-integration','dist/src/terminal/shell-integration',{recursive:true}); fs.copyFileSync('src/terminal/terminal-ts-loader.mjs','dist/server/terminal/terminal-ts-loader.mjs'); fs.rmSync('dist/server/skills',{recursive:true,force:true}); fs.cpSync('../../skills','dist/server/skills',{recursive:true});"
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:38.8145330Z 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:54.0527950Z 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:54.0530850Z > @getpaseo/server@0.8.0-beta.1 build:scripts
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:54.0534830Z > tsc -p tsconfig.scripts.json --incremental false && node -e "const fs=require('node:fs'); fs.mkdirSync('dist/scripts',{recursive:true}); fs.copyFileSync('scripts/mcp-stdio-socket-bridge-cli.mjs','dist/scripts/mcp-stdio-socket-bridge-cli.mjs');"
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:54.0537420Z 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:55.5116050Z 
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:55.5217470Z > @getpaseo/cli@0.8.0-beta.1 build
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:55.5317600Z > tsc -p tsconfig.json --incremental false
+terminal-keyboard	Run npm run build:server	2026-09-09T06:00:55.5418840Z 
+terminal-keyboard	Run npm run build --workspace=@getpaseo/expo-two-way-audio	﻿2026-09-09T06:00:59.3646950Z ##[group]Run npm run build --workspace=@getpaseo/expo-two-way-audio
+terminal-keyboard	Run npm run build --workspace=@getpaseo/expo-two-way-audio	2026-09-09T06:00:59.3647440Z ^[[36;1mnpm run build --workspace=@getpaseo/expo-two-way-audio^[[0m
+terminal-keyboard	Run npm run build --workspace=@getpaseo/expo-two-way-audio	2026-09-09T06:00:59.3753460Z shell: /bin/bash -e {0}
+terminal-keyboard	Run npm run build --workspace=@getpaseo/expo-two-way-audio	2026-09-09T06:00:59.3753800Z ##[endgroup]
+terminal-keyboard	Run npm run build --workspace=@getpaseo/expo-two-way-audio	2026-09-09T06:00:59.5930610Z 
+terminal-keyboard	Run npm run build --workspace=@getpaseo/expo-two-way-audio	2026-09-09T06:00:59.6032060Z > @getpaseo/expo-two-way-audio@0.8.0-beta.1 build
+terminal-keyboard	Run npm run build --workspace=@getpaseo/expo-two-way-audio	2026-09-09T06:00:59.6133340Z > tsc
+terminal-keyboard	Run npm run build --workspace=@getpaseo/expo-two-way-audio	2026-09-09T06:00:59.6234170Z 
+terminal-keyboard	Check patched macOS Electron	﻿2026-09-09T06:01:00.4119700Z ##[group]Run npm run test:e2e:terminal-command-arrows --workspace=@getpaseo/desktop -- --record
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:01:00.4120400Z ^[[36;1mnpm run test:e2e:terminal-command-arrows --workspace=@getpaseo/desktop -- --record^[[0m
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:01:00.4193660Z shell: /bin/bash -e {0}
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:01:00.4194040Z env:
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:01:00.4194430Z   PASEO_TERMINAL_ARROW_ARTIFACT_DIR: /Users/runner/work/_temp/terminal-arrows/patched
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:01:00.4194920Z ##[endgroup]
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:01:00.6341500Z 
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:01:00.6442370Z > @getpaseo/desktop@0.8.0-beta.1 test:e2e:terminal-command-arrows
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:01:00.6543230Z > npm run build:main && node ./e2e/terminal-command-arrows.e2e.mjs --record
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:01:00.6643940Z 
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:01:00.8724730Z 
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:01:00.8825770Z > @getpaseo/desktop@0.8.0-beta.1 build:main
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:01:00.8904880Z > tsc -p tsconfig.json
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:01:00.8909460Z 
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:03:19.2357880Z PASS 01-command-before-arrows: {"cursorX":16,"line":"QA> echo one two","lines":["SETUP_complete","QA> echo one two","","","","","","","","","","","","","","","","","","","","","","","","","","",""]}
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:03:22.3778060Z PASS 02-command-left: {"key":"Meta+ArrowLeft","cursorX":4,"focus":{"sameTextarea":true,"blurCount":0,"documentFocused":true,"sameUrl":true,"samePane":true,"sameTabs":true}}
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:03:25.4952420Z PASS 02b-command-right-unchanged: {"key":"Meta+ArrowRight","cursorX":16,"focus":{"sameTextarea":true,"blurCount":0,"documentFocused":true,"sameUrl":true,"samePane":true,"sameTabs":true}}
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:03:28.5982340Z PASS 02c-command-left-again: {"key":"Meta+ArrowLeft","cursorX":4,"focus":{"sameTextarea":true,"blurCount":0,"documentFocused":true,"sameUrl":true,"samePane":true,"sameTabs":true}}
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:03:33.5507220Z PASS 02d-prefix-inserted: {"cursorX":21,"line":"QA> PASEO_PREFIX=ok; echo one two","lines":["SETUP_complete","QA> PASEO_PREFIX=ok; echo one two","","","","","","","","","","","","","","","","","","","","","","","","","","",""]}
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:03:36.6914910Z PASS 03-command-right: {"key":"Meta+ArrowRight","cursorX":33,"focus":{"sameTextarea":true,"blurCount":0,"documentFocused":true,"sameUrl":true,"samePane":true,"sameTabs":true}}
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:03:41.5512990Z PASS 03b-suffix-inserted: {"cursorX":49,"line":"QA> PASEO_PREFIX=ok; echo one two \"$PASEO_PREFIX\"","lines":["SETUP_complete","QA> PASEO_PREFIX=ok; echo one two \"$PASEO_PREFIX\"","","","","","","","","","","","","","","","","","","","","","","","","","","",""]}
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:03:44.6804840Z PASS 04-command-executed: {"cursorX":4,"line":"QA> ","lines":["SETUP_complete","QA> PASEO_PREFIX=ok; echo one two \"$PASEO_PREFIX\"","one two ok","QA> ","","","","","","","","","","","","","","","","","","","","","","","","",""]}
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:03:51.5655180Z PASS 04b-shortcuts-ready: {"focusedPaneId":"workspace-pane-pane_6edb6e60-f96f-48e4-a250-43d23e628fc0"}
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:03:54.7935940Z PASS 04c-switch-tab-previous: {"selectedTabId":"workspace-tab-terminal_b72ef0e4-1d93-48e0-9df3-9496c62955c1"}
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:03:57.9890260Z PASS 04d-switch-tab-next: {"selectedTabId":"workspace-tab-terminal_4a2706aa-3cbd-4a37-aa1f-8349a18ed87f"}
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:04:01.1961580Z PASS 05-focus-left: {"focusedPaneId":"workspace-pane-main"}
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:04:04.3790520Z PASS 06-focus-right: {"focusedPaneId":"workspace-pane-pane_6edb6e60-f96f-48e4-a250-43d23e628fc0"}
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:04:07.7229090Z PASS 07-move-tab-left: {"tabId":"workspace-tab-terminal_4a2706aa-3cbd-4a37-aa1f-8349a18ed87f","paneId":"workspace-pane-main"}
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:04:11.0756950Z PASS 08-move-tab-right: {"tabId":"workspace-tab-terminal_4a2706aa-3cbd-4a37-aa1f-8349a18ed87f","paneId":"workspace-pane-pane_6edb6e60-f96f-48e4-a250-43d23e628fc0"}
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:04:11.2560470Z Recording frames: /Users/runner/work/_temp/terminal-arrows/patched/recording
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:04:11.2566660Z Run from the recording directory with ffmpeg arguments (JSON array): ["-safe","0","-f","concat","-i","frames.ffconcat","-fps_mode","vfr","-c:v","libx264","-bf","0","-crf","18","-pix_fmt","yuv420p","-vf","pad=ceil(iw/2)*2:ceil(ih/2)*2","-enc_time_base:v","1:1000000","-video_track_timescale","1000000","-x264-params","fps=60/1","-movflags","+faststart","interaction.mp4"]
+terminal-keyboard	Check patched macOS Electron	2026-09-09T06:04:12.0046830Z Evidence: /Users/runner/work/_temp/terminal-arrows/patched
+terminal-keyboard	Verify the regression fails on the original runtime	﻿2026-09-09T06:04:12.1284240Z ##[group]Run git show 93404a38e^:packages/app/src/terminal/runtime/terminal-emulator-runtime.ts > packages/app/src/terminal/runtime/terminal-emulator-runtime.ts
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:04:12.1301580Z ^[[36;1mgit show 93404a38e^:packages/app/src/terminal/runtime/terminal-emulator-runtime.ts > packages/app/src/terminal/runtime/terminal-emulator-runtime.ts^[[0m
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:04:12.1302240Z ^[[36;1mset +e^[[0m
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:04:12.1305520Z ^[[36;1mnpm run test:e2e:terminal-command-arrows --workspace=@getpaseo/desktop -- --record^[[0m
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:04:12.1448770Z ^[[36;1mresult=$?^[[0m
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:04:12.1448990Z ^[[36;1mset -e^[[0m
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:04:12.1449150Z ^[[36;1mtest "$result" -ne 0^[[0m
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:04:12.1451930Z ^[[36;1mnode -e 'const r = require(process.env.PASEO_TERMINAL_ARROW_ARTIFACT_DIR + "/result.json"); if (r.result !== "failed" || !r.error.includes("LINE_BOUNDARY_CURSOR")) process.exit(1); console.log("PASS: unpatched runtime fails the cursor regression");'^[[0m
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:04:12.4980850Z shell: /bin/bash --noprofile --norc -e -o pipefail {0}
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:04:12.4981220Z env:
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:04:12.4981720Z   PASEO_TERMINAL_ARROW_ARTIFACT_DIR: /Users/runner/work/_temp/terminal-arrows/unpatched
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:04:12.4982090Z ##[endgroup]
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:04:13.1851940Z 
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:04:13.1860160Z > @getpaseo/desktop@0.8.0-beta.1 test:e2e:terminal-command-arrows
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:04:13.1860810Z > npm run build:main && node ./e2e/terminal-command-arrows.e2e.mjs --record
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:04:13.1861080Z 
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:04:13.3570150Z 
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:04:13.3570830Z > @getpaseo/desktop@0.8.0-beta.1 build:main
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:04:13.3571350Z > tsc -p tsconfig.json
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:04:13.3571470Z 
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:12.8185710Z PASS 01-command-before-arrows: {"cursorX":16,"line":"QA> echo one two","lines":["SETUP_complete","QA> echo one two","","","","","","","","","","","","","","","","","","","","","","","","","","",""]}
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:22.9113330Z AssertionError [ERR_ASSERTION]: LINE_BOUNDARY_CURSOR: Meta+ArrowLeft did not move the shell cursor
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:22.9114260Z 
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:22.9114530Z 16 !== 4
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:22.9114640Z 
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:22.9115900Z     at waitForValue (file:///Users/runner/work/paseo/paseo/packages/desktop/e2e/terminal-command-arrows.e2e.mjs:99:10)
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:22.9117020Z     at async checkLineBoundary (file:///Users/runner/work/paseo/paseo/packages/desktop/e2e/terminal-command-arrows.e2e.mjs:129:3)
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:22.9118120Z     at async checkCommandEditing (file:///Users/runner/work/paseo/paseo/packages/desktop/e2e/terminal-command-arrows.e2e.mjs:213:3)
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:22.9120150Z     at async file:///Users/runner/work/paseo/paseo/packages/desktop/e2e/terminal-command-arrows.e2e.mjs:348:3
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:22.9121340Z     at async runElectronScenario (file:///Users/runner/work/paseo/paseo/packages/desktop/e2e/support/electron-session.mjs:288:5)
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:22.9122280Z     at async file:///Users/runner/work/paseo/paseo/packages/desktop/e2e/terminal-command-arrows.e2e.mjs:346:1 {
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:22.9122850Z   generatedMessage: false,
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:22.9123350Z   code: 'ERR_ASSERTION',
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:22.9123640Z   actual: 16,
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:22.9124120Z   expected: 4,
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:22.9124340Z   operator: 'strictEqual',
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:22.9124800Z   diff: 'simple'
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:22.9125540Z }
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:23.1123620Z Recording frames: /Users/runner/work/_temp/terminal-arrows/unpatched/recording
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:23.1125720Z Run from the recording directory with ffmpeg arguments (JSON array): ["-safe","0","-f","concat","-i","frames.ffconcat","-fps_mode","vfr","-c:v","libx264","-bf","0","-crf","18","-pix_fmt","yuv420p","-vf","pad=ceil(iw/2)*2:ceil(ih/2)*2","-enc_time_base:v","1:1000000","-video_track_timescale","1000000","-x264-params","fps=60/1","-movflags","+faststart","interaction.mp4"]
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:23.8316400Z Evidence: /Users/runner/work/_temp/terminal-arrows/unpatched
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:23.8926070Z npm error Lifecycle script `test:e2e:terminal-command-arrows` failed with error:
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:23.8934330Z npm error code 1
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:23.8935110Z npm error path /Users/runner/work/paseo/paseo/packages/desktop
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:23.8935800Z npm error workspace @getpaseo/desktop@0.8.0-beta.1
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:23.8936790Z npm error location /Users/runner/work/paseo/paseo/packages/desktop
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:23.8938340Z npm error command failed
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:23.8939190Z npm error command sh -c npm run build:main && node ./e2e/terminal-command-arrows.e2e.mjs --record
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T06:05:24.0182310Z PASS: unpatched runtime fails the cursor regression
+terminal-keyboard	Upload evidence	﻿2026-09-09T06:05:24.0639690Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+terminal-keyboard	Upload evidence	2026-09-09T06:05:24.0643490Z ##[group]Run actions/upload-artifact@v4
+terminal-keyboard	Upload evidence	2026-09-09T06:05:24.0645680Z with:
+terminal-keyboard	Upload evidence	2026-09-09T06:05:24.0646920Z   name: macos-terminal-command-arrows
+terminal-keyboard	Upload evidence	2026-09-09T06:05:24.0648710Z   path: /Users/runner/work/_temp/terminal-arrows
+terminal-keyboard	Upload evidence	2026-09-09T06:05:24.0649620Z   retention-days: 30
+terminal-keyboard	Upload evidence	2026-09-09T06:05:24.0650740Z   if-no-files-found: warn
+terminal-keyboard	Upload evidence	2026-09-09T06:05:24.0652110Z   compression-level: 6
+terminal-keyboard	Upload evidence	2026-09-09T06:05:24.0653120Z   overwrite: false
+terminal-keyboard	Upload evidence	2026-09-09T06:05:24.0654750Z   include-hidden-files: false
+terminal-keyboard	Upload evidence	2026-09-09T06:05:24.0655210Z ##[endgroup]
+terminal-keyboard	Upload evidence	2026-09-09T06:05:24.7728220Z (node:49313) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+terminal-keyboard	Upload evidence	2026-09-09T06:05:24.7729680Z (Use `node --trace-deprecation ...` to show where the warning was created)
+terminal-keyboard	Upload evidence	2026-09-09T06:05:24.8701670Z With the provided path, there will be 395 files uploaded
+terminal-keyboard	Upload evidence	2026-09-09T06:05:24.8705010Z Artifact name is valid!
+terminal-keyboard	Upload evidence	2026-09-09T06:05:24.8705300Z Root directory input is valid!
+terminal-keyboard	Upload evidence	2026-09-09T06:05:25.2549260Z Beginning upload of artifact content to blob storage
+terminal-keyboard	Upload evidence	2026-09-09T06:05:25.7226760Z (node:49313) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+terminal-keyboard	Upload evidence	2026-09-09T06:05:26.2827860Z Uploaded bytes 8388608
+terminal-keyboard	Upload evidence	2026-09-09T06:05:26.6607520Z Uploaded bytes 16777216
+terminal-keyboard	Upload evidence	2026-09-09T06:05:26.8565370Z Uploaded bytes 24125674
+terminal-keyboard	Upload evidence	2026-09-09T06:05:26.9025250Z Finished uploading artifact content to blob storage!
+terminal-keyboard	Upload evidence	2026-09-09T06:05:26.9026060Z SHA256 digest of uploaded artifact zip is 54669e601849946c0091114e257517a15edbe74d9835c78a88c60f6e28119a68
+terminal-keyboard	Upload evidence	2026-09-09T06:05:26.9026700Z Finalizing artifact upload
+terminal-keyboard	Upload evidence	2026-09-09T06:05:27.1575120Z Artifact macos-terminal-command-arrows.zip successfully finalized. Artifact ID 10090596348
+terminal-keyboard	Upload evidence	2026-09-09T06:05:27.1575970Z Artifact macos-terminal-command-arrows has been successfully uploaded! Final size is 24125674 bytes. Artifact ID is 10090596348
+terminal-keyboard	Upload evidence	2026-09-09T06:05:27.1582550Z Artifact download URL: https://github.com/EasyAsABC123/paseo/actions/runs/34317056448/artifacts/10090596348
+terminal-keyboard	Post Run actions/setup-node@v4	﻿2026-09-09T06:05:27.1844530Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+terminal-keyboard	Post Run actions/setup-node@v4	2026-09-09T06:05:27.1845640Z Post job cleanup.
+terminal-keyboard	Post Run actions/setup-node@v4	2026-09-09T06:05:27.3726990Z (node:49317) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+terminal-keyboard	Post Run actions/setup-node@v4	2026-09-09T06:05:27.3728030Z (Use `node --trace-deprecation ...` to show where the warning was created)
+terminal-keyboard	Post Run actions/setup-node@v4	2026-09-09T06:05:27.6483470Z [command]/opt/homebrew/bin/gtar --posix -cf cache.tzst --exclude cache.tzst -P -C /Users/runner/work/paseo/paseo --files-from manifest.txt --delay-directory-restore --use-compress-program zstdmt
+terminal-keyboard	Post Run actions/setup-node@v4	2026-09-09T06:05:39.4062180Z (node:49317) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+terminal-keyboard	Post Run actions/setup-node@v4	2026-09-09T06:05:40.3936330Z Sent 0 of 785863947 (0.0%), 0.0 MBs/sec
+terminal-keyboard	Post Run actions/setup-node@v4	2026-09-09T06:05:41.3871150Z Sent 0 of 785863947 (0.0%), 0.0 MBs/sec
+terminal-keyboard	Post Run actions/setup-node@v4	2026-09-09T06:05:42.3880450Z Sent 0 of 785863947 (0.0%), 0.0 MBs/sec
+terminal-keyboard	Post Run actions/setup-node@v4	2026-09-09T06:05:43.4119690Z Sent 0 of 785863947 (0.0%), 0.0 MBs/sec
+terminal-keyboard	Post Run actions/setup-node@v4	2026-09-09T06:05:44.4120180Z Sent 335544320 of 785863947 (42.7%), 63.6 MBs/sec
+terminal-keyboard	Post Run actions/setup-node@v4	2026-09-09T06:05:45.4131970Z Sent 402653184 of 785863947 (51.2%), 63.7 MBs/sec
+terminal-keyboard	Post Run actions/setup-node@v4	2026-09-09T06:05:46.4174650Z Sent 469762048 of 785863947 (59.8%), 63.7 MBs/sec
+terminal-keyboard	Post Run actions/setup-node@v4	2026-09-09T06:05:47.4130230Z Sent 671088640 of 785863947 (85.4%), 79.7 MBs/sec
+terminal-keyboard	Post Run actions/setup-node@v4	2026-09-09T06:05:48.4133730Z Sent 718755083 of 785863947 (91.5%), 75.9 MBs/sec
+terminal-keyboard	Post Run actions/setup-node@v4	2026-09-09T06:05:49.4133870Z Sent 718755083 of 785863947 (91.5%), 68.3 MBs/sec
+terminal-keyboard	Post Run actions/setup-node@v4	2026-09-09T06:05:49.6384900Z Sent 785863947 of 785863947 (100.0%), 73.1 MBs/sec
+terminal-keyboard	Post Run actions/setup-node@v4	2026-09-09T06:05:49.8491250Z Cache saved with the key: node-cache-macOS-arm64-npm-21b7cfa79cedeb60c18306591bcd27c67eba76098d9838f18b088903919fc6b0
+terminal-keyboard	Post Run actions/checkout@v4	﻿2026-09-09T06:05:49.8807370Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+terminal-keyboard	Post Run actions/checkout@v4	2026-09-09T06:05:49.8808730Z Post job cleanup.
+terminal-keyboard	Post Run actions/checkout@v4	2026-09-09T06:05:50.0295560Z [command]/opt/homebrew/bin/git version
+terminal-keyboard	Post Run actions/checkout@v4	2026-09-09T06:05:50.0414880Z git version 2.55.0
+terminal-keyboard	Post Run actions/checkout@v4	2026-09-09T06:05:50.0447620Z Copying '/Users/runner/.gitconfig' to '/Users/runner/work/_temp/b859c773-b00f-415b-a8eb-20eb0c584379/.gitconfig'
+terminal-keyboard	Post Run actions/checkout@v4	2026-09-09T06:05:50.0457740Z Temporarily overriding HOME='/Users/runner/work/_temp/b859c773-b00f-415b-a8eb-20eb0c584379' before making global git config changes
+terminal-keyboard	Post Run actions/checkout@v4	2026-09-09T06:05:50.0459320Z Adding repository directory to the temporary git global config as a safe directory
+terminal-keyboard	Post Run actions/checkout@v4	2026-09-09T06:05:50.0467500Z [command]/opt/homebrew/bin/git config --global --add safe.directory /Users/runner/work/paseo/paseo
+terminal-keyboard	Post Run actions/checkout@v4	2026-09-09T06:05:50.0739260Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp core\.sshCommand
+terminal-keyboard	Post Run actions/checkout@v4	2026-09-09T06:05:50.0813590Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+terminal-keyboard	Post Run actions/checkout@v4	2026-09-09T06:05:50.3225570Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+terminal-keyboard	Post Run actions/checkout@v4	2026-09-09T06:05:50.3276590Z http.https://github.com/.extraheader
+terminal-keyboard	Post Run actions/checkout@v4	2026-09-09T06:05:50.3283630Z [command]/opt/homebrew/bin/git config --local --unset-all http.https://github.com/.extraheader
+terminal-keyboard	Post Run actions/checkout@v4	2026-09-09T06:05:50.3364660Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+terminal-keyboard	Post Run actions/checkout@v4	2026-09-09T06:05:50.4720810Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+terminal-keyboard	Post Run actions/checkout@v4	2026-09-09T06:05:50.4861390Z [command]/opt/homebrew/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+terminal-keyboard	Complete job	﻿2026-09-09T06:05:50.6261140Z Cleaning up orphan processes
+terminal-keyboard	Complete job	2026-09-09T06:05:51.4000680Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-node@v4, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

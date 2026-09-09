@@ -1,0 +1,35 @@
+Input #0, concat, from 'frames.ffconcat':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 1200x800 [SAR 1:1 DAR 3:2], 1000k fps, 1000k tbr, 1000k tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (mjpeg (native) -> h264 (libx264))
+[swscaler @ 0x7f7f28016f80] deprecated pixel format used, make sure you did set range correctly
+[libx264 @ 0x565319f1f1c0] using SAR=1/1
+[libx264 @ 0x565319f1f1c0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 0x565319f1f1c0] profile High, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0x565319f1f1c0] 264 - core 165 r3222 b35605a - H.264/MPEG-4 AVC codec - Copyleft 2003-2025 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=25 lookahead_threads=4 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=18.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'interaction.mp4':
+  Metadata:
+    encoder         : Lavf63.1.101
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(pc, bt470bg/unknown/unknown, progressive), 1200x800 [SAR 1:1 DAR 3:2], q=2-31, 1000k fps, 1000k tbn
+    Metadata:
+      encoder         : Lavc63.1.101 libx264
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=  258 fps=0.0 q=12.0 size=     512KiB time=00:00:33.19 bitrate= 126.4kbits/s speed=66.4x elapsed=0:00:00.50    
+[mp4 @ 0x565319ef0bc0] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0x565319f11680] video:597KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.792220%
+frame=  332 fps=0.0 q=-1.0 Lsize=     602KiB time=00:00:55.99 bitrate=  88.0kbits/s speed= 103x elapsed=0:00:00.54    
+[libx264 @ 0x565319f1f1c0] frame I:2     Avg QP: 8.39  size: 34014
+[libx264 @ 0x565319f1f1c0] frame P:330   Avg QP:15.74  size:  1644
+[libx264 @ 0x565319f1f1c0] mb I  I16..4: 79.1%  9.3% 11.7%
+[libx264 @ 0x565319f1f1c0] mb P  I16..4:  2.7%  4.1%  0.4%  P16..4:  1.7%  0.3%  0.2%  0.0%  0.0%    skip:90.7%
+[libx264 @ 0x565319f1f1c0] 8x8 transform intra:53.5% inter:45.0%
+[libx264 @ 0x565319f1f1c0] coded y,uvDC,uvAC intra: 4.4% 1.7% 0.8% inter: 1.0% 0.6% 0.0%
+[libx264 @ 0x565319f1f1c0] i16 v,h,dc,p: 59% 39%  2%  0%
+[libx264 @ 0x565319f1f1c0] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 40% 17% 42%  0%  0%  0%  0%  0%  0%
+[libx264 @ 0x565319f1f1c0] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 33% 28% 20%  2%  3%  4%  4%  2%  3%
+[libx264 @ 0x565319f1f1c0] i8c dc,h,v,p: 93%  5%  2%  0%
+[libx264 @ 0x565319f1f1c0] Weighted P-Frames: Y:5.2% UV:3.0%
+[libx264 @ 0x565319f1f1c0] ref P L0: 62.9% 24.2% 11.0%  1.5%  0.4%
+[libx264 @ 0x565319f1f1c0] kb/s:86.89

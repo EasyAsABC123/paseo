@@ -1,0 +1,390 @@
+{
+  "recordingDirectory": "/tmp/paseo-terminal-arrows-readable-run3/unpatched/recording",
+  "recordingMetadataSha256": "c2b76abed1842c398899c396dd57643254a4459af7c85a2f6124feb8ab906b96",
+  "concatSha256": "ccdf5ab21da7e41876b31e4cc2d7f1d43573874ab7d9f2ad6c1bcb1e82a87ed7",
+  "video": "/tmp/paseo-terminal-arrows-readable-run3/unpatched/recording/interaction.mp4",
+  "encoding": {
+    "command": "/usr/bin/ffmpeg",
+    "args": [
+      "-safe",
+      "0",
+      "-f",
+      "concat",
+      "-i",
+      "frames.ffconcat",
+      "-fps_mode",
+      "vfr",
+      "-c:v",
+      "libx264",
+      "-bf",
+      "0",
+      "-crf",
+      "18",
+      "-pix_fmt",
+      "yuv420p",
+      "-vf",
+      "pad=ceil(iw/2)*2:ceil(ih/2)*2",
+      "-enc_time_base:v",
+      "1:1000000",
+      "-video_track_timescale",
+      "1000000",
+      "-x264-params",
+      "fps=60/1",
+      "-movflags",
+      "+faststart",
+      "interaction.mp4"
+    ],
+    "recordedArgs": [
+      "-safe",
+      "0",
+      "-f",
+      "concat",
+      "-i",
+      "frames.ffconcat",
+      "-fps_mode",
+      "vfr",
+      "-c:v",
+      "libx264",
+      "-bf",
+      "0",
+      "-crf",
+      "18",
+      "-pix_fmt",
+      "yuv420p",
+      "-vf",
+      "pad=ceil(iw/2)*2:ceil(ih/2)*2",
+      "-enc_time_base:v",
+      "1:1000000",
+      "-video_track_timescale",
+      "1000000",
+      "-x264-params",
+      "fps=60/1",
+      "-movflags",
+      "+faststart",
+      "interaction.mp4"
+    ],
+    "overrides": [],
+    "cwd": "/tmp/paseo-terminal-arrows-readable-run3/unpatched/recording",
+    "extraProcessFlags": [
+      "-hide_banner",
+      "-nostdin",
+      "-y"
+    ]
+  },
+  "checks": {
+    "encode": {
+      "passed": true,
+      "exitCode": 0
+    },
+    "frameCount": {
+      "passed": true,
+      "recorded": 32,
+      "encoded": 32
+    },
+    "presentationTimestamps": {
+      "passed": true,
+      "toleranceMicroseconds": 2.0,
+      "maxAbsoluteDifferenceMicroseconds": 0.0,
+      "strictlyIncreasing": true,
+      "concatMatchesWithinTolerance": true,
+      "maxAbsoluteDifferenceFromConcatMicroseconds": 0.0,
+      "perIntervalRoundingCumulativeBoundMicroseconds": 15.5,
+      "assessment": "Every encoded frame matches its original capture timestamp within tolerance.",
+      "frames": [
+        {
+          "index": 0,
+          "file": "frames/frame-000000.jpeg",
+          "recordedRelativeMicroseconds": 0.0,
+          "encodedRelativeMicroseconds": 0.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 1,
+          "file": "frames/frame-000001.jpeg",
+          "recordedRelativeMicroseconds": 9567.0,
+          "encodedRelativeMicroseconds": 9567.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 2,
+          "file": "frames/frame-000002.jpeg",
+          "recordedRelativeMicroseconds": 15141.0,
+          "encodedRelativeMicroseconds": 15141.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 3,
+          "file": "frames/frame-000003.jpeg",
+          "recordedRelativeMicroseconds": 43486.0,
+          "encodedRelativeMicroseconds": 43486.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 4,
+          "file": "frames/frame-000004.jpeg",
+          "recordedRelativeMicroseconds": 69019.0,
+          "encodedRelativeMicroseconds": 69019.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 5,
+          "file": "frames/frame-000005.jpeg",
+          "recordedRelativeMicroseconds": 90579.0,
+          "encodedRelativeMicroseconds": 90579.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 6,
+          "file": "frames/frame-000006.jpeg",
+          "recordedRelativeMicroseconds": 126208.0,
+          "encodedRelativeMicroseconds": 126208.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 7,
+          "file": "frames/frame-000007.jpeg",
+          "recordedRelativeMicroseconds": 126994.0,
+          "encodedRelativeMicroseconds": 126994.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 8,
+          "file": "frames/frame-000008.jpeg",
+          "recordedRelativeMicroseconds": 186138.0,
+          "encodedRelativeMicroseconds": 186138.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 9,
+          "file": "frames/frame-000009.jpeg",
+          "recordedRelativeMicroseconds": 210077.0,
+          "encodedRelativeMicroseconds": 210077.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 10,
+          "file": "frames/frame-000010.jpeg",
+          "recordedRelativeMicroseconds": 285552.0,
+          "encodedRelativeMicroseconds": 285552.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 11,
+          "file": "frames/frame-000011.jpeg",
+          "recordedRelativeMicroseconds": 310106.0,
+          "encodedRelativeMicroseconds": 310106.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 12,
+          "file": "frames/frame-000012.jpeg",
+          "recordedRelativeMicroseconds": 378903.0,
+          "encodedRelativeMicroseconds": 378903.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 13,
+          "file": "frames/frame-000013.jpeg",
+          "recordedRelativeMicroseconds": 387496.0,
+          "encodedRelativeMicroseconds": 387496.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 14,
+          "file": "frames/frame-000014.jpeg",
+          "recordedRelativeMicroseconds": 510519.0,
+          "encodedRelativeMicroseconds": 510519.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 15,
+          "file": "frames/frame-000015.jpeg",
+          "recordedRelativeMicroseconds": 519781.0,
+          "encodedRelativeMicroseconds": 519781.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 16,
+          "file": "frames/frame-000016.jpeg",
+          "recordedRelativeMicroseconds": 590440.0,
+          "encodedRelativeMicroseconds": 590440.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 17,
+          "file": "frames/frame-000017.jpeg",
+          "recordedRelativeMicroseconds": 606003.0,
+          "encodedRelativeMicroseconds": 606003.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 18,
+          "file": "frames/frame-000018.jpeg",
+          "recordedRelativeMicroseconds": 710403.0,
+          "encodedRelativeMicroseconds": 710403.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 19,
+          "file": "frames/frame-000019.jpeg",
+          "recordedRelativeMicroseconds": 719520.0,
+          "encodedRelativeMicroseconds": 719520.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 20,
+          "file": "frames/frame-000020.jpeg",
+          "recordedRelativeMicroseconds": 797345.0,
+          "encodedRelativeMicroseconds": 797345.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 21,
+          "file": "frames/frame-000021.jpeg",
+          "recordedRelativeMicroseconds": 810436.0,
+          "encodedRelativeMicroseconds": 810436.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 22,
+          "file": "frames/frame-000022.jpeg",
+          "recordedRelativeMicroseconds": 910203.0,
+          "encodedRelativeMicroseconds": 910203.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 23,
+          "file": "frames/frame-000023.jpeg",
+          "recordedRelativeMicroseconds": 920890.0,
+          "encodedRelativeMicroseconds": 920890.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 24,
+          "file": "frames/frame-000024.jpeg",
+          "recordedRelativeMicroseconds": 1011090.0,
+          "encodedRelativeMicroseconds": 1011090.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 25,
+          "file": "frames/frame-000025.jpeg",
+          "recordedRelativeMicroseconds": 1019575.0,
+          "encodedRelativeMicroseconds": 1019575.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 26,
+          "file": "frames/frame-000026.jpeg",
+          "recordedRelativeMicroseconds": 1110691.0,
+          "encodedRelativeMicroseconds": 1110691.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 27,
+          "file": "frames/frame-000027.jpeg",
+          "recordedRelativeMicroseconds": 1120377.0,
+          "encodedRelativeMicroseconds": 1120377.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 28,
+          "file": "frames/frame-000028.jpeg",
+          "recordedRelativeMicroseconds": 4196720.0,
+          "encodedRelativeMicroseconds": 4196720.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 29,
+          "file": "frames/frame-000029.jpeg",
+          "recordedRelativeMicroseconds": 4262070.0,
+          "encodedRelativeMicroseconds": 4262070.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 30,
+          "file": "frames/frame-000030.jpeg",
+          "recordedRelativeMicroseconds": 14375442.0,
+          "encodedRelativeMicroseconds": 14375442.0,
+          "differenceMicroseconds": 0.0
+        },
+        {
+          "index": 31,
+          "file": "frames/frame-000031.jpeg",
+          "recordedRelativeMicroseconds": 14532783.0,
+          "encodedRelativeMicroseconds": 14532783.0,
+          "differenceMicroseconds": 0.0
+        }
+      ]
+    },
+    "dimensions": {
+      "passed": true,
+      "recorded": {
+        "width": 1200,
+        "height": 800
+      },
+      "expectedEncoded": {
+        "width": 1200,
+        "height": 800
+      },
+      "encoded": {
+        "width": 1200,
+        "height": 800
+      },
+      "padding": {
+        "rightPixels": 0,
+        "bottomPixels": 0
+      },
+      "allSourceFramesSameSize": true,
+      "allEncodedFramesExpectedSize": true
+    },
+    "containerDuration": {
+      "passed": true,
+      "streamDurationSeconds": 14.532784,
+      "lastFramePresentationSeconds": 14.532783,
+      "lastFrameDisplayDurationSeconds": 1e-06
+    },
+    "mp4Portability": {
+      "passed": true,
+      "codec": "h264",
+      "profile": "High",
+      "level": 40,
+      "pixelFormat": "yuvj420p",
+      "colorRange": "pc",
+      "timeBase": "1/1000000",
+      "faststartRequested": true,
+      "notes": "H.264 4:2:0 and faststart suit MP4 web playback; yuvj420p denotes full-range 4:2:0. Variable frame rate and long static intervals are intentional. fps=60/1 configures H.264 nominal timing; actual presentation timestamps are verified separately."
+    },
+    "fullDecode": {
+      "passed": true,
+      "exitCode": 0,
+      "diagnostics": ""
+    }
+  },
+  "limitations": [
+    "CDP screencasts are variable-rate captures; gaps retain the preceding recorded frame.",
+    "Video uses the recorder's encoding arguments plus any explicitly listed overrides; actual and recorded arguments are retained separately.",
+    "H.264 yuv420p is lossy. Odd dimensions receive black padding at the right/bottom.",
+    "Frame timestamps in frames.ffconcat round each interval to six decimal seconds; accumulated rounding can differ from the original timestamps.",
+    "The final screenshot uses its recorded completion timestamp, not an invented display hold.",
+    "Full decoding and MP4/H.264 metadata are checked; this does not claim playback in every browser or device."
+  ],
+  "durationSeconds": 14.532784,
+  "recordedSpanSeconds": 14.532783,
+  "lastFrameDisplayDurationSeconds": 1e-06,
+  "keys": [
+    {
+      "label": "Type: echo one two",
+      "timestampSeconds": 1788933908.421,
+      "relativeSeconds": -0.156217
+    },
+    {
+      "label": "Cmd + \u2190",
+      "timestampSeconds": 1788933912.825,
+      "relativeSeconds": 4.247783
+    }
+  ],
+  "videoSha256": "8a70dd18743aa0bd6f51f9c1864842428ee9816141e086cae21e3c8dffdd3c49",
+  "videoBytes": 35116,
+  "passed": true
+}

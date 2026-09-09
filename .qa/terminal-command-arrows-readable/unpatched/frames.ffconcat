@@ -1,0 +1,96 @@
+ffconcat version 1.0
+file 'frames/frame-000000.jpeg'
+option framerate 1000000
+duration 0.009567
+file 'frames/frame-000001.jpeg'
+option framerate 1000000
+duration 0.005574
+file 'frames/frame-000002.jpeg'
+option framerate 1000000
+duration 0.028345
+file 'frames/frame-000003.jpeg'
+option framerate 1000000
+duration 0.025533
+file 'frames/frame-000004.jpeg'
+option framerate 1000000
+duration 0.021560
+file 'frames/frame-000005.jpeg'
+option framerate 1000000
+duration 0.035629
+file 'frames/frame-000006.jpeg'
+option framerate 1000000
+duration 0.000786
+file 'frames/frame-000007.jpeg'
+option framerate 1000000
+duration 0.059144
+file 'frames/frame-000008.jpeg'
+option framerate 1000000
+duration 0.023939
+file 'frames/frame-000009.jpeg'
+option framerate 1000000
+duration 0.075475
+file 'frames/frame-000010.jpeg'
+option framerate 1000000
+duration 0.024554
+file 'frames/frame-000011.jpeg'
+option framerate 1000000
+duration 0.068797
+file 'frames/frame-000012.jpeg'
+option framerate 1000000
+duration 0.008593
+file 'frames/frame-000013.jpeg'
+option framerate 1000000
+duration 0.123023
+file 'frames/frame-000014.jpeg'
+option framerate 1000000
+duration 0.009262
+file 'frames/frame-000015.jpeg'
+option framerate 1000000
+duration 0.070659
+file 'frames/frame-000016.jpeg'
+option framerate 1000000
+duration 0.015563
+file 'frames/frame-000017.jpeg'
+option framerate 1000000
+duration 0.104400
+file 'frames/frame-000018.jpeg'
+option framerate 1000000
+duration 0.009117
+file 'frames/frame-000019.jpeg'
+option framerate 1000000
+duration 0.077825
+file 'frames/frame-000020.jpeg'
+option framerate 1000000
+duration 0.013091
+file 'frames/frame-000021.jpeg'
+option framerate 1000000
+duration 0.099767
+file 'frames/frame-000022.jpeg'
+option framerate 1000000
+duration 0.010687
+file 'frames/frame-000023.jpeg'
+option framerate 1000000
+duration 0.090200
+file 'frames/frame-000024.jpeg'
+option framerate 1000000
+duration 0.008485
+file 'frames/frame-000025.jpeg'
+option framerate 1000000
+duration 0.091116
+file 'frames/frame-000026.jpeg'
+option framerate 1000000
+duration 0.009686
+file 'frames/frame-000027.jpeg'
+option framerate 1000000
+duration 3.076343
+file 'frames/frame-000028.jpeg'
+option framerate 1000000
+duration 0.065350
+file 'frames/frame-000029.jpeg'
+option framerate 1000000
+duration 10.113372
+file 'frames/frame-000030.jpeg'
+option framerate 1000000
+duration 0.157341
+file 'frames/frame-000031.jpeg'
+option framerate 1000000
