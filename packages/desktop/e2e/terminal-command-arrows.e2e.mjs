@@ -5,6 +5,7 @@ import os from "node:os";
 import path from "node:path";
 import { setTimeout as delay } from "node:timers/promises";
 import { fileURLToPath } from "node:url";
+import { expect } from "playwright/test";
 import { runElectronScenario } from "./support/electron-session.mjs";
 import { startTerminalKeyboardRecording } from "./support/terminal-keyboard-recording.mjs";
 
@@ -72,22 +73,6 @@ async function setRecordingFontSize(page) {
   await page.getByTestId("settings-back-to-workspace").click();
 }
 
-async function setRecordingCursor(page) {
-  if (!recordVideo) return;
-  // Configure xterm's real cursor for capture; key handling and focus remain untouched.
-  const appearance = await page.evaluate(() => {
-    const terminal = window.__paseoTerminal;
-    terminal.options.cursorBlink = false;
-    terminal.options.cursorStyle = "block";
-    return {
-      fontSize: terminal.options.fontSize,
-      cursorBlink: terminal.options.cursorBlink,
-      cursorStyle: terminal.options.cursorStyle,
-    };
-  });
-  assert.deepEqual(appearance, { fontSize: 22, cursorBlink: false, cursorStyle: "block" });
-}
-
 async function waitForValue(read, expected, message) {
   const deadline = Date.now() + 10_000;
   let actual;
@@ -108,125 +93,112 @@ async function runAction(page, title) {
   await panel.waitFor({ state: "hidden" });
 }
 
-async function readTerminal(page) {
-  return page.evaluate(() => {
-    const terminal = window.__paseoTerminal;
-    if (!terminal) return null;
-    const buffer = terminal.buffer.active;
-    return {
-      cursorX: buffer.cursorX,
-      line: buffer.getLine(buffer.baseY + buffer.cursorY)?.translateToString(true),
-      lines: Array.from({ length: buffer.length }, (_, index) =>
-        buffer.getLine(index)?.translateToString(true),
-      ),
-    };
-  });
+function readShellFile(file) {
+  try {
+    return fs.readFileSync(file, "utf8");
+  } catch (error) {
+    if (error.code === "ENOENT") return null;
+    throw error;
+  }
 }
 
-async function checkLineBoundary(page, key, cursorX, name) {
+function terminalInput(surface) {
+  return surface.getByRole("textbox", { name: "Terminal input", exact: true });
+}
+
+async function selectedTabs(page) {
+  return page
+    .locator('[data-testid^="workspace-tab-"]')
+    .evaluateAll((tabs) =>
+      tabs.map((tab) => [tab.getAttribute("data-testid"), tab.getAttribute("aria-selected")]),
+    );
+}
+
+async function checkLineBoundary(page, surface, originalUi, key, name) {
   // Using page.keyboard preserves any focus loss. locator.press would refocus first.
   await pressKey(page, key);
-  await waitForValue(
-    async () => (await readTerminal(page))?.cursorX,
-    cursorX,
-    `LINE_BOUNDARY_CURSOR: ${key} did not move the shell cursor`,
-  );
-  const focus = await page.evaluate(() => {
-    const probe = window.__commandArrowProbe;
-    return {
-      sameTextarea: document.activeElement === probe.textarea,
-      blurCount: probe.blurCount,
-      documentFocused: document.hasFocus(),
-      sameUrl: location.href === probe.url,
-      samePane: probe.textarea.closest('[data-testid^="workspace-pane-"]') === probe.pane,
-      sameTabs:
-        JSON.stringify(
-          [...document.querySelectorAll('[data-testid^="workspace-tab-"]')].map((tab) => [
-            tab.getAttribute("data-testid"),
-            tab.getAttribute("aria-selected"),
-          ]),
-        ) === probe.tabs,
-    };
-  });
-  assert.deepEqual(focus, {
-    sameTextarea: true,
-    blurCount: 0,
-    documentFocused: true,
-    sameUrl: true,
-    samePane: true,
-    sameTabs: true,
-  });
-  await checkpoint(page, name, { key, cursorX, focus });
+  await expect(
+    terminalInput(surface),
+    `LINE_BOUNDARY_FOCUS: ${key} must keep terminal input focused`,
+  ).toBeFocused();
+  assert.equal(page.url(), originalUi.url, "Command arrows must keep the workspace open");
+  assert.equal(await focusedPaneId(page), originalUi.paneId);
+  assert.deepEqual(await selectedTabs(page), originalUi.tabs);
+  await checkpoint(page, name, { key, terminalFocused: true });
 }
 
-async function checkCommandEditing(page, addCleanup) {
-  await runAction(page, "New terminal");
-  const surface = page.getByTestId("terminal-surface").filter({ visible: true });
+async function prepareTerminal(page, pane, cwd, label) {
+  const surface = pane.getByTestId("terminal-surface").filter({ visible: true });
   await surface.waitFor({ state: "visible", timeout: 30_000 });
-  await page.getByTestId("terminal-attach-loading").waitFor({ state: "hidden" });
-  await surface.locator(".xterm-helper-textarea").waitFor({ state: "attached" });
+  await pane.getByTestId("terminal-attach-loading").waitFor({ state: "hidden" });
+  await terminalInput(surface).waitFor({ state: "attached" });
+  const fixtureName = label.toLowerCase().replaceAll(" ", "-");
+  const readyFile = `${fixtureName}-ready.txt`;
+  const setupFile = `${fixtureName}.bashrc`;
+  // DECSCUSR configures the cursor through ordinary terminal output. Bash keeps
+  // user prompt plugins from replacing it before the recording checkpoint.
+  const cursorSequence = recordVideo ? "\\033[2 q" : "";
+  fs.writeFileSync(
+    path.join(cwd, setupFile),
+    `PS1='QA> '\nset -o emacs\nprintf '\\033[2J\\033[H${cursorSequence}%s\\n' '${label}'\nprintf 'ready\\n' > '${readyFile}'\n`,
+  );
+  // Bash owns setup so no keyboard input races its startup.
   await surface.click();
-  await page.keyboard.type("PS1='QA> ' exec /bin/bash --noprofile --norc");
-  await page.keyboard.press("Enter");
-  await waitForValue(async () => (await readTerminal(page))?.line, "QA> ", "Bash prompt");
-  await page.keyboard.type("set -o emacs; clear; printf 'SETUP_%s\\n' complete");
+  await page.keyboard.type(`exec /bin/bash --noprofile --rcfile './${setupFile}' -i`);
   await page.keyboard.press("Enter");
   await waitForValue(
-    async () => (await readTerminal(page))?.lines.includes("SETUP_complete"),
-    true,
-    "Completed Bash setup",
+    () => readShellFile(path.join(cwd, readyFile)),
+    "ready\n",
+    `${label} shell setup completed`,
   );
-  await waitForValue(async () => (await readTerminal(page))?.line, "QA> ", "Clean Bash prompt");
+  await expect(terminalInput(surface)).toBeFocused();
+  return surface;
+}
 
-  await setRecordingCursor(page);
+async function checkCommandEditing({ page, cwd, addCleanup }) {
+  await runAction(page, "New terminal");
+  const surface = await prepareTerminal(page, page, cwd, "SETUP_complete");
+  const resultFile = path.join(cwd, "command-result.txt");
+  addCleanup(() => {
+    const output = readShellFile(resultFile);
+    if (output !== null) fs.writeFileSync(path.join(artifactDir, "command-result.txt"), output);
+  });
   if (recordVideo) {
     recording = await startTerminalKeyboardRecording({ page, artifactDir });
     addCleanup(() => recording.close());
   }
   await typeRecordedText(page, "echo one two");
-  await waitForValue(
-    async () => (await readTerminal(page))?.line,
-    "QA> echo one two",
-    "Typed command",
+  const originalUi = {
+    url: page.url(),
+    paneId: await focusedPaneId(page),
+    tabs: await selectedTabs(page),
+  };
+  await checkpoint(page, "01-command-before-arrows", { typed: "echo one two" });
+  await checkLineBoundary(page, surface, originalUi, "Meta+ArrowLeft", "02-command-left");
+  await checkLineBoundary(
+    page,
+    surface,
+    originalUi,
+    "Meta+ArrowRight",
+    "02b-command-right-unchanged",
   );
-  await page.evaluate(() => {
-    const textarea = document.activeElement;
-    if (!textarea?.classList.contains("xterm-helper-textarea")) {
-      throw new Error("The actual xterm textarea must receive input");
-    }
-    const probe = {
-      textarea,
-      pane: textarea.closest('[data-testid^="workspace-pane-"]'),
-      url: location.href,
-      blurCount: 0,
-      tabs: JSON.stringify(
-        [...document.querySelectorAll('[data-testid^="workspace-tab-"]')].map((tab) => [
-          tab.getAttribute("data-testid"),
-          tab.getAttribute("aria-selected"),
-        ]),
-      ),
-    };
-    textarea.addEventListener("blur", () => probe.blurCount++);
-    window.__commandArrowProbe = probe;
-  });
-  await checkpoint(page, "01-command-before-arrows", await readTerminal(page));
-  await checkLineBoundary(page, "Meta+ArrowLeft", 4, "02-command-left");
-  await checkLineBoundary(page, "Meta+ArrowRight", 16, "02b-command-right-unchanged");
-  await checkLineBoundary(page, "Meta+ArrowLeft", 4, "02c-command-left-again");
+  await checkLineBoundary(page, surface, originalUi, "Meta+ArrowLeft", "02c-command-left-again");
   const prefix = "PASEO_PREFIX=ok; ";
   await typeRecordedText(page, prefix);
-  await waitForValue(async () => (await readTerminal(page))?.cursorX, 4 + prefix.length, "Prefix");
-  await checkpoint(page, "02d-prefix-inserted", await readTerminal(page));
-  await checkLineBoundary(page, "Meta+ArrowRight", 4 + prefix.length + 12, "03-command-right");
-  await typeRecordedText(page, ' "$PASEO_PREFIX"');
-  await checkpoint(page, "03b-suffix-inserted", await readTerminal(page));
+  await checkpoint(page, "02d-prefix-inserted", { typed: prefix });
+  await checkLineBoundary(page, surface, originalUi, "Meta+ArrowRight", "03-command-right");
+  const suffix = ' "$PASEO_PREFIX" | tee command-result.txt';
+  await typeRecordedText(page, suffix);
+  await checkpoint(page, "03b-suffix-inserted", { typed: suffix });
   await pressKey(page, "Enter");
+  // Executing the edited line must produce the complete result through the real
+  // shell. Missing either boundary changes the command or its output.
   await waitForValue(
-    async () => (await readTerminal(page))?.lines.includes("one two ok"),
-    true,
-    "The shell must execute the command with both inserted edits",
+    () => readShellFile(resultFile),
+    "one two ok\n",
+    "LINE_BOUNDARY_EDIT: the shell must execute the command with both inserted edits",
   );
-  await checkpoint(page, "04-command-executed", await readTerminal(page));
+  await checkpoint(page, "04-command-executed", { output: readShellFile(resultFile) });
 }
 
 async function focusedPaneId(page) {
@@ -235,22 +207,6 @@ async function focusedPaneId(page) {
       ?.closest('[data-testid^="workspace-pane-"]')
       ?.getAttribute("data-testid"),
   );
-}
-
-async function prepareShortcutTerminal(page, pane, label) {
-  const surface = pane.getByTestId("terminal-surface").filter({ visible: true });
-  await surface.waitFor({ state: "visible" });
-  await pane.getByTestId("terminal-attach-loading").waitFor({ state: "hidden" });
-  await surface.locator(".xterm-helper-textarea").waitFor({ state: "attached" });
-  await surface.click();
-  await page.keyboard.type(`printf '\\033[2J\\033[H%s\\n' '${label}'`);
-  await page.keyboard.press("Enter");
-  await waitForValue(
-    async () => (await readTerminal(page))?.lines.includes(label),
-    true,
-    `${label} is ready`,
-  );
-  await setRecordingCursor(page);
 }
 
 async function checkTabSwitching(page, pane) {
@@ -279,7 +235,7 @@ async function checkTabSwitching(page, pane) {
   await checkpoint(page, "04d-switch-tab-next", { selectedTabId: startingTabId });
 }
 
-async function checkWorkspaceShortcuts(page) {
+async function checkWorkspaceShortcuts({ page, cwd }) {
   const leftPaneId = await focusedPaneId(page);
   assert.equal(typeof leftPaneId, "string");
   await runAction(page, "Split pane right");
@@ -293,11 +249,11 @@ async function checkWorkspaceShortcuts(page) {
   await runAction(page, "New terminal");
   const tabs = rightPane.locator('[data-testid^="workspace-tab-terminal_"]');
   await waitForValue(() => tabs.count(), 1, "First right terminal tab");
-  await prepareShortcutTerminal(page, rightPane, "TERMINAL TWO");
+  await prepareTerminal(page, rightPane, cwd, "TERMINAL TWO");
   // Moving a pane's only tab collapses it. Keep a second tab for the return trip.
   await runAction(page, "New terminal");
   await waitForValue(() => tabs.count(), 2, "Second right terminal tab");
-  await prepareShortcutTerminal(page, rightPane, "TERMINAL THREE");
+  await prepareTerminal(page, rightPane, cwd, "TERMINAL THREE");
   await waitForValue(() => focusedPaneId(page), rightPaneId, "Right terminal focus");
   await recording?.showKey("Two panes ready; Terminal 3 is active");
   await checkpoint(page, "04b-shortcuts-ready", { focusedPaneId: rightPaneId });
@@ -345,6 +301,6 @@ async function prepareScenario(session) {
 
 await runElectronScenario({ artifactDir, report, recordVideo }, async (session) => {
   await prepareScenario(session);
-  await checkCommandEditing(session.page, session.addCleanup);
-  await checkWorkspaceShortcuts(session.page);
+  await checkCommandEditing(session);
+  await checkWorkspaceShortcuts(session);
 });

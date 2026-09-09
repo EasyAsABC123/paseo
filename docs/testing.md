@@ -156,6 +156,10 @@ process logs, and results together. The result records the commit, host, and
 macOS/Electron versions. Keep an unpatched run's failure with the patched run's
 evidence so you can tell whether the check catches the original bug.
 
+Assert editing through the command the real shell executes and its output file.
+Use the accessible terminal input and tab controls to check focus and selection;
+do not inspect xterm buffers or install browser probes for assertions.
+
 For a review video, add `-- --record`. Recording uses 22px terminal text, a steady
 block cursor, visible key labels, and three-second pauses at each checkpoint. The
 demonstration shows both line boundaries before editing, then tab switching, pane
