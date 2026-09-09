@@ -81,7 +81,9 @@ export async function startTerminalKeyboardRecording({ page, artifactDir }) {
 
       // Screencasts emit on paint. Capture the actual final view to retain an idle ending.
       const first = frames[0];
-      const { visualViewport } = await cdp.send("Page.getLayoutMetrics");
+      // Screenshot clips use CSS pixels; legacy visualViewport uses device pixels
+      // on Retina displays and would double the final frame's dimensions.
+      const { cssVisualViewport: visualViewport } = await cdp.send("Page.getLayoutMetrics");
       const screenshotOptions = { format: "jpeg", quality: 95, captureBeyondViewport: false };
       const nativeScreenshot = await cdp.send("Page.captureScreenshot", screenshotOptions);
       const nativeBytes = Buffer.from(nativeScreenshot.data, "base64");
