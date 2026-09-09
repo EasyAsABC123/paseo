@@ -106,12 +106,12 @@ function terminalInput(surface) {
   return surface.getByRole("textbox", { name: "Terminal input", exact: true });
 }
 
-async function selectedTabs(page) {
-  return page
-    .locator('[data-testid^="workspace-tab-"]')
-    .evaluateAll((tabs) =>
-      tabs.map((tab) => [tab.getAttribute("data-testid"), tab.getAttribute("aria-selected")]),
-    );
+function terminalTabs(pane) {
+  return pane.getByRole("button", { name: /^Terminal \d+$/ });
+}
+
+function terminalTab(pane, name) {
+  return pane.getByRole("button", { name, exact: true });
 }
 
 async function checkLineBoundary(page, surface, originalUi, key, name) {
@@ -123,11 +123,12 @@ async function checkLineBoundary(page, surface, originalUi, key, name) {
   ).toBeFocused();
   assert.equal(page.url(), originalUi.url, "Command arrows must keep the workspace open");
   assert.equal(await focusedPaneId(page), originalUi.paneId);
-  assert.deepEqual(await selectedTabs(page), originalUi.tabs);
+  await expect(terminalTabs(page)).toHaveCount(1);
+  await expect(terminalTab(page, "Terminal 1")).toHaveAttribute("aria-selected", "true");
   await checkpoint(page, name, { key, terminalFocused: true });
 }
 
-async function prepareTerminal(page, pane, cwd, label) {
+async function prepareTerminal(page, pane, cwd, label, tabName) {
   const surface = pane.getByTestId("terminal-surface").filter({ visible: true });
   await surface.waitFor({ state: "visible", timeout: 30_000 });
   await pane.getByTestId("terminal-attach-loading").waitFor({ state: "hidden" });
@@ -137,10 +138,11 @@ async function prepareTerminal(page, pane, cwd, label) {
   const setupFile = `${fixtureName}.bashrc`;
   // DECSCUSR configures the cursor through ordinary terminal output. Bash keeps
   // user prompt plugins from replacing it before the recording checkpoint.
+  // OSC 0 gives each tab a stable accessible name before asserting selection.
   const cursorSequence = recordVideo ? "\\033[1 q" : "";
   fs.writeFileSync(
     path.join(cwd, setupFile),
-    `PS1='QA> '\nset -o emacs\nprintf '\\033[2J\\033[H${cursorSequence}%s\\n' '${label}'\nprintf 'ready\\n' > '${readyFile}'\n`,
+    `PS1='QA> '\nset -o emacs\nprintf '\\033[2J\\033[H${cursorSequence}\\033]0;%s\\007%s\\n' '${tabName}' '${label}'\nprintf 'ready\\n' > '${readyFile}'\n`,
   );
   // Bash owns setup so no keyboard input races its startup.
   await surface.click();
@@ -154,12 +156,13 @@ async function prepareTerminal(page, pane, cwd, label) {
     `${label} shell setup completed`,
   );
   await expect(terminalInput(surface)).toBeFocused();
+  await expect(terminalTab(pane, tabName)).toHaveAttribute("aria-selected", "true");
   return surface;
 }
 
 async function checkCommandEditing({ page, cwd, addCleanup }) {
   await runAction(page, "New terminal");
-  const surface = await prepareTerminal(page, page, cwd, "SETUP_complete");
+  const surface = await prepareTerminal(page, page, cwd, "SETUP_complete", "Terminal 1");
   const resultFile = path.join(cwd, "command-result.txt");
   addCleanup(() => {
     const output = readShellFile(resultFile);
@@ -173,7 +176,6 @@ async function checkCommandEditing({ page, cwd, addCleanup }) {
   const originalUi = {
     url: page.url(),
     paneId: await focusedPaneId(page),
-    tabs: await selectedTabs(page),
   };
   await checkpoint(page, "01-command-before-arrows", { typed: "echo one two" });
   await checkLineBoundary(page, surface, originalUi, "Meta+ArrowLeft", "02-command-left");
@@ -212,29 +214,18 @@ async function focusedPaneId(page) {
 }
 
 async function checkTabSwitching(page, pane) {
-  const selectedTab = pane.locator(
-    '[data-testid^="workspace-tab-terminal_"][aria-selected="true"]',
-  );
-  const startingTabId = await selectedTab.getAttribute("data-testid");
-  const otherTabId = await pane
-    .locator('[data-testid^="workspace-tab-terminal_"]:not([aria-selected="true"])')
-    .getAttribute("data-testid");
-  assert.equal(typeof startingTabId, "string");
-  assert.equal(typeof otherTabId, "string");
+  const startingTab = terminalTab(pane, "Terminal 3");
+  const otherTab = terminalTab(pane, "Terminal 2");
+  await expect(startingTab).toHaveAttribute("aria-selected", "true");
+  await expect(otherTab).toHaveAttribute("aria-selected", "false");
   await pressKey(page, "Alt+Shift+[");
-  await waitForValue(
-    () => selectedTab.getAttribute("data-testid"),
-    otherTabId,
-    "Option+Shift+[ selects the previous terminal tab",
-  );
-  await checkpoint(page, "04c-switch-tab-previous", { selectedTabId: otherTabId });
+  await expect(otherTab).toHaveAttribute("aria-selected", "true");
+  await expect(startingTab).toHaveAttribute("aria-selected", "false");
+  await checkpoint(page, "04c-switch-tab-previous", { selectedTab: "Terminal 2" });
   await pressKey(page, "Alt+Shift+]");
-  await waitForValue(
-    () => selectedTab.getAttribute("data-testid"),
-    startingTabId,
-    "Option+Shift+] returns to the original terminal tab",
-  );
-  await checkpoint(page, "04d-switch-tab-next", { selectedTabId: startingTabId });
+  await expect(startingTab).toHaveAttribute("aria-selected", "true");
+  await expect(otherTab).toHaveAttribute("aria-selected", "false");
+  await checkpoint(page, "04d-switch-tab-next", { selectedTab: "Terminal 3" });
 }
 
 async function checkWorkspaceShortcuts({ page, cwd }) {
@@ -247,15 +238,15 @@ async function checkWorkspaceShortcuts({ page, cwd }) {
     .filter({ visible: true });
   const rightPaneId = await newPane.getAttribute("data-testid");
   assert.notEqual(rightPaneId, leftPaneId);
+  const leftPane = page.getByTestId(leftPaneId);
   const rightPane = page.getByTestId(rightPaneId);
   await runAction(page, "New terminal");
-  const tabs = rightPane.locator('[data-testid^="workspace-tab-terminal_"]');
-  await waitForValue(() => tabs.count(), 1, "First right terminal tab");
-  await prepareTerminal(page, rightPane, cwd, "TERMINAL TWO");
+  await prepareTerminal(page, rightPane, cwd, "TERMINAL TWO", "Terminal 2");
+  await expect(terminalTabs(rightPane)).toHaveCount(1);
   // Moving a pane's only tab collapses it. Keep a second tab for the return trip.
   await runAction(page, "New terminal");
-  await waitForValue(() => tabs.count(), 2, "Second right terminal tab");
-  await prepareTerminal(page, rightPane, cwd, "TERMINAL THREE");
+  await prepareTerminal(page, rightPane, cwd, "TERMINAL THREE", "Terminal 3");
+  await expect(terminalTabs(rightPane)).toHaveCount(2);
   await waitForValue(() => focusedPaneId(page), rightPaneId, "Right terminal focus");
   await recording?.showKey("Two panes ready; Terminal 3 is active");
   await checkpoint(page, "04b-shortcuts-ready", { focusedPaneId: rightPaneId });
@@ -268,21 +259,16 @@ async function checkWorkspaceShortcuts({ page, cwd }) {
   await waitForValue(() => focusedPaneId(page), rightPaneId, "Cmd+Shift+Right focuses right pane");
   await checkpoint(page, "06-focus-right", { focusedPaneId: rightPaneId });
 
-  const tab = rightPane.locator('[data-testid^="workspace-tab-terminal_"][aria-selected="true"]');
-  const tabId = await tab.getAttribute("data-testid");
-  assert.equal(typeof tabId, "string");
-  const tabPaneId = () =>
-    page
-      .getByTestId(tabId)
-      .evaluate((element) =>
-        element.closest('[data-testid^="workspace-pane-"]')?.getAttribute("data-testid"),
-      );
+  const tabName = "Terminal 3";
+  await expect(terminalTab(rightPane, tabName)).toHaveAttribute("aria-selected", "true");
   await pressKey(page, "Meta+Alt+Shift+ArrowLeft");
-  await waitForValue(tabPaneId, leftPaneId, "Cmd+Alt+Shift+Left moves terminal tab left");
-  await checkpoint(page, "07-move-tab-left", { tabId, paneId: leftPaneId });
+  await expect(terminalTab(leftPane, tabName)).toBeVisible();
+  await expect(terminalTab(rightPane, tabName)).toHaveCount(0);
+  await checkpoint(page, "07-move-tab-left", { tabName, paneId: leftPaneId });
   await pressKey(page, "Meta+Alt+Shift+ArrowRight");
-  await waitForValue(tabPaneId, rightPaneId, "Cmd+Alt+Shift+Right moves terminal tab right");
-  await checkpoint(page, "08-move-tab-right", { tabId, paneId: rightPaneId });
+  await expect(terminalTab(rightPane, tabName)).toBeVisible();
+  await expect(terminalTab(leftPane, tabName)).toHaveCount(0);
+  await checkpoint(page, "08-move-tab-right", { tabName, paneId: rightPaneId });
 }
 
 async function prepareScenario(session) {
