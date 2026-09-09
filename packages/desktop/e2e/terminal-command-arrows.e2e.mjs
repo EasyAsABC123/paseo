@@ -118,7 +118,7 @@ async function checkCommandEditing(page) {
   await surface.click();
   await page.keyboard.type("PS1='QA> ' exec /bin/bash --noprofile --norc");
   await page.keyboard.press("Enter");
-  await waitForValue(async () => (await readTerminal(page))?.line, "QA>", "Bash prompt");
+  await waitForValue(async () => (await readTerminal(page))?.line, "QA> ", "Bash prompt");
   await page.keyboard.type("set -o emacs; clear; printf 'SETUP_%s\\n' complete");
   await page.keyboard.press("Enter");
   await waitForValue(
@@ -126,7 +126,7 @@ async function checkCommandEditing(page) {
     true,
     "Completed Bash setup",
   );
-  await waitForValue(async () => (await readTerminal(page))?.line, "QA>", "Clean Bash prompt");
+  await waitForValue(async () => (await readTerminal(page))?.line, "QA> ", "Clean Bash prompt");
 
   await page.keyboard.type("echo one two");
   await waitForValue(
