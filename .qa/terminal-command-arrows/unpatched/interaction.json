@@ -1,0 +1,25 @@
+{
+  "source": "/tmp/paseo-pr4220-evidence/unpatched/trace.zip",
+  "sourceSha256": "2beb297cf388df75ff442c289bd6219eca9f3e4a945d14a5eaae716853f29411",
+  "platform": "darwin",
+  "pageId": "page@75eeb35e91b8ded23fc860cdd641f542",
+  "frameCount": 95,
+  "width": 800,
+  "height": 533,
+  "encodedWidth": 800,
+  "encodedHeight": 534,
+  "firstFrameTimestampMs": 28262.219,
+  "lastFrameTimestampMs": 47324.096,
+  "recordedSpanSeconds": 19.061877,
+  "frameTimestampsPreserved": true,
+  "videoDecodePassed": true,
+  "captions": 3,
+  "limitations": [
+    "Playwright records variable-rate snapshots; gaps hold the preceding recorded frame.",
+    "No frames are synthesized, interpolated, duplicated, or dropped.",
+    "The final recorded frame receives a one-microsecond display duration.",
+    "Video is re-encoded as H.264 yuv420p; compression is lossy.",
+    "Odd source dimensions receive a one-pixel black border on the right/bottom; recorded pixels are not resized or cropped.",
+    "Optional captions are a selectable MP4 subtitle track; browser players may ignore that track."
+  ]
+}
