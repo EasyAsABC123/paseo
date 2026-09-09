@@ -32,7 +32,7 @@ jobs:
           result=$?
           set -e
           test "$result" -ne 0
-          node -e 'const r = require(process.env.PASEO_TERMINAL_ARROW_ARTIFACT_DIR + "/result.json"); if (r.result !== "failed" || !r.error.includes("LINE_BOUNDARY_CURSOR")) process.exit(1); console.log("PASS: unpatched runtime fails the cursor regression");'
+          node -e 'const r = require(process.env.PASEO_TERMINAL_ARROW_ARTIFACT_DIR + "/result.json"); if (r.result !== "failed" || !r.steps.some(s => s.name === "01-command-before-arrows") || !/LINE_BOUNDARY_(EDIT|FOCUS)/.test(r.error)) process.exit(1); console.log("PASS: unpatched runtime fails the editing/focus regression after setup");'
         env:
           PASEO_TERMINAL_ARROW_ARTIFACT_DIR: ${{ runner.temp }}/terminal-arrows/unpatched
       - name: Upload evidence
