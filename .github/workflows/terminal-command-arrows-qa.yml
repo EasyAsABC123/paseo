@@ -1,0 +1,44 @@
+name: macOS terminal Command-arrow evidence
+on:
+  push:
+    branches: [qa/macos-terminal-command-arrows]
+permissions:
+  contents: read
+jobs:
+  terminal-keyboard:
+    runs-on: macos-14
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: node scripts/npm-retry.mjs ci
+      - run: npm run build:server
+      - run: npm run build --workspace=@getpaseo/expo-two-way-audio
+      - name: Check patched macOS Electron
+        run: npm run test:e2e:terminal-command-arrows --workspace=@getpaseo/desktop
+        env:
+          PASEO_TERMINAL_ARROW_ARTIFACT_DIR: ${{ runner.temp }}/terminal-arrows/patched
+      - name: Verify the regression fails on the original runtime
+        shell: bash
+        run: |
+          git show ff0171cf7:packages/app/src/terminal/runtime/terminal-emulator-runtime.ts > packages/app/src/terminal/runtime/terminal-emulator-runtime.ts
+          set +e
+          npm run test:e2e:terminal-command-arrows --workspace=@getpaseo/desktop
+          result=$?
+          set -e
+          test "$result" -ne 0
+          node -e 'const r = require(process.env.PASEO_TERMINAL_ARROW_ARTIFACT_DIR + "/result.json"); if (r.result !== "failed" || !r.error.includes("LINE_BOUNDARY_CURSOR")) process.exit(1); console.log("PASS: unpatched runtime fails the cursor regression");'
+        env:
+          PASEO_TERMINAL_ARROW_ARTIFACT_DIR: ${{ runner.temp }}/terminal-arrows/unpatched
+      - name: Upload evidence
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: macos-terminal-command-arrows
+          path: ${{ runner.temp }}/terminal-arrows
+          retention-days: 30
