@@ -98,6 +98,8 @@ export async function startTerminalKeyboardRecording({ page, artifactDir }) {
         height: visualViewport.clientHeight,
         scale,
       };
+      // ScreencastFrameMetadata.timestamp is Network.TimeSinceEpoch, also in seconds.
+      // https://chromedevtools.github.io/devtools-protocol/tot/Page/#type-ScreencastFrameMetadata
       const requestedAtSeconds = Date.now() / 1000;
       const screenshot = await cdp.send("Page.captureScreenshot", { ...screenshotOptions, clip });
       const completedAtSeconds = Date.now() / 1000;
@@ -144,6 +146,9 @@ export async function startTerminalKeyboardRecording({ page, artifactDir }) {
         "vfr",
         "-c:v",
         "libx264",
+        // B-frame reordering can put the final VFR frame beyond the MP4 duration.
+        "-bf",
+        "0",
         "-crf",
         "18",
         "-pix_fmt",
