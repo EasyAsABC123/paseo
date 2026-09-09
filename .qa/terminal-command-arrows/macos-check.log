@@ -1,0 +1,68 @@
+terminal-keyboard	Check patched macOS Electron	﻿2026-09-09T05:13:50.0835130Z ##[group]Run npm run test:e2e:terminal-command-arrows --workspace=@getpaseo/desktop
+terminal-keyboard	Check patched macOS Electron	2026-09-09T05:13:50.0835650Z ^[[36;1mnpm run test:e2e:terminal-command-arrows --workspace=@getpaseo/desktop^[[0m
+terminal-keyboard	Check patched macOS Electron	2026-09-09T05:13:50.0892760Z shell: /bin/bash -e {0}
+terminal-keyboard	Check patched macOS Electron	2026-09-09T05:13:50.0893100Z env:
+terminal-keyboard	Check patched macOS Electron	2026-09-09T05:13:50.0893470Z   PASEO_TERMINAL_ARROW_ARTIFACT_DIR: /Users/runner/work/_temp/terminal-arrows/patched
+terminal-keyboard	Check patched macOS Electron	2026-09-09T05:13:50.0893900Z ##[endgroup]
+terminal-keyboard	Check patched macOS Electron	2026-09-09T05:13:50.2318490Z 
+terminal-keyboard	Check patched macOS Electron	2026-09-09T05:13:50.2319020Z > @getpaseo/desktop@0.7.2 test:e2e:terminal-command-arrows
+terminal-keyboard	Check patched macOS Electron	2026-09-09T05:13:50.2319630Z > npm run build:main && node ./e2e/terminal-command-arrows.e2e.mjs
+terminal-keyboard	Check patched macOS Electron	2026-09-09T05:13:50.2319890Z 
+terminal-keyboard	Check patched macOS Electron	2026-09-09T05:13:50.3701340Z 
+terminal-keyboard	Check patched macOS Electron	2026-09-09T05:13:50.3721730Z > @getpaseo/desktop@0.7.2 build:main
+terminal-keyboard	Check patched macOS Electron	2026-09-09T05:13:50.3728470Z > tsc -p tsconfig.json
+terminal-keyboard	Check patched macOS Electron	2026-09-09T05:13:50.3736450Z 
+terminal-keyboard	Check patched macOS Electron	2026-09-09T05:15:45.4270510Z PASS 01-command-before-arrows: {"cursorX":16,"line":"QA> echo one two","lines":["SETUP_complete","QA> echo one two","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""]}
+terminal-keyboard	Check patched macOS Electron	2026-09-09T05:15:45.5249660Z PASS 02-command-left: {"key":"Meta+ArrowLeft","cursorX":4,"focus":{"sameTextarea":true,"blurCount":0,"documentFocused":true,"sameUrl":true,"samePane":true,"sameTabs":true}}
+terminal-keyboard	Check patched macOS Electron	2026-09-09T05:15:45.8973650Z PASS 03-command-right: {"key":"Meta+ArrowRight","cursorX":33,"focus":{"sameTextarea":true,"blurCount":0,"documentFocused":true,"sameUrl":true,"samePane":true,"sameTabs":true}}
+terminal-keyboard	Check patched macOS Electron	2026-09-09T05:15:46.2412380Z PASS 04-command-executed: {"cursorX":4,"line":"QA> ","lines":["SETUP_complete","QA> PASEO_PREFIX=ok; echo one two \"$PASEO_PREFIX\"","one two ok","QA> ","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""]}
+terminal-keyboard	Check patched macOS Electron	2026-09-09T05:15:48.0287120Z PASS 05-focus-left: {"focusedPaneId":"workspace-pane-main"}
+terminal-keyboard	Check patched macOS Electron	2026-09-09T05:15:48.2010920Z PASS 06-focus-right: {"focusedPaneId":"workspace-pane-pane_fe7ee118-f72a-427c-9165-68ea7e1199ee"}
+terminal-keyboard	Check patched macOS Electron	2026-09-09T05:15:48.5409530Z PASS 07-move-tab-left: {"tabId":"workspace-tab-terminal_1905bd6a-c268-4d7e-b66d-583fdd7b8838","paneId":"workspace-pane-main"}
+terminal-keyboard	Check patched macOS Electron	2026-09-09T05:15:48.8057010Z PASS 08-move-tab-right: {"tabId":"workspace-tab-terminal_1905bd6a-c268-4d7e-b66d-583fdd7b8838","paneId":"workspace-pane-pane_fe7ee118-f72a-427c-9165-68ea7e1199ee"}
+terminal-keyboard	Check patched macOS Electron	2026-09-09T05:15:49.9761640Z Evidence: /Users/runner/work/_temp/terminal-arrows/patched
+terminal-keyboard	Verify the regression fails on the original runtime	﻿2026-09-09T05:15:50.0631120Z ##[group]Run git show ff0171cf7:packages/app/src/terminal/runtime/terminal-emulator-runtime.ts > packages/app/src/terminal/runtime/terminal-emulator-runtime.ts
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:15:50.0635340Z ^[[36;1mgit show ff0171cf7:packages/app/src/terminal/runtime/terminal-emulator-runtime.ts > packages/app/src/terminal/runtime/terminal-emulator-runtime.ts^[[0m
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:15:50.0637530Z ^[[36;1mset +e^[[0m
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:15:50.0638770Z ^[[36;1mnpm run test:e2e:terminal-command-arrows --workspace=@getpaseo/desktop^[[0m
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:15:50.0640560Z ^[[36;1mresult=$?^[[0m
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:15:50.0641290Z ^[[36;1mset -e^[[0m
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:15:50.0641890Z ^[[36;1mtest "$result" -ne 0^[[0m
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:15:50.0643170Z ^[[36;1mnode -e 'const r = require(process.env.PASEO_TERMINAL_ARROW_ARTIFACT_DIR + "/result.json"); if (r.result !== "failed" || !r.error.includes("LINE_BOUNDARY_CURSOR")) process.exit(1); console.log("PASS: unpatched runtime fails the cursor regression");'^[[0m
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:15:50.2601440Z shell: /bin/bash --noprofile --norc -e -o pipefail {0}
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:15:50.2602140Z env:
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:15:50.2602540Z   PASEO_TERMINAL_ARROW_ARTIFACT_DIR: /Users/runner/work/_temp/terminal-arrows/unpatched
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:15:50.2603000Z ##[endgroup]
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:15:50.7357540Z 
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:15:50.7360570Z > @getpaseo/desktop@0.7.2 test:e2e:terminal-command-arrows
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:15:50.7361380Z > npm run build:main && node ./e2e/terminal-command-arrows.e2e.mjs
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:15:50.7361790Z 
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:15:50.9212040Z 
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:15:50.9212880Z > @getpaseo/desktop@0.7.2 build:main
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:15:50.9213290Z > tsc -p tsconfig.json
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:15:50.9213430Z 
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:16:30.0810180Z PASS 01-command-before-arrows: {"cursorX":16,"line":"QA> echo one two","lines":["SETUP_complete","QA> echo one two","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""]}
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:16:40.1805670Z AssertionError [ERR_ASSERTION]: LINE_BOUNDARY_CURSOR: Meta+ArrowLeft did not move the shell cursor
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:16:40.1808590Z 
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:16:40.1808950Z 16 !== 4
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:16:40.1809860Z 
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:16:40.1810710Z     at waitForValue (file:///Users/runner/work/paseo/paseo/packages/desktop/e2e/terminal-command-arrows.e2e.mjs:50:10)
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:16:40.1812200Z     at async checkLineBoundary (file:///Users/runner/work/paseo/paseo/packages/desktop/e2e/terminal-command-arrows.e2e.mjs:79:3)
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:16:40.1820960Z     at async checkCommandEditing (file:///Users/runner/work/paseo/paseo/packages/desktop/e2e/terminal-command-arrows.e2e.mjs:158:3)
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:16:40.1821910Z     at async file:///Users/runner/work/paseo/paseo/packages/desktop/e2e/terminal-command-arrows.e2e.mjs:241:3 {
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:16:40.1822600Z   generatedMessage: false,
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:16:40.1823060Z   code: 'ERR_ASSERTION',
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:16:40.1823470Z   actual: 16,
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:16:40.1823840Z   expected: 4,
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:16:40.1824130Z   operator: 'strictEqual',
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:16:40.1824630Z   diff: 'simple'
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:16:40.1824850Z }
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:16:40.8775480Z Evidence: /Users/runner/work/_temp/terminal-arrows/unpatched
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:16:40.9082270Z npm error Lifecycle script `test:e2e:terminal-command-arrows` failed with error:
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:16:40.9184700Z npm error code 1
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:16:40.9288160Z npm error path /Users/runner/work/paseo/paseo/packages/desktop
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:16:40.9390700Z npm error workspace @getpaseo/desktop@0.7.2
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:16:40.9477720Z npm error location /Users/runner/work/paseo/paseo/packages/desktop
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:16:40.9560660Z npm error command failed
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:16:40.9627160Z npm error command sh -c npm run build:main && node ./e2e/terminal-command-arrows.e2e.mjs
+terminal-keyboard	Verify the regression fails on the original runtime	2026-09-09T05:16:40.9777520Z PASS: unpatched runtime fails the cursor regression
