@@ -144,6 +144,18 @@ Run it locally with the same command owned by the Ubuntu `desktop-tests` require
 npm run test:e2e:browser-tabs --workspace=@getpaseo/desktop
 ```
 
+### macOS terminal keyboard regression
+
+Run `npm run test:e2e:terminal-command-arrows --workspace=@getpaseo/desktop` on a Mac
+after building the server stack and `@getpaseo/expo-two-way-audio`. This launches an
+isolated daemon and the checkout's real Electron app. A browser with a macOS user
+agent cannot verify native Command-arrow behavior.
+
+Set `PASEO_TERMINAL_ARROW_ARTIFACT_DIR` to keep the screenshots, Playwright trace,
+process logs, and results together. The result records the commit and macOS/Electron
+versions. Keep an unpatched run's failure with the patched run's evidence so you can
+tell whether the check catches the original bug.
+
 ## Test organization
 
 - Collocate tests with implementation: `thing.ts` + `thing.test.ts`
